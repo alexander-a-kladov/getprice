@@ -74,8 +74,9 @@ def add_price_for_card(mtgset, number, date_today, price):
 	insert_card_price_for_date(mtgset, number, date_today, price)
 
 
-def get_prices():
-    f=open('topdeck_tmpl.txt','r')
+def get_prices(filename):
+    f=open(filename,'r')
+    fw=open('topdeck.txt','w')
     for line in f:
 	str0=line.split("{")
 	if (len(str0)>1):
@@ -107,11 +108,19 @@ def get_prices():
 		    time.sleep(0.1) # scryfall recomendation
 		else:
 		    price="";
-		print(str0[0]+str(price)+' р'+str1[1])
+		fw.write(str0[0]+str(price)+' р'+str1[1]+"\n")
 	elif (len(line)>1):
-	    print(line)
+	    fw.write(line)
+    fw.close()
 
 if __name__ == '__main__':
-    date_today = str(datetime.date.today())
-    conn = create_connection(r"mycards.db")
-    get_prices()
+    count_args = 0
+    if len(sys.argv)<2:
+	print("usage: getprice.py file_tmpl.txt file_tmpl1.txt")
+    else:
+	date_today = str(datetime.date.today())
+	conn = create_connection(r"mycards.db")
+	for filename in sys.argv:
+		if count_args:
+		    get_prices(filename)
+		count_args+=1
