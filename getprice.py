@@ -7,13 +7,9 @@ from sqlite3 import Error
 
 conn = ""
 date_today = ""
+fw = ""
 
 def create_connection(db_file):
-    """ create a database connection to the SQLite database
-        specified by the db_file
-    :param db_file: database file
-    :return: Connection object or None
-    """
     conn = None
     try:
         conn = sqlite3.connect(db_file)
@@ -23,12 +19,6 @@ def create_connection(db_file):
     return conn
 
 def select_card_price_for_date(mtgset, number,date_today):
-    """
-    Query tasks by priority
-    :param conn: the Connection object
-    :param priority:
-    :return:
-    """
     count_r=0
     cur = conn.cursor()
     cur.execute("SELECT * FROM cards_prices WHERE set_id=? and number=? and date=?", (mtgset,number,date_today))
@@ -39,13 +29,6 @@ def select_card_price_for_date(mtgset, number,date_today):
     return count_r
 
 def insert_card_price_for_date(mtgset, number, date_today, price):
-    """
-    Create a new task
-    :param conn:
-    :param task:
-    :return:
-    """
- 
     sql = ''' INSERT INTO cards_prices(set_id,number,date,price)
               VALUES(?,?,?,?) '''
     cur = conn.cursor()
@@ -54,12 +37,6 @@ def insert_card_price_for_date(mtgset, number, date_today, price):
     return cur.lastrowid
 
 def update_card_price_for_date(mtgset, number, date_today, price):
-    """
-    update priority, begin_date, and end date of a task
-    :param conn:
-    :param task:
-    :return: project id
-    """
     sql = ''' UPDATE cards_prices
               SET price = ?
               WHERE set_id = ? and number = ? and date = ?'''
@@ -75,8 +52,8 @@ def add_price_for_card(mtgset, number, date_today, price):
 
 
 def get_prices(filename):
+    line_num = 1;
     f=open(filename,'r')
-    fw=open('topdeck.txt','w')
     for line in f:
 	str0=line.split("{")
 	if (len(str0)>1):
@@ -108,10 +85,11 @@ def get_prices(filename):
 		    time.sleep(0.1) # scryfall recomendation
 		else:
 		    price="";
+		    print("error:"+str(r.status_code)+" "+str(line_num)+" "+line)
 		fw.write(str0[0]+str(price)+' р'+str1[1]+"\n")
 	elif (len(line)>1):
 	    fw.write(line)
-    fw.close()
+	line_num+=1
 
 if __name__ == '__main__':
     count_args = 0
@@ -120,7 +98,9 @@ if __name__ == '__main__':
     else:
 	date_today = str(datetime.date.today())
 	conn = create_connection(r"mycards.db")
+	fw=open('topdeck.txt','w')
 	for filename in sys.argv:
 		if count_args:
 		    get_prices(filename)
 		count_args+=1
+	fw.close()
