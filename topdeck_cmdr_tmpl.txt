@@ -1,2 +1,126 @@
 Командир и не только:
+Белые:
+Decree of Justice - {mb1/72} (MB1)
+Капитан Ханвирского Ополчения - {soi/21} (SOI)
+Serra Angel - {ima/30} (IMA)
+2x Knight of Dawn - {mb1/146} (MB1)
+Darien, King of Kjeldor - {a25/9} (A25)
+2x Mana Tithe - {mb1/171} (MB1)
+Teferi's Protection - {mb1/256} (MB1)
+Ангел Освобождения - {soi/2} (SOI)
+3x Gideon Jura - {mb1/118} (MB1)
+Копье Гелиода - {ths/33} (THS)
+Decree of Justice - {a25/11} (A25)
+Infantry Veteran - {mb1/138} (MB1)
+2x Beacon of Immortality - {mb1/35} (MB1)
+Дух Лабиринта - {bng/27} (BNG)
+Предначертанное Возмездие - {bng/11} (BNG)
+Солдат Пантеона - {ths/32} (THS)
+Гелиод, Бог Солнца - {ths/17} (THS)
+Дар Бессмертия - {ths/14} (THS)
+Knight of Cliffhaven - {mb1/145} (MB1)
+Austere Command - {ima/10} (IMA)
+2x Сторукий - {ths/20) (THS)
+Martial Law - {rtr/14} (RTR)
+Wall of Reverence - {uma/41} (UMA)
+Небесный Архонт - {ths/3} (THS)
+2x Emeria Angel - {ima/20} (IMA)
+Path of Bravery - {ima/26} (IMA)
+Weathered Wayfarer - {mb1/274} (MB1)
+Величественный Гелиоптер - {rix/13} (RIX)
+Бесстрашный Археолог - {dom/13} (DOM)
+Faith's Shield - {dka/7}
+Торжественность - {akh/22}
+Пристав из Хаазды - {grn/13}
+Thalia's Lancers - {emn/47}
+2x Archangel - {mb1/25}
+Небесная Странница Заката - {xln/9}
+Рыцарь-Новичок - {m19/30}
+2x Ангел Ограничений - {akh/1}
+Призрак Одинокого Бдения - {emn/27}
+2x Странствующая Поборница - {frf/29}
+Капканозубый Тиран - {rix/29}
+Аватара Пробуждающего Солнца - {xln/44}
+Генерал Чешуи Дракона - {frf/11}
+4x Трибунал Конклава - {grn/6}
+Осада Цитадели - {frf/8}
+2x Harmonious Archon - {eld/17}
+Умащенная Процессия - {akh/2}
+Божественное Явление - {grn/10}
+	
+Синие:
+Подтвержденные Подозрения - {soi/53}
+Фрагменты Головоломки - {soi/78}
+Явление на Кладбище Кораблей - {soi/59}
+Бич Кораблей - {jou/51}
+Судья Идеалов - {bng/31}
+Предначертанная Одержимость - {bng/39}
+2x Deepglow Skate - {mb1/347}
+Magus of the Bazaar - {uma/63}
+Memory Erosion - {mb1/424}
+Мелетидский Шарлатан - {ths/54}
+Создательница Форм - {ths/40}
+Кракен, Губитель Кораблей - {ths/63}
+Лунные Дрейки Нефалии - {soi/75}
+2x Serendib Efreet - {mb1/484}
+Day of the Dragons - {ima/49}
+Jin-Gitaxias, Core Augur - {ima/62}
+Sphinx of Uthuun - {ima/74}
+Teferi, Mage of Zhalfir - {ima/75}
+Disrupting Shoal - {uma/51}
+Consecrated Sphinx - {ima/47}
+Поборник Разума - {hou/31}
+Energy Field - {mb1/363}
+Blue Sun's Zenith - {a25/44}
+Conjured Currency - {rtr/33}
+Flash - {a25/57}
+Vesuvan Shapeshifter - {a25/77}
+Sphinx of the Chimes - {rtr/52}
+Phyrexian Metamorth - {mb1/456}
+Soothsaying - {mb1/501}
+2x Скользкая Прохвостка - {rix/55}
+Шпионка Проворных Кузнецов - {aer/41}
+Hedron Crab - {mb1/398}
+Rishadan Footpad - {mb1/471}
+Floodgate - {mb1/381}
+Phantasmal Dragon - {mb1/454}
+Opt - {mb1/451}
+Обратное Проектирование - {aer/42}
+Misdirection - {mb1/432}
+Клон - {m14/47}
+Стянуть Заклинание - {xln/82}
+Expropriate - {mb1/370}
+Метаморфическое Преобразование - {m19/60}
+Djinn of Wishes - {mb1/354}
+Мстители Мудрого Ока - {frf/50}
+Вытеснение Облика - {frf/54}
+2x Guild Summit - {grn/41}
+Джескайский Шпион - {frf/36}
+Проклятие Эха - {dka/34}
+4x Синкопа - {dom/67}
+Сфинкс, Мастер Загадок - {m19/287}
+Осада Монастыря - {frf/43}
+Связанный Мыслью Фантом - {grn/55}
+Крах Мореплавателя - {xln/63}
+3x Настойчивые Жалобщики - {rna/44}
+Рассеивание Дозорной - {xln/62}
+2x Теззерет, Мастер Механизмов - {m19/79}
+Глубоководный Гигант - {ths/41}
+Привратная Воровка - {rna/40}
+Завораживающий Бентид - {rna/43}
+3x Дерзкая Диверсантка - {xln/49}
+Адепт Всеволшебства - {grn/49}
+2x Пустить по Ветру - {rix/46}
+2x Ревун-Грабитель - {rix/54}
+Убежище Дрейков - {akh/51}
+Элементаль Воздуха - {m20/44}
+Трофеи из Будущего - {akh/65}
+4x Разбогатевший Моряк - {xln/73}
+Находчивая Карманница - {rix/33}
+Jace's Triumph - {war/55}
+Война Древностей - {dom/42}
+
+
+
+Бесцветные:
 Mana Crypt - 6500 р (MB1)

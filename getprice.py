@@ -103,6 +103,16 @@ def get_number_of_cards(line):
     else:
 	return 1
 
+def is_set_present(line):
+    str0 = line.split('(');
+    if (len(str0)>1):
+	str1 = str0[1].split(')');
+	if (len(str1)>1):
+	    parser = re.search('[A-Z][A-Za-z0-9][A-Za-z0-9]',str1[0])
+	    if (parser):
+		return 1
+    return 0
+
 def get_prices(filename):
     global total_cards, total_price
     line_num = 1;
@@ -135,7 +145,10 @@ def get_prices(filename):
 			quantity = get_number_of_cards(line)
 			total_cards += quantity
 			total_price += quantity*price
-			add_price_for_card(str1[0].split("/")[0],int(str1[0].split("/")[1]),date_today,price,quantity)
+			mtgset = str1[0].split("/")[0]
+			number = int(str1[0].split("/")[1])
+			
+			add_price_for_card(mtgset,number,date_today,price,quantity)
 		    if (price==0):
 			price=""
 		    
@@ -143,7 +156,10 @@ def get_prices(filename):
 		else:
 		    price="";
 		    print("error:"+str(r.status_code)+" "+str(line_num)+" "+line)
-		fw.write(str0[0]+str(price)+' р'+str1[1]+"\n")
+		if is_set_present(line):
+		    fw.write(str0[0]+str(price)+' р'+str1[1]+"\n")
+		else:
+		    fw.write(str0[0]+str(price)+' р'+' ('+ mtgset.swapcase()+')'+str1[1]+"\n")
 	elif (len(line)>1):
 	    fw.write(line)
 	line_num+=1
