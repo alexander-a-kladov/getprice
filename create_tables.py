@@ -38,8 +38,16 @@ def main():
                                         set_id text,
                                         number integer,
                                         date text,
-                                        price integer
+                                        price integer,
+                                        quantity integer
                                     ); """
+
+    sql_create_total_data_table = """ CREATE TABLE IF NOT EXISTS total_data (
+                                        date text,
+                                        price integer,
+                                        quantity integer
+                                    ); """
+
 
     # create a database connection
     conn = create_connection(database)
@@ -48,7 +56,7 @@ def main():
     if conn is not None:
         # create projects table
         create_table(conn, sql_create_cards_prices_table)
-
+	create_table(conn, sql_create_total_data_table)
     else:
         print("Error! cannot create the database connection.")
 

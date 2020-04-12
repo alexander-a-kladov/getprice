@@ -2,12 +2,18 @@
 # coding: utf8
 
 import sys,requests,json,time,datetime;
+import re;
 import sqlite3
 from sqlite3 import Error
 
 conn = ""
 date_today = ""
 fw = ""
+
+total_cards = 0
+total_price = 0
+
+result_fn = 'topdeck.txt'
 
 def create_connection(db_file):
     conn = None
@@ -19,6 +25,7 @@ def create_connection(db_file):
     return conn
 
 def select_card_price_for_date(mtgset, number,date_today):
+    global conn
     count_r=0
     cur = conn.cursor()
     cur.execute("SELECT * FROM cards_prices WHERE set_id=? and number=? and date=?", (mtgset,number,date_today))
@@ -28,30 +35,76 @@ def select_card_price_for_date(mtgset, number,date_today):
 	count_r+=1
     return count_r
 
-def insert_card_price_for_date(mtgset, number, date_today, price):
-    sql = ''' INSERT INTO cards_prices(set_id,number,date,price)
-              VALUES(?,?,?,?) '''
+def insert_card_price_for_date(mtgset, number, date_today, price, quantity):
+    global conn
+    sql = ''' INSERT INTO cards_prices(set_id,number,date,price,quantity)
+              VALUES(?,?,?,?,?) '''
     cur = conn.cursor()
-    cur.execute(sql, (mtgset, number, date_today, price))
+    cur.execute(sql, (mtgset, number, date_today, price, quantity))
     conn.commit()
     return cur.lastrowid
 
-def update_card_price_for_date(mtgset, number, date_today, price):
+def update_card_price_for_date(mtgset, number, date_today, price, quantity):
+    global conn
     sql = ''' UPDATE cards_prices
-              SET price = ?
+              SET price = ?, quantity = ?
               WHERE set_id = ? and number = ? and date = ?'''
     cur = conn.cursor()
-    cur.execute(sql, (price,mtgset,number,date_today))
+    cur.execute(sql, (price,quantity,mtgset,number,date_today))
     conn.commit()
 
-def add_price_for_card(mtgset, number, date_today, price):
-    if select_card_price_for_date(mtgset, number, date_today):
-	update_card_price_for_date(mtgset, number, date_today, price)
-    else:
-	insert_card_price_for_date(mtgset, number, date_today, price)
+def select_total_data(date_today):
+    global conn
+    count_r=0
+    cur = conn.cursor()
+    cur.execute("SELECT * FROM total_data WHERE date=?", (date_today,))
 
+    rows = cur.fetchall()
+    for row in rows:
+	count_r+=1
+    return count_r
+
+def insert_total_data(date_today, price, quantity):
+    global conn
+    sql = ''' INSERT INTO total_data(date,price,quantity)
+              VALUES(?,?,?) '''
+    cur = conn.cursor()
+    cur.execute(sql, (date_today, price, quantity))
+    conn.commit()
+    return cur.lastrowid
+
+def update_total_data(date_today, price, quantity):
+    global conn
+    sql = ''' UPDATE total_data
+              SET price = ?, quantity = ?
+              WHERE date = ?'''
+    cur = conn.cursor()
+    cur.execute(sql, (price,quantity,date_today))
+    conn.commit()
+
+
+def add_price_for_card(mtgset, number, date_today, price, quantity):
+    if select_card_price_for_date(mtgset, number, date_today):
+	update_card_price_for_date(mtgset, number, date_today, price, quantity)
+    else:
+	insert_card_price_for_date(mtgset, number, date_today, price, quantity)
+
+def add_total_data():
+    global date_today,total_price,total_cards
+    if select_total_data(date_today):
+	update_total_data(date_today,total_price,total_cards)
+    else:
+	insert_total_data(date_today,total_price,total_cards)
+
+def get_number_of_cards(line):
+    parser = re.search('[1-9]x',line);
+    if (parser):
+	return int(line[0:(parser.end()-1)])
+    else:
+	return 1
 
 def get_prices(filename):
+    global total_cards, total_price
     line_num = 1;
     f=open(filename,'r')
     for line in f:
@@ -79,9 +132,13 @@ def get_prices(filename):
 		    if price>0 and price<4:
 			price = 4;
 		    if price>0:
-			add_price_for_card(str1[0].split("/")[0],int(str1[0].split("/")[1]),date_today,price)
+			quantity = get_number_of_cards(line)
+			total_cards += quantity
+			total_price += quantity*price
+			add_price_for_card(str1[0].split("/")[0],int(str1[0].split("/")[1]),date_today,price,quantity)
 		    if (price==0):
 			price=""
+		    
 		    time.sleep(0.1) # scryfall recomendation
 		else:
 		    price="";
@@ -98,9 +155,14 @@ if __name__ == '__main__':
     else:
 	date_today = str(datetime.date.today())
 	conn = create_connection(r"mycards.db")
-	fw=open('topdeck.txt','w')
+	fw=open(result_fn,'w')
 	for filename in sys.argv:
-		if count_args:
+		if count_args and filename != result_fn:
+		    print("Обработка файла: "+filename)
 		    get_prices(filename)
+		    print("Карт обработано:"+str(total_cards)+" Стоимость: " + str(total_price) + " р")
 		count_args+=1
+	print("Всего карт: "+str(total_cards))
+	print("Стоимость: "+str(total_price)+" р")
+	add_total_data()
 	fw.close()
