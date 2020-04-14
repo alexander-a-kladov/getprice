@@ -6,6 +6,8 @@ import re;
 import sqlite3
 from sqlite3 import Error
 
+reload(sys)
+sys.setdefaultencoding('utf-8')
 conn = ""
 date_today = ""
 fw = ""
@@ -14,6 +16,7 @@ total_cards = 0
 total_price = 0
 
 result_fn = 'topdeck.txt'
+scryfall_url = 'https://api.scryfall.com'
 
 def create_connection(db_file):
     conn = None
@@ -113,6 +116,66 @@ def is_set_present(line):
 		return 1
     return 0
 
+def select_card_name_for_lang(mtgset, number, lang):
+    global conn
+    count_r=0
+    cur = conn.cursor()
+    cur.execute("SELECT * FROM cards_names WHERE set_id=? and number=? and lang=?", (mtgset,number,lang))
+
+    rows = cur.fetchall()
+    if len(rows):
+	return rows[0][3]
+    return None
+
+def insert_card_name_for_lang(mtgset, number, lang, name):
+    global conn
+    sql = ''' INSERT INTO cards_names(set_id,number,lang, name)
+              VALUES(?,?,?,?) '''
+    cur = conn.cursor()
+    cur.execute(sql, (mtgset, number, lang, name))
+    conn.commit()
+    return cur.lastrowid
+
+def update_card_name_for_lang(mtgset, number, lang, name):
+    global conn
+    sql = ''' UPDATE cards_names
+              SET name = ?,
+              WHERE set_id = ? and number = ? and lang = ?'''
+    cur = conn.cursor()
+    cur.execute(sql, (name,mtgset,number,date_today))
+    conn.commit()
+
+def get_card_name(line, mtgset, number):
+    global scryfall_url
+    lang=None
+    if (len(line.split('[ru]'))>1):
+	lang='ru'
+    elif (len(line.split('[en]'))>1):
+	lang='en'
+    if lang:
+	name = select_card_name_for_lang(mtgset, number, lang)
+	if name is None:
+	    url=scryfall_url+'/cards/'+mtgset+'/'+str(number)+'/'+lang
+	    r = requests.get(url)
+	    if r.status_code != 404:
+		token = json.loads(r.text)
+		token1= token.get('card_faces')
+		if token1:
+		    token = token1[0]
+		if (lang=='en'):
+		    insert_card_name_for_lang(mtgset, number, lang, token.get('name'))
+		    return token.get('name')
+		else:
+		    insert_card_name_for_lang(mtgset, number, lang, token.get('printed_name'))
+		    print(token.get('printed_name'))
+		    return token.get('printed_name')
+	    else:
+		print('error rest api code=',r.status_code)
+	else:
+	    return name
+    return None
+
+
 def get_prices(filename):
     global total_cards, total_price
     line_num = 1;
@@ -156,6 +219,13 @@ def get_prices(filename):
 		else:
 		    price="";
 		    print("error:"+str(r.status_code)+" "+str(line_num)+" "+line)
+		card_name=get_card_name(line,mtgset,number)
+		if card_name:
+		    if quantity>1:
+			str0[0]=str(quantity)+'x '
+		    else:
+			str0[0]=''
+		    str0[0]=str0[0]+card_name+' - '
 		if is_set_present(line):
 		    fw.write(str0[0]+str(price)+' р'+str1[1]+"\n")
 		else:

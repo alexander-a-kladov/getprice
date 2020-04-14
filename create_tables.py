@@ -48,6 +48,13 @@ def main():
                                         quantity integer
                                     ); """
 
+    sql_create_cards_names = """ CREATE TABLE IF NOT EXISTS cards_names (
+                                        set_id text,
+                                        number integer,
+                                        lang text,
+                                        name text
+                                    ); """
+
 
     # create a database connection
     conn = create_connection(database)
@@ -57,6 +64,7 @@ def main():
         # create projects table
         create_table(conn, sql_create_cards_prices_table)
 	create_table(conn, sql_create_total_data_table)
+	create_table(conn, sql_create_cards_names)
     else:
         print("Error! cannot create the database connection.")
 
