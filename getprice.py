@@ -167,7 +167,6 @@ def get_card_name(line, mtgset, number):
 		    return token.get('name')
 		else:
 		    insert_card_name_for_lang(mtgset, number, lang, token.get('printed_name'))
-		    print(token.get('printed_name'))
 		    return token.get('printed_name')
 	    else:
 		print('error rest api code=',r.status_code)
@@ -187,7 +186,7 @@ def get_prices(filename):
 	    if (len(str1)>1):
 		url="https://api.scryfall.com/cards/"
 		url=url+str1[0];
-		#print(url)
+		print(url)
 		r = requests.get(url);
 		if r.status_code != 404:
 		    #print(r.text)
@@ -215,7 +214,7 @@ def get_prices(filename):
 		    if (price==0):
 			price=""
 		    
-		    time.sleep(0.1) # scryfall recomendation
+		    time.sleep(0.3) # scryfall recomendation
 		else:
 		    price="";
 		    print("error:"+str(r.status_code)+" "+str(line_num)+" "+line)
@@ -247,6 +246,7 @@ if __name__ == '__main__':
 		    print("Обработка файла: "+filename)
 		    get_prices(filename)
 		    print("Карт обработано:"+str(total_cards)+" Стоимость: " + str(total_price) + " р")
+		    time.sleep(5.0)
 		count_args+=1
 	print("Всего карт: "+str(total_cards))
 	print("Стоимость: "+str(total_price)+" р")

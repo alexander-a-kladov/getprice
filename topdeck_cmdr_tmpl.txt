@@ -177,7 +177,369 @@ Jace's Triumph - {war/55}
 3x [en] - {mb1/688}
 2x [ru] - {xln/116}
 [ru] - {xln/126}
+[ru] {xln/106}
+[en] {mb1/613}
+[ru] {akh/269}
+[ru] {akh/98}
+[ru] {xln/109}
+[en] {mb1/778}
+2x [ru] {xln/129}
+[en] {mb1/729}
+[ru] {frf/64}
+[ru] {frf/84}
+2x [ru] {m20/97}
+[en] {rix/86}
+2x [ru] {akh/84}
+[en] {7ed/145}
+[ru] {rna/74}
+[en] {eld/83}
+2x [en] {eld/78}
+2x [ru] {eld/107}
+[ru] {emn/103}
+[ru] {rna/65}
+[ru] {ths/110}
+[ru] {rix/85}
+[en] {mb1/616}
+[ru] {aer/75}
+[en] {mb1/731}
+[ru] {aer/83}
+2x [ru] {dom/96}
 	
-Бесцветные:
-Mana Crypt - {mb1/1603} (MB1)
-
+Красные:
+[ru] {ths/124}
+[ru] {ths/144}
+2x [en] {ima/145}
+[en] {uma/146}
+3x [en] {mb1/1032}
+[en] {ima/152}
+[en] {uma/147}
+4x [en] {10e/208}
+3x [en] {uma/128}
+[ru] {bng/115}
+[ru] {bng/108}
+[en] {ima/122}
+[ru] {ths/138}
+[ru] {jou/93}
+2x [en] {ima/144}
+[en] {a25/142}
+[ru] {kld/109}
+[en] {a25/138}
+[ru] {xln/138}
+[ru] {soi/155}
+[ru] {hou/98}
+2x [en] {mb1/996}
+[ru] {soi/148}
+[en] {ima/128}
+[ru] {soi/157}
+[ru] {soi/151}
+2x [en] {ima/125}
+[ru] {aer/83}
+[ru] {rix/115}
+2x [ru] {rix/107}
+[en] {mb1/987}
+3x [en] {mb1/1071}
+[ru] {soi/145}
+[en] {mb1/1079}
+[ru] {soi/159}
+[ru] {soi/163}
+[ru] {aer/90}
+[ru] {xln/137}
+[ru] {m19/154}
+[ru] {frf/91}
+2x [ru] {frf/110}
+[ru] {frf/113}
+[ru] {xln/135}
+[ru] {frf/90}
+[en] {mb1/994}
+[ru] {war/124}
+[ru] {war/135}
+3x [ru] {xln/159}
+[ru] {aer/96}
+[ru] {dom/132}
+[ru] {war/143}
+[ru] {frf/91}
+[ru] {frf/99}
+[ru] {akh/153}
+[en] {7ed/192}
+[ru] {m19/300}
+[ru] {xln/153}
+[ru] {dom/131}
+[ru] {akh/137}
+[en] {mb1/874}
+[ru] {soi/166}
+[ru] {ths/115}
+2x [ru] {war/119}
+[en] {mb1/1089}
+2x [en] {mm2/104}
+[ru] {m19/129}
+[en] {mb1/1012}
+[en] {mb1/1034}
+[ru] {aer/81}
+[en] {mb1/1096}
+	
+Зеленые:
+2x [en] {ima/172}
+[en] {a25/191}
+3x [en] {uma/157}
+[en] {ima/163}
+[ru] {m20/179}
+[ru] {rna/124}
+[ru] {hou/132}
+[en] {mb1/1118}
+[en] {mb1/1363}
+[en] {ima/184}
+[ru] {jou/121}
+[en] {a25/168}
+[en] {rtr/139}
+[en] {mb1/1299}
+[en] {rtr/140}
+[ru] {ths/152}
+[en] {ima/179}
+[ru] {ths/150}
+[ru] {ktk/142}
+[ru] {rix/144}
+[ru] {xln/213}
+[ru] {xln/205}
+[en] {mb1/1125}
+[en] {mb1/1241}
+[ru] {frf/146}
+[ru] {frf/145}
+[ru] {m19/169}
+[ru] {frf/142}
+[ru] {frf/138}
+[ru] {frf/137}
+3x [en] {mb1/1180}
+4x [ru] {grn/138}
+[en] {mb1/1373}
+[ru] {m19/176}
+2x [ru] {m15/169}
+[ru] {soi/230}
+[en] {ima/157}
+[en] {mb1/1338}
+2x [ru] {frf/131}
+[ru] {frf/147}
+2x [ru] {frf/141}
+[ru] {frf/148}
+[ru] {m19/197}
+[ru] {akh/183}
+[ru] {grn/128}
+2x [ru] {eld/163}
+[ru] {frf/123}
+[ru] {soi/228}
+[ru] {dom/173}
+[en] {ima/185}
+[ru] {soi/225}
+3x [en] {ima/173}
+[en] {mb1/1272}
+[en] {mb1/1133}
+[ru] {eld/149}
+[ru] {akh/170}
+[en] {eld/172}
+[ru] {aer/123}
+[ru] {m19/192}
+[en] {mb1/1159}
+	
+Многоцветные:
+[ru] {xln/226}
+2x [ru] {rix/155}
+[en] {mm3/158}
+[en] {mm3/176}
+[ru] {aer/129}
+[ru] {frf/149}
+[ru] {m19/213}
+[ru] {grn/157}
+2x [ru] {grn/166}
+2x [ru] {grn/181}
+4x [ru] {grn/177}
+2x [ru] {rna/206}
+2x [ru] {m19/223}
+5x [ru] {rna/208}
+[ru] {frf/155}
+[ru] {war/200}
+[ru] {frf/157}
+2x [ru] {war/210}
+2x [ru] {grn/215}
+3x [ru] {war/215}
+3x [ru] {grn/161}
+[ru] {war/198}
+[ru] {aer/139}
+[ru] {war/227}
+[ru] {rna/204}
+2x [ru] {xln/227}
+4x [ru] {grn/204}
+3x [ru] {rna/168}
+3x [ru] {rna/225}
+[ru] {xln/221}
+3x [ru] {rna/182}
+3x [ru] {rna/225}
+3x [en] {mb1/1418}
+[en] {war/206} (jp)
+[en] {mb1/1530}
+[en] {mb1/1417}
+2x [ru] {rna/228}
+[en] {mb1/1390}
+[ru] {rna/224}
+[en] {mb1/1449}
+3x [ru] {rna/214}
+[ru] {grn/155}
+4x [ru] {war/212}
+5x [ru] {war/201}
+[ru] {xln/232}
+2x [ru] {war/236} (ru, jp)
+[ru] {war/235}
+2x [ru] {war/192} (ru, jp)
+[ru] {war/203}
+[ru] {xln/224}
+[ru] {aer/128}
+[en] {rtr/162}
+[ru] {rna/207}
+[ru] {m20/207}
+2x [ru] {rna/158}
+6x [ru] {grn/161}
+7x [ru] {grn/180}
+[ru] {ths/201}
+[ru] {ths/193}
+2x [en] {ima/200}
+[ru] {m19/215}
+[ru] {hou/139}
+[ru] {hou/155}
+2x [en] {ima/208}
+3x [ru] {eld/188}
+[en] {uma/207}
+[en] {rtr/171}
+[en] {rtr/209}
+[en] {rtr/212}
+[en] {a25/204}
+[en] {a25/200}
+[en] {rtr/166}
+[ru] {ths/199}
+[en] {cns/185}
+[en] {a25/202}
+3x [ru] {war/233}
+2x [ru] {rna/222}
+[ru] {rna/226}
+[en] {rtr/152}
+4x [ru] {grn/189}
+2x [ru] {rna/175}
+3x [ru] {rna/156}
+2x [ru] {war/189}
+[en] {rtr/210}
+[ru] {xln/229}
+2x [ru] {rna/229}
+[ru] {rna/160}
+[en] {ima/201}
+[ru] {soi/241}
+[ru] {akh/222}
+[ru] {jou/155}
+[ru] {ktk/192}
+[ru] {jou/150}
+4x [ru] {rna/161}
+4x [ru] {grn/188}
+3x [ru] {rna/212}
+4x [ru] {rna/223}
+[en] {mb1/1515}
+2x [ru] {m20/214}
+3x [ru] {rna/166}
+4x [ru] {rna/185}
+4x [ru] {rna/157}
+3x [ru] {rna/192}
+4x [ru] {grn/159}
+2x [ru] {rna/167}
+3x [ru] {grn/208}
+2x [ru] {war/184}
+[ru] {m20/215}
+[ru] {war/188}
+[ru] {rna/193}
+2x [ru] {m20/213}
+[ru] {rtr/164}
+[ru] {rtr/214}
+[ru] {rtr/184}
+4x [ru] {grn/226}
+2x [ru] {xln/217}
+[ru] {rtr/192}
+[ru] {rna/169}
+4x [ru] {grn/171}
+[ru] {grn/230}
+[en] {mm3/164}
+2x [ru] {war/165}
+[ru] {akh/196}
+3x [ru] {rna/211}
+[ru] {rix/173}
+[ru] {m20/219}
+4x [ru] {xln/231}
+2x [ru] {rix/153}
+[ru] {grn/190}
+[ru] {xln/234}
+[ru] {xln/243}
+[ru] {xln/235}
+[en] {mb1/1575}
+[en] {mb1/1566}
+[en] {mb1/1608}
+[ru] {frf/163}
+[ru] {m19/247}
+[ru] {m19/238}
+[en] {mb1/1577}
+[en] [mm3/218}
+[ru] {m19/241}
+[en] {mb1/1567}
+[en] {mb1/1643}
+[en] {mb1/1570}
+[en] {mb1/1574}
+[en] {mb1/6}
+[en] {mb1/1644}
+[ru] {ths/210}
+[en] {mb1/1593}
+[en] {mb1/1571}
+[ru] {rix/176}
+2x [en] {mb1/1573}
+[en] {a25/233}
+[ru] {ths/214}
+2x [en] {mb1/1588}
+2x [en] {mb1/1632}
+[en] {mb1/1558}
+[en] {ima/224}
+[ru] {soi/252}
+[en] {mb1/1556}
+[en] {a25/232}
+[en] {rtr/236}
+[en] {ima/230}
+[ru] {m19/232}
+[en] {mb1/1639}
+[ru] {akh/234}
+2x [ru] {dom/237}
+2x [en] {mb1/1638}
+2x [en] {mb1/1561}
+[ru] {rna/242}
+[en] {mb1/1553}
+[ru] {soi/253}
+[en] {mb1/1626}
+[en] {eld/234}
+[ru] {xln/237}
+[ru] {rix/177}
+[ru] {eld/218}
+[ru] {akh/235}
+[ru] {m19/235}
+[ru] {m19/232}
+[ru] {xln/241}
+2x [en] {mb1/1603}
+	
+Земли:
+3x [ru] {soi/280}
+[en] {a25/239}
+[ru] {rna/254}
+[ru] {frf/167}
+[en] {rtr/249}
+[en] {ima/232}
+[en] {ima/236}
+[en] {uma/245}
+[en] {a25/238}
+[en] {a25/246}
+[en] {uma/251}
+[en] {a25/241}
+[en] {ima/238}
+[en] {cns/65}
+[en] {a25/241}
+[en] {ima/246}
+[ru] {war/248}
+[en] {uma/242}
+	
