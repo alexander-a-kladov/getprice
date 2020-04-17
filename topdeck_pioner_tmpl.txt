@@ -6,7 +6,6 @@
 3x Legion's Landing (XLN) - {xln/22}
 4x History of Benalia (DOM) - {dom/21}
 Ethereal Armor - {rtr/9} (RTR)
-Вмешательство Гидеона (AKH) - {akh/15}
 Герой Первого Округа (RNA) - {rna/11}
 Gods Willing (UMA) - {uma/18}
 6x Ястреб Целителя (GRN) - {grn/14}
@@ -121,11 +120,9 @@ Underworld Connections - {rtr/83} (RTR)
 Soul-Scar Mage - {akh/148} (AKH)
 2x Потрясение Основ - {rix/113} (RIX)
 Хазорет Пылкая - {akh/136} (AKH)
-2x Goblin Chainwhirler - {dom/129} (DOM)
 Струя Магмы - {ths/128} (THS)
 Оскорбление // Ранение - {akh/213} (AKH)
 Reckless Rage - {rix/110} (RIX)
-Совместная Непокорность - {emn/123} (EMN)
 Неистовый Свиреподон - {xln/154} (XLN)
 Кари-Зев, Небесная Разбойница - {aer/87} (AER)
 4x Удар Грома - {ths/127} (THS)
@@ -179,7 +176,6 @@ Detention Sphere - {rtr/155} (RTR)
 Арьель, Рыцарь Виндгрейса - {dom/192} (DOM)
 2x Путешествие в Вечность - {rix/160} (RIX)
 Водитель-Ветеран - {kld/188} (KLD)
-4x Deafening Clarion - {grn/165} (GRN)
 2x Изменчивый Налетчик - {rix/167} (RIX)
 2x Роалеск, Величайший Гибрид - {war/213} (WAR)
 Сахили Рей - {kld/186} (KLD)
@@ -247,7 +243,6 @@ Cabal Stronghold - {dom/238} (DOM)
 3x Гора - {akh/253} (AKH)
 Гора - {hou/188} (HOU)
 Болото - {akh/252} (AKH)
-Оазис Хашеп - {hou/177} (HOU)
 Дюны Шефет - {hou/183} (HOU)
 5x Гиблые Земли Ифнира - {hou/179} (HOU)
 Darksteel Citadel - {mm2/238} (MM15)
