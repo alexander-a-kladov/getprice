@@ -244,7 +244,7 @@ Jace's Triumph - {war/55}
 [ru] {soi/163}
 [ru] {aer/90}
 [ru] {xln/137}
-[ru] {m19/154}
+- [ru] {m19/154}
 [ru] {frf/91}
 2x [ru] {frf/110}
 [ru] {frf/113}

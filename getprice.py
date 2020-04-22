@@ -177,9 +177,13 @@ def get_card_name(line, mtgset, number):
 
 def get_prices(filename):
     global total_cards, total_price
-    line_num = 1;
+    line_num = 1
     f=open(filename,'r')
     for line in f:
+	reserv = False
+	if line[0]=='-':
+	    reserv = True
+	    line=line[1:]
 	str0=line.split("{")
 	if (len(str0)>1):
 	    str1=str0[1].split("}")
@@ -218,6 +222,8 @@ def get_prices(filename):
 		else:
 		    price="";
 		    print("error:"+str(r.status_code)+" "+str(line_num)+" "+line)
+		if reserv:
+		    continue
 		card_name=get_card_name(line,mtgset,number)
 		if card_name:
 		    if quantity>1:
