@@ -1,0 +1,87 @@
+<foil>
+Красные:
+[ru] {war/119} /promo/
+[ru] {mh1/215} /nonpromo/
+[ru] {mh1/124}
+[ru] {mh1/142}
+[ru] {war/218}
+[ru] {grn/93}
+[ru] {mh1/117}
+[en] {mrd/90} (FMB1)
+[en] {tsp/171} (FMB1)
+[ru] {m19/213}
+[en] {a25/118}
+[en] {a25/156}
+[ru] {war/226} /promo/
+[en] {rix/111} /nonpromo/
+[ru] {rna/94}
+[ru] {rna/176}
+[en] {a25/155}
+[ru] {ths/133}
+[ru] {ths/145}
+[ru] {ths/115}
+[ru] {rna/93}
+[en] {a25/156}
+[ru] {dom/319}
+[ru] {rna/105}
+[ru] {grn/114}
+[en] {uma/144}
+[en] {a25/154}
+[en] {ima/132}
+[ru] {rna/117}
+[ru] {akh/132}
+[ru] {grn/115} /promo/
+[en] {rtr/92} /nonpromo/
+[ru] {jou/102}
+[ru] {grn/96}
+[ru] {rna/113}
+[ru] {dom/116}
+[ru] {xln/164}
+[ru] {rna/96}
+[ru] {m19/158}
+[ru] {xln/148}
+[ru] {rix/95}
+[ru] {grn/95}
+2x [ru] {rna/107} /promo/
+[ru] {xln/135} /promo/
+[ru] {rix/94} /promo/
+[ru] {dom/135} /nonpromo/
+[ru] {grn/102}
+
+Белые:
+[ru] {mh1/6}
+[en] {ema/25}
+[ru] {mh1/23}
+[ru] {m20/27} /promo/
+[ru] {mh1/9} /nonpromo/
+[ru] {grn/19} /promo/
+[ru] {akh/270} /nonpromo/
+[ru] {m19/21} /promo/
+[en] {a25/19} /nonpromo/
+[en] {kld/15}
+[ru] {rna/30}
+[en] {ima/19}
+[ru] {m19/24}
+[en] {a25/38}
+[ru] {emn/18}
+[en] {a25/23}
+[ru] {rna/23}
+[en] {uma/42}
+[en] {uma/25}
+[en] {uma/12}
+[en] {a25/34}
+[en] {uma/43}
+[en] {a25/1}
+[en] {a25/24}
+[ru] {rna/12}
+[ru] {rna/19}
+[ru] {pths/3} /promo/
+[ru] {xln/42} /nonpromo/
+[en] {rtr/17}
+[ru] {m19/8}
+[ru] {m19/1}
+[ru] {bng/19}
+[ru] {rix/14}
+[ru] {grn/6}
+[ru] {rna/16}
+

@@ -42,6 +42,23 @@ def main():
                                         quantity integer
                                     ); """
 
+    sql_create_cards_table = """ CREATE TABLE IF NOT EXISTS cards (
+                                        set_id text,
+                                        number integer,
+                                        promo text,
+                                        lang text,
+                                        quantity integer,
+					album_id integer
+                                    ); """
+    sql_create_albums_table = """ CREATE TABLE IF NOT EXISTS albums (
+                                        id integer,
+                                        name text
+                                    ); """
+    sql_create_colors_table = """ CREATE TABLE IF NOT EXISTS colors (
+                                        id integer,
+                                        name_en text,
+					name_ru text
+                                    ); """
     sql_create_total_data_table = """ CREATE TABLE IF NOT EXISTS total_data (
                                         date text,
                                         price integer,
@@ -54,6 +71,13 @@ def main():
                                         lang text,
                                         name text
                                     ); """
+    sql_create_cards_data = """ CREATE TABLE IF NOT EXISTS cards_data (
+                                        set_id text,
+                                        number integer,
+                                        lang text,
+                                        name text,
+					color integer
+                                    ); """
 
 
     # create a database connection
@@ -65,6 +89,9 @@ def main():
         create_table(conn, sql_create_cards_prices_table)
 	create_table(conn, sql_create_total_data_table)
 	create_table(conn, sql_create_cards_names)
+	create_table(conn, sql_create_albums_table)
+	create_table(conn, sql_create_colors_table)
+	create_table(conn, sql_create_cards_table)
     else:
         print("Error! cannot create the database connection.")
 

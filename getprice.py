@@ -14,6 +14,9 @@ fw = ""
 
 total_cards = 0
 total_price = 0
+foil = 0
+promo = 0
+lang = ""
 
 result_fn = 'topdeck.txt'
 scryfall_url = 'https://api.scryfall.com'
@@ -174,16 +177,39 @@ def get_card_name(line, mtgset, number):
 	    return name
     return None
 
+def set_foil_promo(line):
+    global foil,promo,lang
+    if line.find('<foil>')!=-1:
+	foil=1
+	line = line.replace('<foil>','')
+    if line.find('/promo/')!=-1:
+	promo=1
+	line = line.replace('/promo/','')
+    if line.find('<nonfoil>')!=-1:
+	foil=0
+	line = line.replace('<nonfoil>','')
+    if line.find('/nonpromo/')!=-1:
+	promo=0
+	line = line.replace('/nonpromo/','')
+    if line.find('[ru]')!=-1:
+	lang='ru'
+    elif line.find('[en]')!=-1:
+	lang='en'
+    else:
+	lang=''
+    return line
 
 def get_prices(filename):
-    global total_cards, total_price
+    global total_cards, total_price, foil, promo, lang
     line_num = 1
     f=open(filename,'r')
+    foil=promo=0
     for line in f:
 	reserv = False
 	if line[0]=='-':
 	    reserv = True
 	    line=line[1:]
+	line = set_foil_promo(line)
 	str0=line.split("{")
 	if (len(str0)>1):
 	    str1=str0[1].split("}")
@@ -197,14 +223,23 @@ def get_prices(filename):
 		    #raise Exception("Ошибка запроса с сервера")
 		    token = json.loads(r.text)
 		    price1 = price2 = 0
+		    price3 = 0
 		    if token.get('prices').get('usd'):
 			price1 = int(50.0*float(token.get('prices').get('usd')))
 		    if token.get('prices').get('eur'):
 			price2 = int(60.0*float(token.get('prices').get('eur')))
+		    if token.get('prices').get('usd_foil'):
+			price3 = int(50.0*float(token.get('prices').get('usd_foil')))
+			if lang=='ru':
+			    price3 = int(3.0*price3)
+			if promo:
+			    price3 = int(0.5*price3)
 		    if (price1>price2):
 			price = price1
 		    else:
 			price = price2
+		    if foil or promo:
+			price=price3
 		    if price>0 and price<4:
 			price = 4;
 		    if price>0:
@@ -213,11 +248,12 @@ def get_prices(filename):
 			total_price += quantity*price
 			mtgset = str1[0].split("/")[0]
 			number = int(str1[0].split("/")[1])
-			
-			add_price_for_card(mtgset,number,date_today,price,quantity)
+			if foil==0 and promo==0:
+			    add_price_for_card(mtgset,number,date_today,price,quantity)
+			else:
+			    print("foil or promo")
 		    if (price==0):
 			price=""
-		    
 		    time.sleep(0.3) # scryfall recomendation
 		else:
 		    price="";
@@ -232,9 +268,14 @@ def get_prices(filename):
 			str0[0]=''
 		    str0[0]=str0[0]+card_name+' - '
 		if is_set_present(line):
-		    fw.write(str0[0]+str(price)+' р'+str1[1]+"\n")
+		    fw.write(str0[0]+str(price)+' р '+str1[1].strip())
 		else:
-		    fw.write(str0[0]+str(price)+' р'+' ('+ mtgset.swapcase()+')'+str1[1]+"\n")
+		    fw.write(str0[0]+str(price)+' р'+' ('+ mtgset.swapcase()+')'+str1[1].strip())
+		if foil:
+		    fw.write(' FOIL')
+		if promo:
+		    fw.write(' promo')
+		fw.write('\n\n')
 	elif (len(line)>1):
 	    fw.write(line)
 	line_num+=1

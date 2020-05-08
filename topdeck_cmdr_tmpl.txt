@@ -291,7 +291,7 @@ Jace's Triumph - {war/55}
 [ru] {jou/121}
 [en] {a25/168}
 [en] {rtr/139}
-[en] {mb1/1299}
+-[en] {mb1/1299}
 [en] {rtr/140}
 [ru] {ths/152}
 [en] {ima/179}
@@ -533,7 +533,7 @@ Jace's Triumph - {war/55}
 [en] {ima/236}
 [en] {uma/245}
 [en] {a25/238}
-[en] {a25/246}
+-[en] {a25/246}
 [en] {uma/251}
 [en] {a25/241}
 [en] {ima/238}
