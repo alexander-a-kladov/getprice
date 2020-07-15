@@ -109,15 +109,15 @@ def get_number_of_cards(line):
     else:
 	return 1
 
-def is_set_present(line):
+def get_set_present(line):
     str0 = line.split('(');
     if (len(str0)>1):
 	str1 = str0[1].split(')');
 	if (len(str1)>1):
 	    parser = re.search('[A-Z][A-Za-z0-9][A-Za-z0-9]',str1[0])
 	    if (parser):
-		return 1
-    return 0
+		return str1[0]
+    return None
 
 def select_card_name_for_lang(mtgset, number, lang):
     global conn
@@ -230,6 +230,8 @@ def get_prices(filename):
 			price2 = int(60.0*float(token.get('prices').get('eur')))
 		    if token.get('prices').get('usd_foil'):
 			price3 = int(50.0*float(token.get('prices').get('usd_foil')))
+			if (get_set_present(line)=="FMB1"):
+			    price3 = int(price3/5.0)
 			if lang=='ru':
 			    price3 = int(3.0*price3)
 			if promo:
@@ -250,8 +252,6 @@ def get_prices(filename):
 			number = int(str1[0].split("/")[1])
 			if foil==0 and promo==0:
 			    add_price_for_card(mtgset,number,date_today,price,quantity)
-			else:
-			    print("foil or promo")
 		    if (price==0):
 			price=""
 		    time.sleep(0.3) # scryfall recomendation
@@ -267,7 +267,7 @@ def get_prices(filename):
 		    else:
 			str0[0]=''
 		    str0[0]=str0[0]+card_name+' - '
-		if is_set_present(line):
+		if get_set_present(line):
 		    fw.write(str0[0]+str(price)+' р '+str1[1].strip())
 		else:
 		    fw.write(str0[0]+str(price)+' р'+' ('+ mtgset.swapcase()+')'+str1[1].strip())

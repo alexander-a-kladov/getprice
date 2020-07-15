@@ -9,30 +9,24 @@
 2x [ru] {mh1/3}
 2x [en] {uma/25}
 2x [en] {ima/31}
-[en] {uma/11}
-3x [ru] {mh1/13}
 [ru] {akh/5}
-[en] {mb1/206}
-[en] {mb1/179}
+[ru] {mh1/11}
 	
 Синие:
 [en] {mm3/55}
 [ru] {mh1/46}
-4x [ru] {mh1/40}
 3x [ru] {mh1/58}
-2x [ru] {mh1/57}
 [ru] {mh1/56}
-[en] {ima/48}
-[en] {ima/42}
-[ru] {mh1/75}
 3x [en] {ima/76}
+[ru] {grn/47}
+[en] {mb1/371}
 	
 Черные:
 [ru] {mh1/98}
 2x [ru] {mh1/80}
 2x [ru] {mh1/116}
-2x [ru] {mh1/89}
-[ru] {mh1/85}
+3x [ru] {mh1/89}
+2x [ru] {mh1/85}
 4x [ru] {mh1/113}
 	
 Красные:
@@ -41,43 +35,36 @@
 4x [ru] {mh1/146}
 [en] {mm3/98}
 [en] {mm3/116}
-3x [ru] {mh1/128}
-4x [ru] {mh1/140}
-[ru] {mh1/145}
-2x [ru] {mh1/138}
+3x [ru] {mh1/138}
 2x [ru] {mh1/149}
-2x [ru] {mh1/118}
+4x [ru] {mh1/118}
 4x [en] {a25/121}
-[en] {ima/138}
+3x [ru] {rna/99}
 	
 Зеленые:
 3x [ru] {mh1/160}
 2x [ru] {mh1/155}
 2x [ru] {mh1/189}
-2x [ru] {mh1/161}
+3x [ru] {mh1/161}
 2x [ru] {mh1/156}
 4x [en] {a25/186}
 4x [ru] {nph/116}
-4x [ru] {mh1/168}
 2x [ru] {dka/127}
 2x [en] {dka/127}
-3x [ru] {mh1/158}
+[ru] {mh1/158}
+[en] {mb1/1358}
 	
 Многоцветные:
 [ru] {mh1/199}
-4x [ru] {mh1/202}
 2x [ru] {mh1/195}
-[ru] {mh1/205}
 [ru] {mh1/200}
 3x [ru] {mh1/211}
 [en] {mb1/1433}
 [en] {mm3/190}
-[en] {mm3/200}
 2x [en] {mb1/1495}
 [en] {mm3/194}
 [en] {mm3/148}
 [ru] {mh1/216}
-[ru] {mh1/197}
 2x [en] {ima/204}
 4x [ru] {mh1/208}
 2x [ru] {mh1/203}
@@ -87,19 +74,16 @@
 	
 Бесцветные:
 [ru] {mh1/1}
-2x [ru] {mh1/228}
+3x [ru] {mh1/228}
 3x [ru] {mh1/226}
 2x [ru] {mh1/227}
 3x [ru] {mh1/229}
-4x [ru] {mh1/220}
+[ru] {war/1}
+[ru] {mh1/218}
+[ru] {mh1/220}
 	
 Земли:
 2x [ru] {mh1/241}
-[ru] {mh1/244}
-4x [ru] {mh1/243}
-4x [ru] {mh1/246}
-[ru] {mh1/238}
-[en] {uma/249}
 12x [ru] {mh1/250}
 12x [ru] {mh1/251}
 

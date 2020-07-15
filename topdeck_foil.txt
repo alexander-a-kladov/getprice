@@ -1,53 +1,5 @@
 <foil>
-Красные:
-[ru] {war/119} /promo/
-[ru] {mh1/215} /nonpromo/
-[ru] {mh1/124}
-[ru] {mh1/142}
-[ru] {war/218}
-[ru] {grn/93}
-[ru] {mh1/117}
-[en] {mrd/90} (FMB1)
-[en] {tsp/171} (FMB1)
-[ru] {m19/213}
-[en] {a25/118}
-[en] {a25/156}
-[ru] {war/226} /promo/
-[en] {rix/111} /nonpromo/
-[ru] {rna/94}
-[ru] {rna/176}
-[en] {a25/155}
-[ru] {ths/133}
-[ru] {ths/145}
-[ru] {ths/115}
-[ru] {rna/93}
-[en] {a25/156}
-[ru] {dom/319}
-[ru] {rna/105}
-[ru] {grn/114}
-[en] {uma/144}
-[en] {a25/154}
-[en] {ima/132}
-[ru] {rna/117}
-[ru] {akh/132}
-[ru] {grn/115} /promo/
-[en] {rtr/92} /nonpromo/
-[ru] {jou/102}
-[ru] {grn/96}
-[ru] {rna/113}
-[ru] {dom/116}
-[ru] {xln/164}
-[ru] {rna/96}
-[ru] {m19/158}
-[ru] {xln/148}
-[ru] {rix/95}
-[ru] {grn/95}
-2x [ru] {rna/107} /promo/
-[ru] {xln/135} /promo/
-[ru] {rix/94} /promo/
-[ru] {dom/135} /nonpromo/
-[ru] {grn/102}
-
+Фойл:
 Белые:
 [ru] {mh1/6}
 [en] {ema/25}
@@ -75,7 +27,7 @@
 [en] {a25/24}
 [ru] {rna/12}
 [ru] {rna/19}
-[ru] {pths/3} /promo/
+[ru] {ths/3} /promo/
 [ru] {xln/42} /nonpromo/
 [en] {rtr/17}
 [ru] {m19/8}
@@ -84,4 +36,183 @@
 [ru] {rix/14}
 [ru] {grn/6}
 [ru] {rna/16}
+	
+Синие:
+2x [en] {ima/50}
+[ru] {war/41}
+[en] {mrd/36} (FMB1)
+[en] {som/33} (FMB1)
+[en] {8ed/86} (FMB1)
+[en] {8ed/116} (FMB1)
+[en] {uma/57}
+[ru] {dom/67}
+[ru] {war/45} /promo/
+[ru] {dom/60} /nonpromo/
+[ru] {rix/59}
+[ru] {grn/46}
+[ru] {grn/59}
+[en] {a25/61}
+[en] {a25/69}
+[en] {a25/48}
+[en] {uma/69}
+[en] {uma/59}
+[en] {a25/72}
+[en] {uma/60}
+[en] {uma/72}
+[en] {a25/42}
+[ru] {grn/45}
+[ru] {kld/50}
+[ru] {m19/58}
+[ru] {xln/54}
+[ru] {m14/61}
+[ru] {grn/34}
+[ru] {grn/58}
+[ru] {m19/81}
+[ru] {dom/52}
+[en] {rtr/46}
+[ru] {m19/57}
+[ru] {dom/73}
+[ru] {xln/68}
+[ru] {dom/76} /promo/
+[ru] {m19/55} /nonpromo/
+[ru] {rna/32} /promo/
+[ru] {rna/45}
+[ru] {grn/54} /nonpromo/
+[ru] {soi/59}
+[ru] {rna/37}
+[en] {bok/45} (FMB1)
+
+Черные:
+2x [en] {tsb/39} (FMB1)
+2x [en] {tsb/52} (FMB1)
+[en] {tsb/44} (FMB1)
+[en] {mrd/59} (FMB1)
+[ru] {rna/89}
+2x [ru] {war/79} /promo/
+[ru] {war/83}
+2x [ru] {war/98}
+[ru] {akh/106} /nonpromo/
+[ru] {m20/110}
+[en] {a25/100}
+[ru] {m19/91} /promo/
+[ru] {dom/98}
+[ru] {rna/83} /nonpromo/
+[ru] {rna/64}
+[en] {a25/114}
+[en] {a25/94}
+[en] {a25/84}
+[en] {uma/91}
+[ru] {ths/93}
+[ru] {rna/78}
+[en] {xln/130}
+[ru] {rna/66}
+[ru] {bng/80}
+[ru] {grn/64}
+[en] {uma/115}
+[en] {rtr/76}
+[ru] {rna/86}
+[ru] {dom/98}
+[ru] {grn/86}
+[ru] {rna/81}
+[ru] {rna/273} /promo/
+[ru] {m19/91}
+[ru] {m19/110} /promo/
+[ru] {grn/85} /nonpromo/
+[ru] {m19/93}
+[ru] {dom/99}
+[ru] {rix/90}
+[ru] {grn/70}
+2x [ru] {grn/79}
+	
+Красные:
+[ru] {war/119} /promo/
+[ru] {mh1/215} /nonpromo/
+[ru] {mh1/124}
+[ru] {mh1/142}
+[ru] {war/218}
+[ru] {grn/93}
+[ru] {mh1/117}
+[en] {mrd/90} (FMB1)
+[en] {tsp/171} (FMB1)
+[ru] {m19/213}
+[en] {a25/118}
+[en] {a25/156}
+[ru] {war/226} /promo/
+[en] {rix/111} /nonpromo/
+[ru] {rna/176}
+[en] {a25/155}
+[ru] {ths/133}
+[ru] {ths/145}
+[ru] {ths/115}
+[ru] {rna/93}
+[en] {a25/156}
+[ru] {dom/319}
+[ru] {rna/105}
+[ru] {grn/114}
+[en] {uma/144}
+[en] {a25/154}
+[en] {ima/132}
+[ru] {akh/132}
+[ru] {grn/115} /promo/
+[en] {rtr/92} /nonpromo/
+[ru] {jou/102}
+[ru] {grn/96}
+[ru] {rna/113}
+[ru] {dom/116}
+[ru] {xln/164}
+[ru] {m19/158}
+[ru] {xln/148}
+[ru] {rix/95}
+[ru] {grn/95}
+2x [ru] {rna/107} /promo/
+[ru] {rix/94} /promo/
+[ru] {dom/135} /nonpromo/
+	
+Зеленые:
+[ru] {eld/174}
+[ru] {war/150} /promo/
+[ru] {rix/130}
+[ru] {rna/178}
+[en] {rix/130} /nonpromo/
+[en] {xln/179}
+[ru] {dom/165}
+[ru] {rna/121}
+[en] {tsb/84} (FMB1)
+[en] {8ed/250} (FMB1)
+[en] {mor/115} (FMB1)
+[en] {mma/146} (FMB1)
+[en] {a25/157}
+[en] {a25/169}
+[en] {a25/193}
+[ru] {m19/191}
+[ru] {grn/131}
+[ru] {mh1/159}
+[ru] {rna/146}
+[ru] {grn/141}
+[en] {uma/185}
+[ru] {soi/217}
+[en] {rtr/123}
+[ru] {rna/144}
+[ru] {rix/138}
+[ru] {grn/146}
+[ru] {soi/194}
+[ru] {dom/182} /promo/
+[ru] {dom/182}
+[en] {rna/137} /nonpromo/
+[ru] {xln/216}
+[ru] {akh/170}
+[ru] {xln/204}
+[ru] {war/170}
+[en] {grn/132}
+[ru] {grn/123}
+[ru] {m19/180} /promo/
+[ru] {m19/187} /nonpromo/
+[ru] {m19/171}
+[en] {9ed/254} (FMB1)
+
+Бесцветные:
+[en] {dis/162} (FMB1)
+
+Многоцветные:
+[en] {gtc/144} (FMB1)
 

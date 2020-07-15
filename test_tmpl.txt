@@ -1,4 +1,5 @@
 Белые:
 [ru] {soi/108} (FMB1)
+[en] {soi/108} (FMB1) <foil>
 - Ангел Освобождения (SOI) - {soi/2}
-[en] {soi/108}
+[en] {soi/108} <nonfoil>
