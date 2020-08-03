@@ -17,6 +17,7 @@ total_price = 0
 foil = 0
 promo = 0
 lang = ""
+test = False
 
 result_fn = 'topdeck.txt'
 scryfall_url = 'https://api.scryfall.com'
@@ -200,7 +201,7 @@ def set_foil_promo(line):
     return line
 
 def get_prices(filename):
-    global total_cards, total_price, foil, promo, lang
+    global total_cards, total_price, foil, promo, lang, test
     line_num = 1
     f=open(filename,'r')
     foil=promo=0
@@ -222,6 +223,8 @@ def get_prices(filename):
 		    #print(r.text)
 		    #raise Exception("Ошибка запроса с сервера")
 		    token = json.loads(r.text)
+		    if test:
+			image_url=token.get('image_uris').get('normal')
 		    price1 = price2 = 0
 		    price3 = 0
 		    if token.get('prices').get('usd'):
@@ -240,6 +243,8 @@ def get_prices(filename):
 			price = price1
 		    else:
 			price = price2
+		    if price1>1.0 and price2>1.0:
+			price = int((price1+price2)/2.0);
 		    if foil or promo:
 			price=price3
 		    if price>0 and price<4:
@@ -250,7 +255,7 @@ def get_prices(filename):
 			total_price += quantity*price
 			mtgset = str1[0].split("/")[0]
 			number = int(str1[0].split("/")[1])
-			if foil==0 and promo==0:
+			if foil==0 and promo==0 and test==False:
 			    add_price_for_card(mtgset,number,date_today,price,quantity)
 		    if (price==0):
 			price=""
@@ -260,6 +265,7 @@ def get_prices(filename):
 		    print("error:"+str(r.status_code)+" "+str(line_num)+" "+line)
 		if reserv:
 		    continue
+		
 		card_name=get_card_name(line,mtgset,number)
 		if card_name:
 		    if quantity>1:
@@ -270,11 +276,14 @@ def get_prices(filename):
 		if get_set_present(line):
 		    fw.write(str0[0]+str(price)+' р '+str1[1].strip())
 		else:
-		    fw.write(str0[0]+str(price)+' р'+' ('+ mtgset.swapcase()+')'+str1[1].strip())
+		    fw.write(str0[0]+str(price)+' р'+' ('+ mtgset.swapcase()+'/'+str(number)+')'+str1[1].strip())
 		if foil:
 		    fw.write(' FOIL')
 		if promo:
 		    fw.write(' promo')
+		if test:
+		    fw.write(' ')
+		    fw.write(image_url)
 		fw.write('\n\n')
 	elif (len(line)>1):
 	    fw.write(line)
@@ -285,6 +294,10 @@ if __name__ == '__main__':
     if len(sys.argv)<2:
 	print("usage: getprice.py file_tmpl.txt file_tmpl1.txt")
     else:
+	print(sys.argv[1])
+	if (re.search("test",sys.argv[1])):
+	    test=True
+	    print("test=",test)
 	date_today = str(datetime.date.today())
 	conn = create_connection(r"mycards.db")
 	fw=open(result_fn,'w')
@@ -297,5 +310,7 @@ if __name__ == '__main__':
 		count_args+=1
 	print("Всего карт: "+str(total_cards))
 	print("Стоимость: "+str(total_price)+" р")
-	add_total_data()
+	if (test==False):
+	    add_total_data()
+	    print("add_total")
 	fw.close()

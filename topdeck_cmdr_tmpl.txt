@@ -7,7 +7,6 @@ Serra Angel - {ima/30} (IMA)
 2x Knight of Dawn - {mb1/146} (MB1)
 Darien, King of Kjeldor - {a25/9} (A25)
 Teferi's Protection - {mb1/256} (MB1)
-Ангел Освобождения - {soi/2} (SOI)
 4x Gideon Jura - {mb1/118} (MB1)
 Копье Гелиода - {ths/33} (THS)
 Decree of Justice - {a25/11} (A25)
@@ -32,7 +31,7 @@ Faith's Shield - {dka/7}
 Торжественность - {hou/22}
 Пристав из Хаазды - {grn/13}
 Thalia's Lancers - {emn/47}
-2x Archangel - {mb1/25}
+Archangel - {mb1/25}
 Небесная Странница Заката - {xln/9}
 Рыцарь-Новичок - {m19/30}
 2x Ангел Ограничений - {akh/1}
@@ -52,10 +51,7 @@ Thalia's Lancers - {emn/47}
 [en] - {mb1/268}
 [ru] - {m14/41}
 [ru] - {m13/28}
-[en] - {mb1/54}
 [en] - {mb1/76}
-[en] - {mm3/26}
-[ru] - {m14/8}
 
 		
 Синие:
@@ -101,7 +97,7 @@ Floodgate - {mb1/381}
 Phantasmal Dragon - {mb1/454}
 Opt - {mb1/451}
 Обратное Проектирование - {aer/42}
-Misdirection - {mb1/432}
+2x Misdirection - {mb1/432}
 Клон - {m14/47}
 Стянуть Заклинание - {xln/82}
 Метаморфическое Преобразование - {m19/60}
@@ -134,6 +130,7 @@ Djinn of Wishes - {mb1/354}
 Jace's Triumph - {war/55}
 Война Древностей - {dom/42}
 [ru] {grn/38}
+[ru] {mb1/477}
 	
 Черные:
 [en] - {rtr/67}
@@ -213,7 +210,6 @@ Jace's Triumph - {war/55}
 [ru] {ths/138}
 [ru] {jou/93}
 2x [en] {ima/144}
-[en] {a25/142}
 [ru] {kld/109}
 [en] {a25/138}
 [ru] {xln/138}
@@ -240,7 +236,6 @@ Jace's Triumph - {war/55}
 2x [ru] {frf/110}
 [ru] {frf/113}
 [ru] {xln/135}
-[ru] {frf/90}
 [en] {mb1/994}
 [ru] {war/124}
 [ru] {war/135}
@@ -295,13 +290,12 @@ Jace's Triumph - {war/55}
 [ru] {frf/142}
 [ru] {frf/138}
 [ru] {frf/137}
-3x [en] {mb1/1180}
+4x [en] {mb1/1180}
 4x [ru] {grn/138}
 [en] {mb1/1373}
 [ru] {m19/176}
 2x [ru] {m15/169}
 [ru] {soi/230}
-[en] {ima/157}
 [en] {mb1/1338}
 2x [ru] {frf/131}
 [ru] {frf/147}
@@ -365,7 +359,6 @@ Jace's Triumph - {war/55}
 2x [ru] {rna/228}
 [en] {mb1/1390}
 [ru] {rna/224}
-[en] {mb1/1449}
 3x [ru] {rna/214}
 [ru] {grn/155}
 4x [ru] {war/212}
@@ -445,7 +438,6 @@ Jace's Triumph - {war/55}
 2x [ru] {war/165}
 [ru] {akh/196}
 3x [ru] {rna/211}
-[ru] {rix/173}
 [ru] {m20/219}
 4x [ru] {xln/231}
 2x [ru] {rix/153}
@@ -518,7 +510,6 @@ Jace's Triumph - {war/55}
 [en] {uma/251}
 [en] {a25/241}
 [en] {ima/238}
-[en] {cns/65}
 [en] {a25/241}
 [en] {ima/246}
 [ru] {war/248}
