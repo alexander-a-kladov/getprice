@@ -2,7 +2,6 @@
 Фойл:
 Белые:
 [ru] {mh1/6}
-[en] {ema/25}
 [ru] {mh1/23}
 [ru] {m20/27} /promo/
 [ru] {grn/19}
@@ -17,9 +16,7 @@
 [en] {a25/23}
 [ru] {rna/23}
 [en] {uma/42}
-[en] {uma/25}
 [en] {uma/12}
-[en] {a25/34}
 [en] {uma/43}
 [en] {a25/1}
 [en] {a25/24}
@@ -213,7 +210,6 @@
 [en] {m21/129}
 [ru] {m21/106}
 [en] {2xm/96}
-[en] {2xm/78}
 [en] {2xm/105}
 [en] {2xm/95}
 [en] {2xm/79}
@@ -415,7 +411,6 @@
 [en] {ima/214}
 [ru] {eld/229}
 [en] {ima/226}
-2x [en] {som/168} (FMB1)
 [en] {roe/8} (FMB1)
 2x [en] {5dn/107} (FMB1)
 [en] {ala/210} (FMB1)
@@ -431,8 +426,6 @@
 [en] {mm2/230}
 [en] {2xm/259}
 [en] {2xm/265}
-[en] {2xm/307}
-[en] {2xm/261}
 [en] {2xm/262}
 [en] {2xm/256}
 [en] {2xm/290}
@@ -441,7 +434,6 @@
 
 	
 Земли:
-[en] {ima/243}
 [ru] {akh/239}
 [ru] {akh/240}
 [en] {ima/248}
@@ -455,8 +447,6 @@
 3x [ru] {war/248} /promo/
 [ru] {xln/258}
 [ru] {m20/242} /nonpromo/
-[ru] {iko/249}
-[ru] {iko/255}
 [ru] {rix/186} /promo/
 [ru] {rna/252} /nonpromo/
 [ru] {war/263}
@@ -468,7 +458,6 @@
 [ru] {m19/258}
 [en] {hou/179}
 [ru] {m19/248}
-[ru] {m21/245}
 [ru] {m21/264}
 [ru] {m21/267}
 [ru] {mh1/242}

@@ -205,7 +205,7 @@ def set_foil_promo(line):
 
 def get_price_modifier(mtg_set):
     price_modifier = 1.0;
-    price_dict={"2xm":1.35,"m21":1.1,"mh1":1.2};
+    price_dict={"2xm":1.35,"m21":1.1,"mh1":1.2,"znr":1.40};
     if mtg_set in price_dict:
         price_modifier = price_dict[mtg_set]
     #print("price_modifier"+str(price_modifier))
@@ -233,12 +233,14 @@ def get_prices(filename):
                 if test and mtgset != test_set:
                     if test_set != "all":
                         continue;
+                #if mtgset=="znr":
+                #    continue;
                 url="https://api.scryfall.com/cards/"
                 url=url+str1[0];
                 print(url)
                 r = requests.get(url);
                 if r.status_code != 404:
-		    #print(r.text)
+                    #print(r.text)
 		    #raise Exception("Ошибка запроса с сервера")
                     token = json.loads(r.text)
 		    #if test:
