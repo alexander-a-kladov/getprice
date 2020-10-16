@@ -1,13 +1,15 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # coding: utf8
 
+# topdeck_tmpl.txt topdeck_pioner_tmpl.txt topdeck_modern.txt topdeck_cmdr_tmpl.txt topdeck_foil.txt
 import sys,requests,json,time,datetime;
 import re;
 import sqlite3
 from sqlite3 import Error
 
-reload(sys)
-sys.setdefaultencoding('utf-8')
+#reload(sys)
+#sys.setdefaultencoding('utf-8')
+print(sys.stdin.encoding)
 conn = ""
 date_today = ""
 fw = ""
@@ -40,7 +42,7 @@ def select_card_price_for_date(mtgset, number,date_today):
 
     rows = cur.fetchall()
     for row in rows:
-	count_r+=1
+        count_r+=1
     return count_r
 
 def insert_card_price_for_date(mtgset, number, date_today, price, quantity):
@@ -69,7 +71,7 @@ def select_total_data(date_today):
 
     rows = cur.fetchall()
     for row in rows:
-	count_r+=1
+        count_r+=1
     return count_r
 
 def insert_total_data(date_today, price, quantity):
@@ -93,32 +95,32 @@ def update_total_data(date_today, price, quantity):
 
 def add_price_for_card(mtgset, number, date_today, price, quantity):
     if select_card_price_for_date(mtgset, number, date_today):
-	update_card_price_for_date(mtgset, number, date_today, price, quantity)
+        update_card_price_for_date(mtgset, number, date_today, price, quantity)
     else:
-	insert_card_price_for_date(mtgset, number, date_today, price, quantity)
+        insert_card_price_for_date(mtgset, number, date_today, price, quantity)
 
 def add_total_data():
     global date_today,total_price,total_cards
     if select_total_data(date_today):
-	update_total_data(date_today,total_price,total_cards)
+        update_total_data(date_today,total_price,total_cards)
     else:
-	insert_total_data(date_today,total_price,total_cards)
+        insert_total_data(date_today,total_price,total_cards)
 
 def get_number_of_cards(line):
     parser = re.search('[0-9]x ',line);
     if (parser):
-	return int(line[0:(parser.end()-2)])
+        return int(line[0:(parser.end()-2)])
     else:
-	return 1
+        return 1
 
 def get_set_present(line):
-    str0 = line.split('(');
+    str0 = line.split('(')
     if (len(str0)>1):
-	str1 = str0[1].split(')');
-	if (len(str1)>1):
-	    parser = re.search('[A-Za-z0-9][A-Za-z0-9][A-Za-z0-9]',str1[0])
-	    if (parser):
-		return str1[0]
+        str1 = str0[1].split(')')
+        if (len(str1)>1):
+            parser = re.search('[A-Za-z0-9][A-Za-z0-9][A-Za-z0-9]',str1[0])
+            if (parser):
+                return str1[0]
     return None
 
 def select_card_name_for_lang(mtgset, number, lang):
@@ -129,7 +131,7 @@ def select_card_name_for_lang(mtgset, number, lang):
 
     rows = cur.fetchall()
     if len(rows):
-	return rows[0][3]
+        return rows[0][3]
     return None
 
 def insert_card_name_for_lang(mtgset, number, lang, name):
@@ -154,171 +156,183 @@ def get_card_name(line, mtgset, number):
     global scryfall_url
     lang=None
     if (len(line.split('[ru]'))>1):
-	lang='ru'
+        lang='ru'
     elif (len(line.split('[en]'))>1):
-	lang='en'
+        lang='en'
     if lang:
-	name = select_card_name_for_lang(mtgset, number, lang)
-	if name is None:
-	    url=scryfall_url+'/cards/'+mtgset+'/'+str(number)+'/'+lang
-	    r = requests.get(url)
-	    if r.status_code != 404:
-		token = json.loads(r.text)
-		token1= token.get('card_faces')
-		if token1:
-		    token = token1[0]
-		if (lang=='en'):
-		    insert_card_name_for_lang(mtgset, number, lang, token.get('name'))
-		    return token.get('name')
-		else:
-		    insert_card_name_for_lang(mtgset, number, lang, token.get('printed_name'))
-		    return token.get('printed_name')
-	    else:
-		print('error rest api code=',r.status_code)
-	else:
-	    return name
+        name = select_card_name_for_lang(mtgset, number, lang)
+        if name is None:
+            url=scryfall_url+'/cards/'+mtgset+'/'+str(number)+'/'+lang
+            r = requests.get(url)
+            if r.status_code != 404:
+                token = json.loads(r.text)
+                token1= token.get('card_faces')
+                if token1:
+                    token = token1[0]
+                if (lang=='en'):
+                    insert_card_name_for_lang(mtgset, number, lang, token.get('name'))
+                    return token.get('name')
+                else:
+                    insert_card_name_for_lang(mtgset, number, lang, token.get('printed_name'))
+                    return token.get('printed_name')
+            else:
+                print('error rest api code=',r.status_code)
+        else:
+            return name
     return None
 
 def set_foil_promo(line):
     global foil,promo,lang
     if line.find('<foil>')!=-1:
-	foil=1
-	line = line.replace('<foil>','')
+        foil=1
+        line = line.replace('<foil>','')
     if line.find('/promo/')!=-1:
-	promo=1
-	line = line.replace('/promo/','')
+        promo=1
+        line = line.replace('/promo/','')
     if line.find('<nonfoil>')!=-1:
-	foil=0
-	line = line.replace('<nonfoil>','')
+        foil=0
+        line = line.replace('<nonfoil>','')
     if line.find('/nonpromo/')!=-1:
-	promo=0
-	line = line.replace('/nonpromo/','')
+        promo=0
+        line = line.replace('/nonpromo/','')
     if line.find('[ru]')!=-1:
-	lang='ru'
+        lang='ru'
     elif line.find('[en]')!=-1:
-	lang='en'
+        lang='en'
     else:
-	lang=''
+        lang=''
     return line
+
+def get_price_modifier(mtg_set):
+    price_modifier = 1.0;
+    price_dict={"2xm":1.4,"m21":1.1,"mh1":1.2,"znr":1.3,"tsb":2.0,"ktk":1.2};
+    if mtg_set in price_dict:
+        price_modifier = price_dict[mtg_set]
+    #print("price_modifier"+str(price_modifier))
+    return price_modifier
 
 def get_prices(filename):
     global total_cards, total_price, foil, promo, lang, test, test_set
     line_num = 1
     f=open(filename,'r')
-    print filename;
-    print test_set
+    print(filename)
+    print(test_set)
     foil=promo=0
     for line in f:
-	reserv = False
-	if line[0]=='-':
-	    reserv = True
-	    line=line[1:]
-	line = set_foil_promo(line)
-	str0=line.split("{")
-	if (len(str0)>1):
-	    str1=str0[1].split("}")
-	    if (len(str1)>1):
-		mtgset = str1[0].split("/")[0]
-		number = int(str1[0].split("/")[1])
-		if test and mtgset != test_set:
-		    if test_set != "all":
-			continue;
-		url="https://api.scryfall.com/cards/"
-		url=url+str1[0];
-		print(url)
-		r = requests.get(url);
-		if r.status_code != 404:
-		    #print(r.text)
+        reserv = False
+        if line[0]=='-':
+            reserv = True
+            line=line[1:]
+        line = set_foil_promo(line)
+        str0=line.split("{")
+        if (len(str0)>1):
+            str1=str0[1].split("}")
+            if (len(str1)>1):
+                mtgset = str1[0].split("/")[0]
+                number = int(str1[0].split("/")[1])
+                if test and mtgset != test_set:
+                    if test_set != "all":
+                        continue;
+                #if mtgset=="znr":
+                #    continue;
+                url="https://api.scryfall.com/cards/"
+                url=url+str1[0];
+                print(url)
+                r = requests.get(url);
+                if r.status_code != 404:
+                    #print(r.text)
 		    #raise Exception("Ошибка запроса с сервера")
-		    token = json.loads(r.text)
+                    token = json.loads(r.text)
 		    #if test:
 		#	image_url=token.get('image_uris').get('normal')
-		    price1 = price2 = 0
-		    price3 = 0
-		    if token.get('prices').get('usd'):
-			price1 = int(50.0*float(token.get('prices').get('usd')))
-		    if token.get('prices').get('eur'):
-			price2 = int(60.0*float(token.get('prices').get('eur')))
-		    if token.get('prices').get('usd_foil'):
-			price3 = int(50.0*float(token.get('prices').get('usd_foil')))
-			if (get_set_present(line)=="FMB1"):
-			    price3 = int(price3/5.0)
-			if lang=='ru':
-			    price3 = int(3.0*price3)
-			if promo:
-			    price3 = int(0.5*price3)
-		    if (price1>price2):
-			price = price1
-		    else:
-			price = price2
-		    if price1>1.0 and price2>1.0:
-			price = int((price1+price2)/2.0);
-		    if foil or promo:
-			price=price3
-		    if price>0 and price<4:
-			price = 4;
-		    if price>0:
-			quantity = get_number_of_cards(line)
-			total_cards += quantity
-			total_price += quantity*price
-			if foil==0 and promo==0 and test==False:
-			    add_price_for_card(mtgset,number,date_today,price,quantity)
-		    if (price==0):
-			price=""
-		    time.sleep(0.3) # scryfall recomendation
-		else:
-		    price="";
-		    print("error:"+str(r.status_code)+" "+str(line_num)+" "+line)
-		if reserv:
-		    continue
+                    price1 = price2 = 0
+                    price3 = 0
+                    if token.get('prices').get('usd'):
+                        price1 = int(50.0*float(token.get('prices').get('usd')))
+                    if token.get('prices').get('eur'):
+                        price2 = int(60.0*float(token.get('prices').get('eur')))
+                    if token.get('prices').get('usd_foil'):
+                        price3 = int(50.0*float(token.get('prices').get('usd_foil')))
+                        if (get_set_present(line)=="FMB1"):
+                            price3 = int(price3/4.0)
+                        if lang=='ru':
+                            price3 = int(3.0*price3)
+                        if promo:
+                            price3 = int(0.5*price3)
+                    if (price1>price2):
+                        price = price1
+                    else:
+                        price = price2
+                    if price1>1.0 and price2>1.0:
+                        price = int((price1+price2)/2.0);
+                    if foil or promo:
+                        price=price3
+                    if price>0 and price<4:
+                        price = 4;
+                    price *= get_price_modifier(mtgset)
+                    price = int(price)
+                    if price>0:
+                        quantity = get_number_of_cards(line)
+                        total_cards += quantity
+                        total_price += quantity*price
+                        if foil==0 and promo==0 and test==False:
+                            add_price_for_card(mtgset,number,date_today,price,quantity)
+                    if (price==0):
+                        price=""
+                    time.sleep(0.3) # scryfall recomendation
+                else:
+                    price="";
+                    print("error:"+str(r.status_code)+" "+str(line_num)+" "+line)
+                if reserv:
+                    continue
 		
-		card_name=get_card_name(line,mtgset,number)
-		if card_name:
-		    if quantity>1:
-			str0[0]=str(quantity)+'x '
-		    else:
-			str0[0]=''
-		    str0[0]=str0[0]+card_name+' - '
-		if get_set_present(line):
-		    fw.write(str0[0]+str(price)+' р '+str1[1].strip())
-		else:
-		    fw.write(str0[0]+str(price)+' р'+' ('+ mtgset.swapcase()+'/'+str(number)+')'+str1[1].strip())
-		if foil:
-		    fw.write(' FOIL')
-		if promo:
-		    fw.write(' promo')
+                card_name=get_card_name(line,mtgset,number)
+                if card_name:
+                    if quantity>1:
+                        str0[0]=str(quantity)+'x '
+                    else:
+                        str0[0]=''
+                    str0[0]=str0[0]+card_name+' - '
+                if get_set_present(line):
+                    fw.write(str0[0]+str(price)+' р '+str1[1].strip())
+                else:
+                    fw.write(str0[0]+str(price)+' р'+' ('+ mtgset.swapcase()+'/'+str(number)+')'+str1[1].strip())
+                if foil:
+                    fw.write(' FOIL')
+                if promo:
+                    fw.write(' promo')
 		#if test:
 		#    fw.write(' ')
 		#    fw.write(image_url)
-		fw.write('\n\n')
-	elif (len(line)>1):
-	    fw.write(line)
-	line_num+=1
+                fw.write('\n\n')
+        elif (len(line)>1):
+            fw.write(line)
+        line_num+=1
 
 if __name__ == '__main__':
     count_args = 0
     if len(sys.argv)<2:
-	print("usage: getprice.py file_tmpl.txt file_tmpl1.txt")
+        print("usage: getprice.py file_tmpl.txt file_tmpl1.txt")
     else:
-	print(sys.argv[1])
-	if (re.search("test",sys.argv[1])):
-	    test_set=sys.argv[2]
-	    test=True
-	    print("test_set="+test_set)
-	date_today = str(datetime.date.today())
-	conn = create_connection(r"mycards.db")
-	fw=open(result_fn,'w')
-	for filename in sys.argv:
-		if count_args and filename != result_fn:
-		    if (test and count_args > 2) or test==False:
-			print("Обработка файла: "+filename)
-			get_prices(filename)
-			print("Карт обработано:"+str(total_cards)+" Стоимость: " + str(total_price) + " р")
-			time.sleep(5.0)
-		count_args+=1
-	print("Всего карт: "+str(total_cards))
-	print("Стоимость: "+str(total_price)+" р")
-	if (test==False):
-	    add_total_data()
-	    print("add_total")
-	fw.close()
+        print(sys.argv[1])
+        if (re.search("test",sys.argv[1])):
+            test_set=sys.argv[2]
+            test=True
+            print("test_set="+test_set)
+        date_today = str(datetime.date.today())
+        conn = create_connection(r"mycards.db")
+        fw=open(result_fn,'w')
+        for filename in sys.argv:
+            if count_args and filename != result_fn:
+                if (test and count_args > 2) or test==False:
+                    print("Обработка файла: "+filename)
+                    get_prices(filename)
+                    print("Карт обработано:"+str(total_cards)+" Стоимость: " + str(total_price) + " р")
+                    time.sleep(5.0)
+            count_args+=1
+        print("Всего карт: "+str(total_cards))
+        print("Стоимость: "+str(total_price)+" р")
+        if (test==False):
+            add_total_data()
+            print("add_total")
+        fw.close()
