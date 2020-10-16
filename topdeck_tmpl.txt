@@ -48,8 +48,6 @@ Glass Casket (ELD) - {eld/15}
 4x Химера Мерцающих Крыльев (THB) - {thb/64}
 2x Сирена Погребальной Песни (THB) - {thb/75}
 3x Видение Свободы (THB) - {thb/50}
-2x Эмри, Таящаяся в Озере (ELD) - {eld/43}
-Emry, Lurker of the Loch (ELD) - {eld/43}
 Stolen by the Fae (ELD) - {eld/66}
 3x Похищенный Феями (ELD) - {eld/66}
 4x Сейра Эленора, Прозорливая (ELD) - {eld/67}
@@ -79,7 +77,6 @@ Gadwick, the Wizened (ELD) - {eld/48}
 3x [ru] {thb/52}
 [ru] {m21/74}
 2x [ru] {znr/67}
-3x [ru] {znr/68}
 [ru] {znr/49}
 [ru] {znr/54}
 2x [ru] {znr/72}
@@ -97,7 +94,6 @@ Wishclaw Talisman (ELD) - {eld/110}
 Неизбежный Конец (THB) - {thb/102}
 2x Поклявшийся Рыцарь (ELD) - {eld/98}
 2x Враг Просвещения (THB) - {thb/92}
-Месть Ведьмы (ELD) - {eld/111}
 [en] {eld/111}
 Ламия, Вскрывающая Могилы (THB) - {thb/98}
 Орден Полуночи (ELD) - {eld/99}
@@ -113,12 +109,10 @@ Wishclaw Talisman (ELD) - {eld/110}
 [ru] {znr/122}
 [ru] {znr/127}
 [ru] {znr/115}
-[ru] {znr/124}
 [ru] {znr/129}
 
 	
 Красный :r::r::r:
-Разрубающий Удар (ELD) - {eld/144}
 Огр-Череподав (ELD) - {eld/142}
 2x Яростное Вознесение (THB) - {thb/136}
 3x Огни Подземного Царства (THB) - {thb/162}
@@ -132,14 +126,12 @@ Wishclaw Talisman (ELD) - {eld/110}
 4x Шок - {m19/156}
 Пирфор, Бронзовокровный (THB) - {thb/150}
 [en] {thb/128}
-[ru] {iko/139}
 [ru] {thb/157}
 [ru] {thb/161}
 3x [ru] {m21/162}
 2x [ru] {m21/142}
 [ru] {m21/143}
 [ru] {thb/265}
-[ru] {m21/172}
 [ru] {znr/175}
 [ru] {znr/150}
 [ru] {znr/153}
@@ -150,13 +142,11 @@ Wishclaw Talisman (ELD) - {eld/110}
 Зеленый :g::g::g:
 2x Нессийский Странник (THB) - {thb/183}
 2x Сейра Фарен, Молот Кромлеха (ELD) - {eld/177}
-2x Злобный Волк (ELD) - {eld/181}
 3x Неистовый Бронтодон (RIX) - {rix/148}
 3x Подчинение Титанов (THB) - {thb/166}
 [en] {thb/168}
 2x Арахнир Паутины Цепей (THB) - {thb/167}
 Таинственный Отпор (THB) - {thb/180}
-Первые Иройские Игры (THB) - {thb/170}
 3x Былое и Грядущее (ELD) - {eld/168}
 Укрытие в Волчьих Ивах (THB) - {thb/205}
 2x Рост Гидры (THB) - {thb/172}
@@ -172,7 +162,6 @@ Wishclaw Talisman (ELD) - {eld/110}
 [en] {thb/190}
 [ru] {thb/190}
 [en] {thb/188}
-[ru] {thb/178}
 [ru] {thb/169}
 3x [ru] {m21/180}
 2x [ru] {m21/208}
@@ -205,13 +194,10 @@ Wishclaw Talisman (ELD) - {eld/110}
 Старейшина Дивной Чащи (ELD) - {eld/190}
 4x Сова Арканиста (ELD) - {eld/206}
 [ru] {iko/233}
-[ru] {iko/186}
 3x [ru] {eld/396}
-[ru] {thb/221}
 4x [ru] {eld/189}
 [ru] {iko/189}
 [ru] {eld/186}
-[ru] {iko/191}
 [ru] {iko/233} вилка
 [ru] {iko/215}
 [ru] {iko/204}
@@ -245,10 +231,7 @@ Field of Ruin (MB1) - {xln/254}
 3x [ru] {thb/248}
 [ru] {thb/244}
 [ru] {m21/242}
-2x [ru] {m21/256}
 [ru] {znr/262}
-[ru] {znr/263}
 [ru] {znr/259}
 [ru] {znr/258}
-[ru] {znr/261}
 

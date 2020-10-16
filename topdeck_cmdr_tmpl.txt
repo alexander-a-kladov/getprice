@@ -1,14 +1,12 @@
 	
 Командир и не только:
 Белые:
-Decree of Justice - {mb1/72} (MB1)
 Капитан Ханвирского Ополчения - {soi/21} (SOI)
 Serra Angel - {ima/30} (IMA)
 2x Knight of Dawn - {mb1/146} (MB1)
 Darien, King of Kjeldor - {a25/9} (A25)
 3x Gideon Jura - {mb1/118} (MB1)
 Копье Гелиода - {ths/33} (THS)
-Decree of Justice - {a25/11} (A25)
 Infantry Veteran - {mb1/138} (MB1)
 2x Beacon of Immortality - {mb1/35} (MB1)
 Дух Лабиринта - {bng/27} (BNG)
@@ -262,7 +260,6 @@ Jace's Triumph - {war/55}
 [ru] {xln/138}
 [ru] {soi/155}
 [ru] {hou/98}
-2x [en] {mb1/996}
 [ru] {soi/157}
 [ru] {soi/151}
 [en] {ima/125}
@@ -633,16 +630,13 @@ Jace's Triumph - {war/55}
 [en] {a25/241}
 [en] {a25/241}
 [ru] {war/248}
-[en] {mm2/242}
 6x [ru] {mh1/239}
 [en] {mm3/228}
 [en] {mb1/1654}
 [en] {mm3/245}
 [en] {2xm/320}
-[en] {2xm/317}
 [en] {2xm/322}
 [en] {2xm/320}
-[en] {2xm/325}
 [en] {2xm/310}
 [en] {2xm/316}
 [en] {2xm/314}

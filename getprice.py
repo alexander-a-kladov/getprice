@@ -205,7 +205,7 @@ def set_foil_promo(line):
 
 def get_price_modifier(mtg_set):
     price_modifier = 1.0;
-    price_dict={"2xm":1.35,"m21":1.1,"mh1":1.2,"znr":1.40};
+    price_dict={"2xm":1.4,"m21":1.1,"mh1":1.2,"znr":1.3,"tsb":2.0,"ktk":1.2};
     if mtg_set in price_dict:
         price_modifier = price_dict[mtg_set]
     #print("price_modifier"+str(price_modifier))
