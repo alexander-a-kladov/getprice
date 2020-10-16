@@ -16,6 +16,7 @@ total_cards = 0
 total_price = 0
 foil = 0
 promo = 0
+test_set = ""
 lang = ""
 test = False
 
@@ -104,9 +105,9 @@ def add_total_data():
 	insert_total_data(date_today,total_price,total_cards)
 
 def get_number_of_cards(line):
-    parser = re.search('[1-9]x',line);
+    parser = re.search('[0-9]x ',line);
     if (parser):
-	return int(line[0:(parser.end()-1)])
+	return int(line[0:(parser.end()-2)])
     else:
 	return 1
 
@@ -115,7 +116,7 @@ def get_set_present(line):
     if (len(str0)>1):
 	str1 = str0[1].split(')');
 	if (len(str1)>1):
-	    parser = re.search('[A-Z][A-Za-z0-9][A-Za-z0-9]',str1[0])
+	    parser = re.search('[A-Za-z0-9][A-Za-z0-9][A-Za-z0-9]',str1[0])
 	    if (parser):
 		return str1[0]
     return None
@@ -201,9 +202,11 @@ def set_foil_promo(line):
     return line
 
 def get_prices(filename):
-    global total_cards, total_price, foil, promo, lang, test
+    global total_cards, total_price, foil, promo, lang, test, test_set
     line_num = 1
     f=open(filename,'r')
+    print filename;
+    print test_set
     foil=promo=0
     for line in f:
 	reserv = False
@@ -215,6 +218,11 @@ def get_prices(filename):
 	if (len(str0)>1):
 	    str1=str0[1].split("}")
 	    if (len(str1)>1):
+		mtgset = str1[0].split("/")[0]
+		number = int(str1[0].split("/")[1])
+		if test and mtgset != test_set:
+		    if test_set != "all":
+			continue;
 		url="https://api.scryfall.com/cards/"
 		url=url+str1[0];
 		print(url)
@@ -223,8 +231,8 @@ def get_prices(filename):
 		    #print(r.text)
 		    #raise Exception("Ошибка запроса с сервера")
 		    token = json.loads(r.text)
-		    if test:
-			image_url=token.get('image_uris').get('normal')
+		    #if test:
+		#	image_url=token.get('image_uris').get('normal')
 		    price1 = price2 = 0
 		    price3 = 0
 		    if token.get('prices').get('usd'):
@@ -253,8 +261,6 @@ def get_prices(filename):
 			quantity = get_number_of_cards(line)
 			total_cards += quantity
 			total_price += quantity*price
-			mtgset = str1[0].split("/")[0]
-			number = int(str1[0].split("/")[1])
 			if foil==0 and promo==0 and test==False:
 			    add_price_for_card(mtgset,number,date_today,price,quantity)
 		    if (price==0):
@@ -281,9 +287,9 @@ def get_prices(filename):
 		    fw.write(' FOIL')
 		if promo:
 		    fw.write(' promo')
-		if test:
-		    fw.write(' ')
-		    fw.write(image_url)
+		#if test:
+		#    fw.write(' ')
+		#    fw.write(image_url)
 		fw.write('\n\n')
 	elif (len(line)>1):
 	    fw.write(line)
@@ -296,17 +302,19 @@ if __name__ == '__main__':
     else:
 	print(sys.argv[1])
 	if (re.search("test",sys.argv[1])):
+	    test_set=sys.argv[2]
 	    test=True
-	    print("test=",test)
+	    print("test_set="+test_set)
 	date_today = str(datetime.date.today())
 	conn = create_connection(r"mycards.db")
 	fw=open(result_fn,'w')
 	for filename in sys.argv:
 		if count_args and filename != result_fn:
-		    print("Обработка файла: "+filename)
-		    get_prices(filename)
-		    print("Карт обработано:"+str(total_cards)+" Стоимость: " + str(total_price) + " р")
-		    time.sleep(5.0)
+		    if (test and count_args > 2) or test==False:
+			print("Обработка файла: "+filename)
+			get_prices(filename)
+			print("Карт обработано:"+str(total_cards)+" Стоимость: " + str(total_price) + " р")
+			time.sleep(5.0)
 		count_args+=1
 	print("Всего карт: "+str(total_cards))
 	print("Стоимость: "+str(total_price)+" р")
