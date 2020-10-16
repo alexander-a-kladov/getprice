@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # coding: utf8
 
 # topdeck_tmpl.txt topdeck_pioner_tmpl.txt topdeck_modern.txt topdeck_cmdr_tmpl.txt topdeck_foil.txt
