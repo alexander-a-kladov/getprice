@@ -36,7 +36,7 @@ if __name__ == '__main__':
     rows = select_cards_total_for_date(date_calc)
     for row in rows:
 	if (row[3] and row[4]):
-	    total_cards += row[4]
-	    total_price += row[4]*row[3]
+	    total_cards += row[3]
+	    total_price += row[3]*row[4]
     print("Всего карт: "+str(total_cards))
     print("Стоимость: "+str(total_price))

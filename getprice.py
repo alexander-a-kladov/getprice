@@ -152,13 +152,8 @@ def update_card_name_for_lang(mtgset, number, lang, name):
     cur.execute(sql, (name,mtgset,number,date_today))
     conn.commit()
 
-def get_card_name(line, mtgset, number):
+def get_card_name(lang, mtgset, number):
     global scryfall_url
-    lang=None
-    if (len(line.split('[ru]'))>1):
-        lang='ru'
-    elif (len(line.split('[en]'))>1):
-        lang='en'
     if lang:
         name = select_card_name_for_lang(mtgset, number, lang)
         if name is None:
@@ -205,7 +200,7 @@ def set_foil_promo(line):
 
 def get_price_modifier(mtg_set):
     price_modifier = 1.0;
-    price_dict={"2xm":1.4,"m21":1.1,"mh1":1.2,"znr":1.3,"tsb":2.0,"ktk":1.2};
+    price_dict={"2xm":1.4,"m21":1.0,"mh1":1.2,"znr":1.1,"tsb":2.0,"ktk":1.2};
     if mtg_set in price_dict:
         price_modifier = price_dict[mtg_set]
     #print("price_modifier"+str(price_modifier))
@@ -231,7 +226,7 @@ def get_prices(filename):
                 mtgset = str1[0].split("/")[0]
                 number = int(str1[0].split("/")[1])
                 if test and mtgset != test_set:
-                    if test_set != "all":
+                    if test_set != "all" and test_set[0]!='>':
                         continue;
                 #if mtgset=="znr":
                 #    continue;
@@ -267,10 +262,15 @@ def get_prices(filename):
                         price = int((price1+price2)/2.0);
                     if foil or promo:
                         price=price3
+                        price=price+4 # add perfect's price
                     if price>0 and price<4:
                         price = 4;
                     price *= get_price_modifier(mtgset)
                     price = int(price)
+                    if test and test_set[0]=='>':
+                        if price < int(test_set.split('>')[1]):
+                            #print("price="+str(price)+" too small")
+                            continue
                     if price>0:
                         quantity = get_number_of_cards(line)
                         total_cards += quantity
@@ -285,8 +285,14 @@ def get_prices(filename):
                     print("error:"+str(r.status_code)+" "+str(line_num)+" "+line)
                 if reserv:
                     continue
-		
-                card_name=get_card_name(line,mtgset,number)
+                card_name_en=get_card_name('en',mtgset,number)
+                card_name_ru=get_card_name('ru',mtgset,number)
+                if (len(line.split('[ru]'))>1):
+                    card_name=card_name_ru
+                elif (len(line.split('[en]'))>1):
+                    card_name=card_name_en
+                else:
+                    card_name=None
                 if card_name:
                     if quantity>1:
                         str0[0]=str(quantity)+'x '
@@ -318,7 +324,10 @@ if __name__ == '__main__':
         if (re.search("test",sys.argv[1])):
             test_set=sys.argv[2]
             test=True
-            print("test_set="+test_set)
+            if test_set[0]!='>':
+                print("test_set="+test_set)
+            else:
+                print("test_price="+test_set.split('>')[1])
         date_today = str(datetime.date.today())
         conn = create_connection(r"mycards.db")
         fw=open(result_fn,'w')
