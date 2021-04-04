@@ -72,7 +72,6 @@ Chronic Flooding - {rtr/32} (RTR)
 4x Вспыхнувшая Жажда - {rix/79} (RIX)
 4x Презрение Враски - {xln/129} (XLN)
 Золотая Гибель - {rix/73} (RIX)
-4x Дозорная с Ночного Рынка - {kld/95} (KLD)
 3x Гонти, Владыка Роскоши - {kld/84} (KLD)
 Оружейник-Энтузиаст - {kld/105} (KLD)
 Никогда // Не Возвращаться - {akh/212} (AKH)
@@ -137,7 +136,6 @@ Reckless Rage - {rix/110} (RIX)
 4x [ru] {m20/132}
 4x [ru] {m20/137}
 3x [ru] {grn/109}
-[ru] {grn/99} вилка
 [ru] {m20/127} вилка
 [ru] {war/125} вилка
 [ru] {akh/141}
@@ -200,14 +198,12 @@ Kiora, Behemoth Beckoner - {war/232} (WAR)
 4x [ru] {grn/192}
 [en] {war/219} (jp)
 [en] {war/202} (jp)
-2x [ru] {war/218}
 [ru] {war/225}
 2x [ru] {war/207}
 2x [ru] {rna/226}
 2x [ru] {grn/227} (1 рус, 1 en)
 [ru] {war/196}
 4x [ru] {rna/201}
-[ru] {grn/205}
 2x [ru] {war/195}
 [ru] {grn/175}
 2x [ru] {rna/210}
@@ -249,7 +245,6 @@ Kiora, Behemoth Beckoner - {war/232} (WAR)
 Карн, Детище Урзы - {dom/1} (DOM)
 Пустотелый - {hou/163} (HOU)
 Вдохновляющее Изваяние - {aer/160} (AER)
-Статуя Бога-Фараона - {war/238} (WAR)
 Шедевр Кователя Камней - {ogw/166} (OGW)
 2x [ru] {rna/241}
 3x [ru] {grn/232}

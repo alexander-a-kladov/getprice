@@ -21,6 +21,7 @@ promo = 0
 test_set = ""
 lang = ""
 test = False
+html = False
 
 result_fn = 'topdeck.txt'
 scryfall_url = 'https://api.scryfall.com'
@@ -210,6 +211,12 @@ def get_prices(filename):
     global total_cards, total_price, foil, promo, lang, test, test_set
     line_num = 1
     f=open(filename,'r')
+    if html:
+        fhtml=open(filename.replace('.txt','.html'),'w');
+        fhtml.write('<html><body>')
+        form_f=open('find_form.html','r')
+        fhtml.write(form_f.read())
+        fhtml.write('<scrip src="find.js"></script>')
     print(filename)
     print(test_set)
     foil=promo=0
@@ -238,8 +245,12 @@ def get_prices(filename):
                     #print(r.text)
 		    #raise Exception("Ошибка запроса с сервера")
                     token = json.loads(r.text)
-		    #if test:
-		#	image_url=token.get('image_uris').get('normal')
+                    if html:
+                        imageuris=token.get('image_uris')
+                        if imageuris:
+                            image_url=imageuris.get('normal')
+                        else:
+                            image_url=token.get('card_faces')[0].get('image_uris').get('normal')
                     price1 = price2 = 0
                     price3 = 0
                     if token.get('prices').get('usd'):
@@ -275,7 +286,7 @@ def get_prices(filename):
                         quantity = get_number_of_cards(line)
                         total_cards += quantity
                         total_price += quantity*price
-                        if foil==0 and promo==0 and test==False:
+                        if test==False:
                             add_price_for_card(mtgset,number,date_today,price,quantity)
                     if (price==0):
                         price=""
@@ -285,12 +296,11 @@ def get_prices(filename):
                     print("error:"+str(r.status_code)+" "+str(line_num)+" "+line)
                 if reserv:
                     continue
-                card_name_en=get_card_name('en',mtgset,number)
-                card_name_ru=get_card_name('ru',mtgset,number)
+                get_card_name('en',mtgset,number)
                 if (len(line.split('[ru]'))>1):
-                    card_name=card_name_ru
+                    card_name=get_card_name('ru',mtgset,number)
                 elif (len(line.split('[en]'))>1):
-                    card_name=card_name_en
+                    card_name=get_card_name('en',mtgset,number)
                 else:
                     card_name=None
                 if card_name:
@@ -307,16 +317,34 @@ def get_prices(filename):
                     fw.write(' FOIL')
                 if promo:
                     fw.write(' promo')
-		#if test:
-		#    fw.write(' ')
-		#    fw.write(image_url)
+                if html and card_name:
+                    #fhtml.write('<div class="container">')
+                    fhtml.write(' <img src=')
+                    fhtml.write(image_url)
+                    fhtml.write(' alt=')
+                    fhtml.write('"'+card_name+'"')
+                    fhtml.write(' title="'+str(quantity)+"x "+card_name+" "+mtgset.swapcase()+" "+str1[1].strip())
+                    if foil:
+                        fhtml.write(' FOIL')
+                    if promo:
+                        fhtml.write(' promo')
+                    fhtml.write('"')
+                    fhtml.write(' height="42%"')
+                    fhtml.write('>')
+                    fhtml.write(str(quantity))
+                    #fhtml.write('<div class="centered">'+str(quantity)+'</div>')
+                    #fhtml.write('</div>')
+                    fhtml.write('\n')
                 fw.write('\n\n')
         elif (len(line)>1):
             fw.write(line)
         line_num+=1
+    if html:
+        fhtml.close()
 
 if __name__ == '__main__':
     count_args = 0
+    html = True
     if len(sys.argv)<2:
         print("usage: getprice.py file_tmpl.txt file_tmpl1.txt")
     else:
@@ -328,6 +356,7 @@ if __name__ == '__main__':
                 print("test_set="+test_set)
             else:
                 print("test_price="+test_set.split('>')[1])
+
         date_today = str(datetime.date.today())
         conn = create_connection(r"mycards.db")
         fw=open(result_fn,'w')

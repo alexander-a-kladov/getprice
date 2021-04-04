@@ -51,7 +51,6 @@ Archangel - {mb1/25}
 [en] {mm2/26}
 3x [ru] {mh1/16}
 3x [ru] {mh1/11}
-2x [en] {mm3/24}
 [en] {mb1/107}
 [en] {mb1/253}
 [en] {2xm/7}
@@ -72,6 +71,7 @@ Archangel - {mb1/25}
 [ru] {hou/22}
 [ru] {hou/3}
 [ru] {akh/1}
+[en] {cmr/12}
 
 		
 Синие:
@@ -141,7 +141,6 @@ Jace's Triumph - {war/55}
 [en] {mm2/60}
 [en] {mm2/49}
 4x [ru] {mh1/73}
-3x [ru] {mh1/50}
 3x [ru] {mh1/76}
 [ru] {soi/61}
 [ru] {soi/73}
@@ -167,6 +166,10 @@ Jace's Triumph - {war/55}
 [ru] {ori/61}
 [ru] {hou/49}
 [ru] {thb/81}
+[en] {jmp/176}
+[en] {jmp/187}
+[en] {cmr/66}
+[en] {cmr/59}
 
 	
 Черные:
@@ -231,7 +234,7 @@ Jace's Triumph - {war/55}
 2x [ru] {akh/99}
 2x [en] {mb1/703}
 3x [ru] {akh/101}
-5x [ru] {mh1/108}
+3x [ru] {mh1/108}
 [en] {c17/97}
 [en] {mb1/702}
 2x [en] {mb1/771}
@@ -256,9 +259,11 @@ Jace's Triumph - {war/55}
 [en] {mb1/735}
 [en] {2xm/108}
 [en] {cmr/152}
-[en] {cmr/145}
+2x [en] {cmr/145}
 [en] {cmr/143}
 2x [ru] {akh/107}
+[en] {cmr/138}
+[en] {cmr/149}
 
 	
 Красные:
@@ -321,7 +326,7 @@ Jace's Triumph - {war/55}
 [en] {mm2/129}
 [en] {mm2/134}
 [en] {mm2/111}
-5x [ru] {mh1/139}
+[ru] {mh1/139}
 [ru] {soi/184}
 [en] {mb1/839}
 [ru] {bng/115}
@@ -338,11 +343,16 @@ Jace's Triumph - {war/55}
 [en] {2xm/116}
 [en] {2xm/128}
 [en] {2xm/117}
-[en] {cmr/175}
-[ru] {xln/154}
+2x [en] {cmr/175}
 [ru] {hou/96}
 [ru] {hou/92}
 [ru] {akh/149}
+[en] {cmr/179}
+[en] {jmp/21}
+[en] {jmp/332}
+[en] {jmp/361}
+[en] {cmr/162}
+[en] {cmr/161}
 
 	
 Зеленые:
@@ -426,6 +436,8 @@ Jace's Triumph - {war/55}
 [en] {cmr/242}
 [ru] {akh/160}
 [ru] {ktk/133}
+[en] {cmr/272}
+[en] {cmr/220}
 
 	
 Многоцветные:
@@ -538,13 +550,11 @@ Jace's Triumph - {war/55}
 [en] {mm2/178}
 3x [ru] {mh1/198}
 2x [ru] {mh1/204}
-3x [ru] {mh1/214}
 5x [ru] {mh1/207}
 [en] {mm3/201}
 2x [ru] {akh/195}
 3x [ru] {akh/208}
 [en] {mb1/1519}
-[ru] {hou/150}
 [en] {rtr/172}
 [en] {rtr/145}
 [ru] {mh1/196}
@@ -588,6 +598,12 @@ Jace's Triumph - {war/55}
 [ru] {hou/138}
 [ru] {akh/224}
 [ru] {ktk/206}
+[en] {cmr/275}
+[en] {cmr/288}
+[en] {cmr/277}
+[en] {cmr/289}
+[en] {cmr/274}
+[en] {cmr/266}
 
 	
 Бесцветные:
@@ -673,7 +689,7 @@ Jace's Triumph - {war/55}
 [en] {cmr/313}
 2x [en] {cmr/1}
 [en] {cmr/302}
-[en] {cmr/300}
+2x [en] {cmr/300}
 [en] {akh/237}
 
 	
@@ -682,9 +698,7 @@ Jace's Triumph - {war/55}
 [ru] {rna/254}
 [ru] {frf/167}
 [en] {rtr/249}
-[en] {uma/245}
 -[en] {a25/246}
-[en] {uma/251}
 [en] {a25/241}
 [en] {a25/241}
 6x [ru] {mh1/239}

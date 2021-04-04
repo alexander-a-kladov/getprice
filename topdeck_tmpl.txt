@@ -31,14 +31,11 @@ Glass Casket (ELD) - {eld/15}
 2x [ru] {znr/30}
 [ru] {znr/41}
 [ru] {znr/41} вилка
-[ru] {znr/27}
-2x [ru] {znr/24}
 [ru] {znr/5}
 [ru] {znr/5} вилка
 [ru] {znr/23}
 [ru] {znr/23} вилка
 [ru] {znr/44}
-[ru] {m21/36}
 [ru] {iko/36}
 [ru] {iko/24} вилка
 [ru] {znr/16} вилка
@@ -86,9 +83,7 @@ Gadwick, the Wizened (ELD) - {eld/48}
 [ru] {znr/76}
 [ru] {m21/69}
 [ru] {eld/43}
-[ru] {m21/70}
 [ru] {thb/71} вилка
-[ru] {m21/73} вилка
 2x [ru] {m21/52} вилка
 [ru] {khm/63}
 [ru] {khm/69}
@@ -103,7 +98,6 @@ Wishclaw Talisman (ELD) - {eld/110}
 Тимарет, Избранный в Смерти (THB) Alt - {thb/263}
 2x Поклявшийся Рыцарь (ELD) - {eld/98}
 2x Враг Просвещения (THB) - {thb/92}
-[en] {eld/111}
 2x Ламия, Вскрывающая Могилы (THB) - {thb/98}
 [en] {thb/94}
 [ru] {thb/94}
@@ -113,7 +107,6 @@ Wishclaw Talisman (ELD) - {eld/110}
 [ru] {znr/188}
 [ru] {znr/95}
 [ru] {znr/115}
-[ru] {znr/129}
 2x [ru] {znr/118}
 [ru] {iko/84} вилка
 [ru] {m21/114} вилка
@@ -134,11 +127,9 @@ Wishclaw Talisman (ELD) - {eld/110}
 2x [ru] {znr/175}
 [ru] {znr/150}
 [ru] {znr/153}
-[ru] {znr/176}
 [ru] {znr/159}
 [ru] {thb/156}
 [ru] {eld/133}
-[ru] {m21/167}
 [ru] {m21/139} вилка
 [ru] {khm/146}
 [ru] {thb/124}
@@ -150,7 +141,7 @@ Wishclaw Talisman (ELD) - {eld/110}
 3x Подчинение Титанов (THB) - {thb/166}
 [en] {thb/168}
 3x Былое и Грядущее (ELD) - {eld/168}
-Укрытие в Волчьих Ивах (THB) - {thb/205}
+[ru] {thb/205}
 2x Рост Гидры (THB) - {thb/172}
 2x Араста Бесконечной Паутины (THB) - {thb/165}
 2x Сетесская Поборница (THB) - {thb/198}
@@ -163,7 +154,6 @@ Wishclaw Talisman (ELD) - {eld/110}
 2x [ru] {m21/208}
 2x [ru] {iko/168}
 [ru] {iko/148}
-2x [ru] {znr/186}
 3x [ru] {znr/198}
 [ru] {znr/215}
 [ru] {znr/183}
@@ -179,7 +169,6 @@ Wishclaw Talisman (ELD) - {eld/110}
 [ru] {khm/188}
 [ru] {khm/167}
 [ru] {khm/181}
-[ru] {khm/185}
 [ru] {thb/185}
 [ru] {thb/178}
 [ru] {thb/165}
@@ -212,7 +201,6 @@ Wishclaw Talisman (ELD) - {eld/110}
 [ru] {iko/210}
 [ru] {iko/186}
 [ru] {iko/182}
-[ru] {iko/211}
 [ru] {iko/203}
 2x [ru] {thb/224}
 [ru] {thb/214}
@@ -222,7 +210,6 @@ Wishclaw Talisman (ELD) - {eld/110}
 [ru] {khm/228}
 [ru] {khm/214}
 [ru] {khm/210}
-[ru] {thb/215}
 [ru] {thb/209}
 [ru] {thb/212}
 2x [ru] {iko/201}
@@ -266,6 +253,5 @@ Field of Ruin (MB1) - {xln/254}
 [ru] {thb/246}
 [ru] {thb/247}
 [ru] {thb/245}
-[ru] {thb/242}
 
 
