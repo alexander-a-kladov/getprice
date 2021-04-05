@@ -13,6 +13,7 @@ print(sys.stdin.encoding)
 conn = ""
 date_today = ""
 fw = ""
+fhtml = ""
 
 total_cards = 0
 total_price = 0
@@ -24,6 +25,7 @@ test = False
 html = False
 
 result_fn = 'topdeck.txt'
+result_html = 'topdeck.html'
 scryfall_url = 'https://api.scryfall.com'
 
 def create_connection(db_file):
@@ -208,15 +210,17 @@ def get_price_modifier(mtg_set):
     return price_modifier
 
 def get_prices(filename):
-    global total_cards, total_price, foil, promo, lang, test, test_set
+    global total_cards, total_price, foil, promo, lang, test, test_set, fhtml
     line_num = 1
     f=open(filename,'r')
     if html:
-        fhtml=open(filename.replace('.txt','.html'),'w');
-        fhtml.write('<html><body>')
-        form_f=open('find_form.html','r')
-        fhtml.write(form_f.read())
-        fhtml.write('<scrip src="find.js"></script>')
+        fhtml.write('<html>')
+        style_f=open('style.html','r')
+        fhtml.write(style_f.read())
+        fhtml.write('<body>')
+        contacts_f=open('contacts.html','r')
+        fhtml.write(contacts_f.read())
+        #fhtml.write('<scrip src="find.js"></script>')
     print(filename)
     print(test_set)
     foil=promo=0
@@ -318,29 +322,36 @@ def get_prices(filename):
                 if promo:
                     fw.write(' promo')
                 if html and card_name:
-                    #fhtml.write('<div class="container">')
+                    fhtml.write('<div id="container">')
+                    #fhtml.write('<p>'+str(price)+' р </p>')
                     fhtml.write(' <img src=')
                     fhtml.write(image_url)
                     fhtml.write(' alt=')
                     fhtml.write('"'+card_name+'"')
-                    fhtml.write(' title="'+str(quantity)+"x "+card_name+" "+mtgset.swapcase()+" "+str1[1].strip())
+                    fhtml.write(' height="430px"')
+                    fhtml.write('>')
+                    fhtml.write('<p>')
+                    if get_set_present(line):
+                        fhtml.write(str0[0]+'<wbr>'+str1[1].strip()+'<wbr>')
+                    else:
+                        fhtml.write(str0[0]+'<wbr>'+'('+ mtgset.swapcase()+'/'+str(number)+')'+'<wbr>'+str1[1].strip()+'<wbr>')
                     if foil:
                         fhtml.write(' FOIL')
                     if promo:
                         fhtml.write(' promo')
-                    fhtml.write('"')
-                    fhtml.write(' height="42%"')
-                    fhtml.write('>')
-                    fhtml.write(str(quantity))
-                    #fhtml.write('<div class="centered">'+str(quantity)+'</div>')
-                    #fhtml.write('</div>')
+                    fhtml.write('</p>')
+                    fhtml.write('</div>')
                     fhtml.write('\n')
+                
                 fw.write('\n\n')
         elif (len(line)>1):
             fw.write(line)
+            if html:
+                #fhtml.write('<div id="line">')
+                fhtml.write('<p id="line">'+line+'</p>')
+                #fhtml.write('</div>')
+                fhtml.write('\n')
         line_num+=1
-    if html:
-        fhtml.close()
 
 if __name__ == '__main__':
     count_args = 0
@@ -360,6 +371,10 @@ if __name__ == '__main__':
         date_today = str(datetime.date.today())
         conn = create_connection(r"mycards.db")
         fw=open(result_fn,'w')
+        fheader=open('header.txt','r')
+        fw.write(fheader.read())
+        if html:
+            fhtml=open(result_html,'w')
         for filename in sys.argv:
             if count_args and filename != result_fn:
                 if (test and count_args > 2) or test==False:
@@ -374,3 +389,5 @@ if __name__ == '__main__':
             add_total_data()
             print("add_total")
         fw.close()
+        if html:
+            fhtml.close()
