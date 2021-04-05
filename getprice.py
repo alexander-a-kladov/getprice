@@ -321,13 +321,13 @@ def get_prices(filename):
                     fw.write(' FOIL')
                 if promo:
                     fw.write(' promo')
-                if html and card_name:
+                if html:
                     fhtml.write('<div id="container">')
                     #fhtml.write('<p>'+str(price)+' р </p>')
                     fhtml.write(' <img src=')
                     fhtml.write(image_url)
                     fhtml.write(' alt=')
-                    fhtml.write('"'+card_name+'"')
+                    fhtml.write('"'+str0[0]+'"')
                     fhtml.write(' height="430px"')
                     fhtml.write('>')
                     fhtml.write('<p>')
@@ -339,7 +339,7 @@ def get_prices(filename):
                         fhtml.write(' FOIL')
                     if promo:
                         fhtml.write(' promo')
-                    fhtml.write('</p>')
+                    fhtml.write(' '+str(price)+' р </p>')
                     fhtml.write('</div>')
                     fhtml.write('\n')
                 
