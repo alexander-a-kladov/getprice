@@ -2,11 +2,8 @@
 Белый [:w::w::w:]
 5x Прекрасный Принц (ELD) - {eld/8}
 2x [ru] {eld/8}  
-3x Благочестивый Гоплит (THB) - {thb/33}
 Утихомиривательница (ELD) - {eld/18}
 4x Эйдолон Воспрещения (THB) - {thb/12} 
-2x Героиня Ветров (THB) - {thb/23}
-2x Тактика Фаланги (THB) - {thb/31}
 3x Venerable Knight (ELD) - {eld/35}
 Почтенный Рыцарь (ELD) - {eld/35}
 3x Достойный Рыцарь (ELD) - {eld/36}
@@ -19,7 +16,6 @@ Glass Casket (ELD) - {eld/15}
 2x [ru] {m21/23}
 [ru] {m21/23} вилка
 [ru] {m21/27}
-[ru] {m21/287}
 [en] {m21/21}
 2x [ru] {znr/30}
 [ru] {znr/41}
@@ -28,8 +24,6 @@ Glass Casket (ELD) - {eld/15}
 [ru] {znr/5} вилка
 [ru] {znr/23}
 [ru] {znr/23} вилка
-[ru] {znr/44}
-[ru] {iko/36}
 [ru] {iko/24} вилка
 [ru] {znr/16} вилка
 [ru] {khm/15}
@@ -125,14 +119,12 @@ Wishclaw Talisman (ELD) - {eld/110}
 [ru] {eld/133}
 [ru] {m21/139} вилка
 [ru] {khm/146}
-[ru] {thb/124}
 [ru] {thb/161}
 
 	
 Зеленый :g::g::g:
 3x Неистовый Бронтодон (RIX) - {rix/148}
 3x Подчинение Титанов (THB) - {thb/166}
-[en] {thb/168}
 3x Былое и Грядущее (ELD) - {eld/168}
 [ru] {thb/205}
 2x Рост Гидры (THB) - {thb/172}
@@ -148,19 +140,15 @@ Wishclaw Talisman (ELD) - {eld/110}
 2x [ru] {iko/168}
 [ru] {iko/148}
 3x [ru] {znr/198}
-[ru] {znr/215}
 [ru] {znr/183}
 2x [ru] {znr/207}
 [ru] {znr/193}
 [ru] {znr/209}
 [ru] {znr/178}
 [ru] {znr/203}
-[ru] {eld/171} вилка
 [ru] {m21/191} вилка
 [ru] {m21/204} вилка
 [ru] {khm/177}
-[ru] {khm/188}
-[ru] {khm/167}
 [ru] {khm/181}
 [ru] {thb/185}
 [ru] {thb/178}
@@ -172,10 +160,6 @@ Wishclaw Talisman (ELD) - {eld/110}
 Эвтропия, Дважды Избранная (THB) - {thb/216}
 2x Сиона, Капитан "Пилея" (THB) - {thb/226}
 4x Озорная Химера (THB) - {thb/223}
-Старейшина Дивной Чащи (ELD) - {eld/190}
-[ru] {iko/233}
-3x [ru] {eld/396}
-[ru] {eld/186}
 [ru] {iko/233} вилка
 [ru] {iko/215}
 [ru] {iko/204}
@@ -194,7 +178,6 @@ Wishclaw Talisman (ELD) - {eld/110}
 [ru] {iko/210}
 [ru] {iko/186}
 [ru] {iko/182}
-[ru] {iko/203}
 2x [ru] {thb/224}
 [ru] {thb/214}
 [ru] {khm/207}
@@ -207,19 +190,17 @@ Wishclaw Talisman (ELD) - {eld/110}
 [ru] {thb/212}
 2x [ru] {iko/201}
 [ru] {iko/207}
+[ru] {znr/239}
 
 	
 Бесцветные:
-3x Громыхающая Колесница (THB) - {thb/239}
 Лотос Никса (THB) - {thb/235}
-Зеркальный Щит (THB) - {thb/234}
 2x [ru] {thb/236}
 [ru] {iko/237}
 2x [ru] {m21/240}
 [ru] {znr/244}
 2x [ru] {znr/252}
 [ru] {thb/237}
-[ru] {znr/239}
 [ru] {khm/237}
 [ru] {khm/241}
 [ru] {m21/239}

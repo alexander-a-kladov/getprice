@@ -39,7 +39,6 @@
 [ru] {m21/23}
 [en] {mm2/12}
 [en] {mm2/34}
-[en] {2xm/33}
 [en] {2xm/17}
 [ru] {znr/292}
 [en] {roe/44} (FMB1) царапины
@@ -50,9 +49,7 @@
 [ru] {znr/15} царапина
 [ru] {znr/32}
 [en] {2xm/4}
-[en] {2xm/27}
 [ru] {khm/15}
-[ru] {khm/30}
 [ru] {thb/19} вилка
 [ru] {m21/29} вилка
 [ru] {znr/24} вилка
@@ -306,9 +303,7 @@
 [ru] {znr/135}
 [ru] {znr/134}
 [en] {2xm/139}
-[en] {thb/129}
 [en] {thb/127}
-[en] {thb/155}
 [en] {2xm/147}
 [en] {2xm/144}
 [ru] {thb/147}
@@ -318,7 +313,6 @@
 [ru] {thb/157} вилка
 [ru] {thb/146}
 [ru] {thb/264}
-[ru] {thb/138}
 [ru] {akh/130}
 [en] {cmr/166}
 [en] {cmr/169}
@@ -374,7 +368,6 @@
 [en] {ima/172}
 [en] {ima/178}
 [en] {ima/155}
-[en] {eld/173}
 [ru] {frf/147}
 [ru] {frf/121}
 [ru] {thb/172}
@@ -479,8 +472,6 @@
 [en] {9ed/312} (FMB1)
 [en] {som/174} (FMB1)
 [en] {zen/208} (FMB1)
-[en] {mm2/202}
-[en] {mm2/233}
 [en] {mm2/213}
 [en] {mm2/230}
 [en] {2xm/265}
@@ -496,9 +487,6 @@
 [en] {2xm/245}
 [en] {cmr/305}
 [en] {cmr/340}
-[en] {cmr/310}
-[en] {2xm/252}
-[en] {2xm/305}
 [en] {2xm/261}
 
 	
@@ -551,10 +539,8 @@
 [ru] {hou/192}
 [ru] {iko/265}
 	
-[en] {eld/258}
 [ru] {akh/252}
 [ru] {soi/291}
-[en] {thb/283}
 [ru] {khm/281}
 [ru] {iko/266}
 	
