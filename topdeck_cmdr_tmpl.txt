@@ -9,7 +9,6 @@ Darien, King of Kjeldor - {a25/9} (A25)
 Копье Гелиода - {ths/33} (THS)
 Infantry Veteran - {mb1/138} (MB1)
 2x Beacon of Immortality - {mb1/35} (MB1)
-Дух Лабиринта - {bng/27} (BNG)
 Предначертанное Возмездие - {bng/11} (BNG)
 Гелиод, Бог Солнца - {ths/17} (THS)
 Дар Бессмертия - {ths/14} (THS)
@@ -34,7 +33,7 @@ Archangel - {mb1/25}
 Осада Цитадели - {frf/8}
 [ru] {eld/17}
 Умащенная Процессия - {akh/2}
-2x Божественное Явление - {grn/10}
+Божественное Явление - {grn/10}
 [ru] - {m19/27}
 [ru] - {xln/27}
 [en] - {mb1/268}
@@ -76,7 +75,6 @@ Archangel - {mb1/25}
 [en] - {mb1/381}
 [ru] - {aer/43}
 [en] - {mb1/509}
-[ru] - {m19/72} 
 Подтвержденные Подозрения - {soi/53}
 Фрагменты Головоломки - {soi/78}
 Явление на Кладбище Кораблей - {soi/59}
@@ -92,7 +90,6 @@ Day of the Dragons - {ima/49}
 Sphinx of Uthuun - {ima/74}
 Disrupting Shoal - {uma/51}
 Поборник Разума - {hou/31}
-Blue Sun's Zenith - {a25/44}
 Conjured Currency - {rtr/33}
 Vesuvan Shapeshifter - {a25/77}
 Sphinx of the Chimes - {rtr/52}
@@ -137,8 +134,7 @@ Jace's Triumph - {war/55}
 [en] {mb1/335}
 [ru] {soi/96}
 [en] {2xm/58}
-2x [en] {2xm/44}
-[en] {2xm/47}
+[en] {2xm/44}
 [en] {2xm/55}
 3x [ru] {dom/57}
 [ru] {war/66}
@@ -154,27 +150,20 @@ Jace's Triumph - {war/55}
 
 	
 Черные:
-[en] - {rtr/67}
-[en] - {ima/108}
 [ru] - {ths/76}
 [en] - {ima/106}
 [en] - {ima/107}
-[en] - {mb1/767}
-[en] - {ima/78}
 [ru] - {soi/70}
 [ru] - {aer/66}
 [ru] - {xln/104}
-[en] - {mb1/689}
-[ru] - {war/91}
 [ru] - {soi/118}
-2x [ru] - {rix/82}
+[ru] - {rix/82}
 2x [ru] - {m19/91}
 3x [en] - {mb1/688}
 2x [ru] - {xln/116}
 [ru] - {xln/126}
 [ru] {xln/106}
 [ru] {akh/269}
-[ru] {akh/98}
 [ru] {xln/109}
 2x [ru] {xln/129}
 [ru] {frf/64}
@@ -194,13 +183,11 @@ Jace's Triumph - {war/55}
 [ru] {aer/83}
 2x [ru] {dom/96}
 [en] {mm2/82}
-[en] {mm2/91}
 5x [ru] {mh1/81}
-2x [ru] {akh/99}
+[ru] {akh/99}
 2x [en] {mb1/703}
 3x [ru] {akh/101}
 3x [ru] {mh1/108}
-[en] {c17/97}
 [en] {mb1/702}
 2x [en] {mb1/771}
 [en] {ima/88}
@@ -332,12 +319,10 @@ Jace's Triumph - {war/55}
 [en] {mb1/1125}
 [en] {mb1/1241}
 [ru] {frf/146}
-[ru] {frf/145}
 [ru] {m19/169}
 [ru] {frf/142}
 [ru] {frf/138}
 [ru] {frf/137}
-[en] {mb1/1373}
 [ru] {m19/176}
 [ru] {soi/230}
 [en] {mb1/1338}
@@ -350,7 +335,6 @@ Jace's Triumph - {war/55}
 [ru] {grn/128}
 2x [ru] {eld/163}
 [ru] {frf/123}
-[ru] {soi/228}
 [ru] {soi/225}
 3x [en] {ima/173}
 [en] {mb1/1272}
@@ -364,14 +348,12 @@ Jace's Triumph - {war/55}
 2x [en] {mm2/157}
 [en] {mm2/138}
 4x [ru] {mh1/175}
-3x [ru] {mh1/170}
-4x [ru] {mh1/190}
-[ru] {soi/219}
-3x [ru] {akh/175}
+[ru] {mh1/170}
+3x [ru] {mh1/190}
+2x [ru] {akh/175}
 [en] {mb1/1266}
 3x [en] {mb1/1363}
 [ru] {m20/167}
-[en] {2xm/152}
 [en] {2xm/175}
 [en] {2xm/178}
 [ru] {rix/150} вилка
@@ -390,7 +372,6 @@ Jace's Triumph - {war/55}
 [en] {2xm/182}
 [en] {2xm/175}
 [en] {2xm/155}
-2x [en] {cmr/228}
 [en] {cmr/238}
 [en] {cmr/242}
 [ru] {akh/160}
@@ -438,7 +419,6 @@ Jace's Triumph - {war/55}
 5x [ru] {war/201}
 2x [ru] {war/236} (ru, jp)
 [ru] {war/235}
-2x [ru] {war/192} (ru, jp)
 [ru] {war/203}
 [ru] {aer/128}
 [en] {rtr/162}
@@ -452,7 +432,7 @@ Jace's Triumph - {war/55}
 [ru] {m19/215}
 [ru] {hou/155}
 2x [en] {ima/208}
-4x [ru] {eld/188}
+[ru] {eld/188}
 [en] {uma/207}
 [en] {rtr/171}
 [en] {rtr/209}
@@ -468,15 +448,12 @@ Jace's Triumph - {war/55}
 3x [ru] {rna/156}
 2x [ru] {war/189}
 [ru] {xln/229}
-2x [ru] {rna/229}
+[ru] {rna/229}
 [en] {ima/201}
 [ru] {soi/241}
-2x [ru] {akh/222}
 [ru] {ktk/192}
 [ru] {jou/150}
-[en] {rna/161}
 3x [ru] {rna/212}
-4x [ru] {rna/223}
 [ru] {m20/214}
 [ru] {rna/185}
 3x [ru] {rna/157}
@@ -502,7 +479,6 @@ Jace's Triumph - {war/55}
 2x [ru] {rix/153}
 [ru] {grn/190}
 2x [ru] {rna/200}
-2x [en] {mb1/1653}
 [en] {mm2/176}
 [en] {mm2/182}
 [en] {mm2/178}
@@ -518,7 +494,6 @@ Jace's Triumph - {war/55}
 [ru] {mh1/196}
 [en] {2xm/195}
 [en] {2xm/218}
-2x [en] {2xm/202}
 [en] {2xm/223}
 [en] {2xm/193}
 [en] {2xm/209}
@@ -550,7 +525,6 @@ Jace's Triumph - {war/55}
 [en] {cmr/294}
 [en] {cmr/265}
 [ru] {hou/153}
-[ru] {hou/149}
 [ru] {hou/148}
 [ru] {hou/138}
 [ru] {akh/224}
@@ -569,7 +543,6 @@ Jace's Triumph - {war/55}
 [ru] {xln/235}
 [en] {mb1/1575}
 [en] {mb1/1566}
-[en] {mb1/1608}
 [en] {mb1/1577}
 [ru] {m19/241}
 [en] {mb1/1567}
@@ -588,7 +561,6 @@ Jace's Triumph - {war/55}
 [en] {mb1/1556}
 [en] {ima/230}
 [ru] {m19/232}
-[en] {mb1/1639}
 [ru] {akh/234}
 2x [ru] {dom/237}
 2x [en] {mb1/1638}
@@ -609,12 +581,12 @@ Jace's Triumph - {war/55}
 4x [ru] {mh1/232}
 5x [ru] {mh1/231}
 4x [ru] {mh1/233}
-5x [ru] {mh1/230}
+3x [ru] {mh1/230}
 [ru] {soi/257}
 2x [ru] {akh/236}
 2x [ru] {akh/233}
-2x [ru] {akh/225}
-2x [ru] {akh/229}
+[ru] {akh/225}
+      [ru] {akh/229}
 2x [ru] {mh1/218}
 [en] {2xm/307}
 [en] {mb1/1577}
@@ -624,7 +596,6 @@ Jace's Triumph - {war/55}
 [en] {2xm/267}
 [en] {2xm/281}
 [en] {2xm/231}
-[en] {2xm/272}
 [en] {2xm/236}
 [en] {2xm/279}
 [en] {2xm/295}
@@ -638,12 +609,10 @@ Jace's Triumph - {war/55}
 [en] {2xm/300}
 [en] {2xm/251}
 [en] {2xm/271}
-[en] {cmr/306}
 [en] {cmr/313}
 2x [en] {cmr/1}
 [en] {cmr/302}
 2x [en] {cmr/300}
-[en] {akh/237}
 
 	
 Земли:
@@ -661,9 +630,7 @@ Jace's Triumph - {war/55}
 2x [en] {2xm/320}
 3x [en] {2xm/310}
 [en] {2xm/316}
-[en] {2xm/314}
 2x [en] {2xm/325}
-[en] {2xm/326}
 [en] {2xm/312}
 [ru] {c19/282}
 2x [ru] {hou/184}

@@ -2,7 +2,6 @@
 Белый [:w::w::w:]
 5x Прекрасный Принц (ELD) - {eld/8}
 2x [ru] {eld/8}  
-Утихомиривательница (ELD) - {eld/18}
 4x Эйдолон Воспрещения (THB) - {thb/12} 
 3x Venerable Knight (ELD) - {eld/35}
 Почтенный Рыцарь (ELD) - {eld/35}
@@ -10,22 +9,14 @@
 Идиллический Наставник (THB) - {thb/24}
 Glass Casket (ELD) - {eld/15}
 2x Пастырь Стада (ELD) - {eld/28}
-Изгоняющий Свет (THB) - {thb/4}
 2x [ru] {iko/24}
 4x [ru] {m21/28}
 2x [ru] {m21/23}
-[ru] {m21/23} вилка
 [ru] {m21/27}
 [en] {m21/21}
 2x [ru] {znr/30}
 [ru] {znr/41}
-[ru] {znr/41} вилка
 [ru] {znr/5}
-[ru] {znr/5} вилка
-[ru] {znr/23}
-[ru] {znr/23} вилка
-[ru] {iko/24} вилка
-[ru] {znr/16} вилка
 [ru] {khm/15}
 [ru] {khm/21}
 [ru] {thb/24}
@@ -57,14 +48,10 @@ Gadwick, the Wizened (ELD) - {eld/48}
 [ru] {thb/55}
 [ru] {grn/54}
 4x [ru] {thb/52}
-[ru] {m21/74}
-[ru] {m21/74} вилка
 2x [ru] {znr/67}
 [ru] {znr/49}
 [ru] {znr/54}
 2x [ru] {znr/72}
-[ru] {znr/77}
-[ru] {znr/77} вилка
 [ru] {znr/53}
 [ru] {znr/53} вилка
 [ru] {znr/76}
@@ -86,20 +73,16 @@ Wishclaw Talisman (ELD) - {eld/110}
 2x Поклявшийся Рыцарь (ELD) - {eld/98}
 2x Враг Просвещения (THB) - {thb/92}
 2x Ламия, Вскрывающая Могилы (THB) - {thb/98}
-[en] {thb/94}
 [ru] {thb/94}
 [en] {thb/104}
-[ru] {m21/103}
 [ru] {m21/104}
 [ru] {znr/188}
 [ru] {znr/95}
-[ru] {znr/115}
 2x [ru] {znr/118}
 [ru] {iko/84} вилка
 [ru] {m21/114} вилка
 [ru] {thb/117}
 [ru] {thb/91}
-[ru] {m21/95}
 
 	
 Красный :r::r::r:
@@ -113,9 +96,7 @@ Wishclaw Talisman (ELD) - {eld/110}
 [ru] {thb/265}
 2x [ru] {znr/175}
 [ru] {znr/150}
-[ru] {znr/153}
 [ru] {znr/159}
-[ru] {thb/156}
 [ru] {eld/133}
 [ru] {m21/139} вилка
 [ru] {khm/146}
@@ -132,22 +113,16 @@ Wishclaw Talisman (ELD) - {eld/110}
 2x Сетесская Поборница (THB) - {thb/198}
 2x Рената, Призванная на Охоту (THB) - {thb/196}
 3x Преображение Кенрита (ELD) - {eld/164} 
-[ru] {thb/190}
 [en] {thb/188}
-[ru] {thb/169}
 3x [ru] {m21/180}
 2x [ru] {m21/208}
 2x [ru] {iko/168}
 [ru] {iko/148}
 3x [ru] {znr/198}
-[ru] {znr/183}
-2x [ru] {znr/207}
 [ru] {znr/193}
 [ru] {znr/209}
 [ru] {znr/178}
 [ru] {znr/203}
-[ru] {m21/191} вилка
-[ru] {m21/204} вилка
 [ru] {khm/177}
 [ru] {khm/181}
 [ru] {thb/185}
@@ -168,23 +143,15 @@ Wishclaw Talisman (ELD) - {eld/110}
 [ru] {znr/220}
 [ru] {znr/220} вилка
 [ru] {znr/226}
-2x [ru] {znr/240}
 [ru] {znr/239}
-[ru] {znr/242}
-[ru] {znr/242} вилка
 [ru] {znr/241}
-[ru] {iko/225} вилка
 [ru] {iko/193}
 [ru] {iko/210}
 [ru] {iko/186}
 [ru] {iko/182}
-2x [ru] {thb/224}
-[ru] {thb/214}
 [ru] {khm/207}
 [ru] {khm/213}
 [ru] {khm/219}
-[ru] {khm/228}
-[ru] {khm/214}
 [ru] {khm/210}
 [ru] {thb/209}
 [ru] {thb/212}
@@ -196,18 +163,15 @@ Wishclaw Talisman (ELD) - {eld/110}
 Бесцветные:
 Лотос Никса (THB) - {thb/235}
 2x [ru] {thb/236}
-[ru] {iko/237}
 2x [ru] {m21/240}
 [ru] {znr/244}
 2x [ru] {znr/252}
 [ru] {thb/237}
 [ru] {khm/237}
 [ru] {khm/241}
-[ru] {m21/239}
 
 	
 Земли:
-2x Замок Гаренбриг (ELD) - {eld/240}
 [ru] {eld/241}
 Field of Ruin (MB1) - {xln/254}
 [ru] {iko/245}
@@ -215,9 +179,6 @@ Field of Ruin (MB1) - {xln/254}
 [ru] {thb/244}
 [ru] {m21/242}
 [ru] {m21/242} вилка
-2x [ru] {znr/262}
-[ru] {znr/259}
-[ru] {m21/252}
 [ru] {m21/255} вилка
 [ru] {m21/253} вилка
 [ru] {m21/256} вилка
@@ -225,7 +186,5 @@ Field of Ruin (MB1) - {xln/254}
 2x [ru] {khm/272}
 [ru] {khm/275}
 [ru] {thb/246}
-[ru] {thb/247}
-[ru] {thb/245}
 
 
