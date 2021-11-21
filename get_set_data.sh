@@ -19,7 +19,7 @@ if [ $? -eq 0 ];then
 echo $line
 getPrice $line
 number=`echo $line | cut -d" " -f 1`
-echo $number | grep x > /dev/null
+echo $number | grep -e "[1-9]x" > /dev/null
 if [ $? -eq 0 ]; then
 number=`echo $number | sed -e 's/x//'`
 else
