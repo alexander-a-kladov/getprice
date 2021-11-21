@@ -41,8 +41,8 @@ def read_mtg_file(filename):
     fw=open('buylist.txt','w')
     for line in f:
 	if len(line)>3:
-	    quantity=line.split(' ',1)[0]
-	    name=line.split(' ',1)[1][0:-2]
+	    quantity=line.strip().split(' ',1)[0]
+	    name=line.strip().split(' ',1)[1]
 	    rows=select_card_by_name(name,1)
             quantity_my=rows[0][0]
 	    if quantity_my>int(quantity):

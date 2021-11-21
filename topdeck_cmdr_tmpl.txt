@@ -6,16 +6,13 @@ Serra Angel - {ima/30} (IMA)
 Knight of Dawn - {mb1/146} (MB1)
 Darien, King of Kjeldor - {a25/9} (A25)
 3x Gideon Jura - {mb1/118} (MB1)
-Копье Гелиода - {ths/33} (THS)
 Infantry Veteran - {mb1/138} (MB1)
 2x Beacon of Immortality - {mb1/35} (MB1)
 Предначертанное Возмездие - {bng/11} (BNG)
 Гелиод, Бог Солнца - {ths/17} (THS)
 Дар Бессмертия - {ths/14} (THS)
 Knight of Cliffhaven - {mb1/145} (MB1)
-Austere Command - {ima/10} (IMA)
 2x Сторукий - {ths/20) (THS)
-Wall of Reverence - {uma/41} (UMA)
 Небесный Архонт - {ths/3} (THS)
 Emeria Angel - {ima/20} (IMA)
 Path of Bravery - {ima/26} (IMA)
@@ -29,13 +26,10 @@ Archangel - {mb1/25}
 2x Странствующая Поборница - {frf/29}
 Капканозубый Тиран - {rix/29}
 Аватара Пробуждающего Солнца - {xln/44}
-Генерал Чешуи Дракона - {frf/11}
 Осада Цитадели - {frf/8}
-[ru] {eld/17}
 Умащенная Процессия - {akh/2}
 Божественное Явление - {grn/10}
 [ru] - {m19/27}
-[ru] - {xln/27}
 [en] - {mb1/268}
 [ru] - {m14/41}
 [ru] - {m13/28}
@@ -43,11 +37,7 @@ Archangel - {mb1/25}
 [en] {mm2/19}
 [en] {mm2/10}
 [en] {mm2/26}
-3x [ru] {mh1/16}
-[ru] {mh1/11}
-[en] {mb1/107}
-[en] {mb1/253}
-[en] {2xm/7}
+2x [ru] {mh1/16}
 2x [en] {2xm/19}
 [en] {2xm/9}
 [ru] {rna/15}
@@ -59,12 +49,39 @@ Archangel - {mb1/25}
 2x [ru] {war/12}
 [en] {mb1/225}
 [ru] {grn/30}
-[ru] {rna/29} вилка
-[ru] {hou/15} вилка
 [ru] {hou/22}
 [ru] {hou/3}
-[ru] {akh/1}
-[en] {cmr/12}
+[ru] {bfz/22}
+[ru] {akh/210}
+[ru] {hou/18}
+[ru] {rix/22}
+[ru] {rix/284}
+3x [ru] {m19/4}
+[ru] {cmr/374}
+[ru] {cmr/363}
+[ru] {cmr/375}
+[ru] {cmr/379}
+[ru] {cmr/378}
+[ru] {cmr/382}
+[ru] {cmr/392}
+[ru] {cmr/415}
+[ru] {cmr/386}
+[en] {cmr/11} русская
+[en] {cmr/47} русская
+[en] {cmr/3} русская
+[ru] {tsr/15}
+[ru] {tsr/27}
+[ru] {tsr/34}
+[ru] {tsr/32}
+[ru] {tsr/41}
+[ru] {soi/32}
+4x Эйдолон Воспрещения (THB) - {thb/12}
+2x [ru] {m21/23}
+[ru] {thb/24}
+[ru] {thb/39}
+[ru] {thb/5}
+5x Прекрасный Принц (ELD) - {eld/8}
+2x [ru] {eld/8}
 
 		
 Синие:
@@ -100,7 +117,6 @@ Floodgate - {mb1/381}
 Phantasmal Dragon - {mb1/454}
 Opt - {mb1/451}
 Обратное Проектирование - {aer/42}
-Стянуть Заклинание - {xln/82}
 Метаморфическое Преобразование - {m19/60}
 Djinn of Wishes - {mb1/354}
 Мстители Мудрого Ока - {frf/50}
@@ -126,27 +142,44 @@ Djinn of Wishes - {mb1/354}
 Находчивая Карманница - {rix/33}
 Jace's Triumph - {war/55}
 [ru] {grn/38}
-[ru] {mb1/477}
+[en] {mb1/477}
 [en] {mm2/49}
 3x [ru] {mh1/76}
-[ru] {soi/61}
 [ru] {soi/73}
-[en] {mb1/335}
 [ru] {soi/96}
 [en] {2xm/58}
 [en] {2xm/44}
 [en] {2xm/55}
-3x [ru] {dom/57}
 [ru] {war/66}
 [ru] {rna/45}
 [ru] {grn/49}
-[en] {2xm/47}
 [en] {2xm/55}
-[en] {2xm/62}
 [en] {2xm/72}
 [en] {cmr/55}
 [ru] {thb/81}
-[en] {jmp/187}
+[ru] {bfz/78}
+[ru] {bfz/81}
+[ru] {bfz/87}
+[ru] {xln/71}
+[ru] {grn/51}
+[ru] {rix/51}
+[ru] {m19/52}
+[ru] {xln/57}
+[ru] {xln/54}
+[ru] {dom/59}
+[ru] {tsr/51}
+[ru] {tsr/97}
+2x [ru] {tsr/75}
+Stolen by the Fae (ELD) - {eld/66}
+4x Похищенный Феями (ELD) - {eld/66}
+3x Гэдвик, Умудренный (ELD) - {eld/48}
+Gadwick, the Wizened (ELD) - {eld/48}
+2x Волшебное Зеркало (ELD) - {eld/51}
+Волноломный Гиппокамп (THB) - {thb/80}
+2x [ru] {m21/52} вилка
+[ru] {m21/69}
+3x [ru] {eld/71}
+[ru] {thb/55}
 
 	
 Черные:
@@ -154,17 +187,15 @@ Jace's Triumph - {war/55}
 [en] - {ima/106}
 [en] - {ima/107}
 [ru] - {soi/70}
-[ru] - {aer/66}
 [ru] - {xln/104}
 [ru] - {soi/118}
 [ru] - {rix/82}
 2x [ru] - {m19/91}
-3x [en] - {mb1/688}
+[en] - {mb1/688}
 2x [ru] - {xln/116}
 [ru] - {xln/126}
 [ru] {xln/106}
 [ru] {akh/269}
-[ru] {xln/109}
 2x [ru] {xln/129}
 [ru] {frf/64}
 2x [ru] {m20/97}
@@ -178,25 +209,22 @@ Jace's Triumph - {war/55}
 [ru] {rna/65}
 [ru] {rix/85}
 [en] {mb1/616}
-[ru] {aer/75}
 [en] {mb1/731}
 [ru] {aer/83}
 2x [ru] {dom/96}
 [en] {mm2/82}
-5x [ru] {mh1/81}
+4x [ru] {mh1/81}
 [ru] {akh/99}
 2x [en] {mb1/703}
 3x [ru] {akh/101}
-3x [ru] {mh1/108}
 [en] {mb1/702}
-2x [en] {mb1/771}
+[en] {mb1/771}
 [en] {ima/88}
 [en] {c17/97}
 [ru] {xln/117}
 [en] {2xm/77}
 [en] {2xm/113}
 [en] {2xm/106}
-2x [en] {2xm/100}
 2x [ru] {grn/69}
 [ru] {rna/61}
 4x [ru] {grn/71}
@@ -204,7 +232,6 @@ Jace's Triumph - {war/55}
 [ru] {m20/98}
 [ru] {m20/90}
 2x [ru] {war/92}
-[en] {war/86} (jp)
 [en] {mb1/798}
 [en] {mb1/760}
 [en] {mb1/735}
@@ -212,7 +239,24 @@ Jace's Triumph - {war/55}
 [en] {cmr/152}
 2x [en] {cmr/145}
 2x [ru] {akh/107}
-[en] {cmr/138}
+[ru] {soi/109}
+[ru] {akh/98}
+[ru] {bfz/123}
+[ru] {bfz/99}
+2x [ru] {bfz/107}
+[ru] {bfz/123}
+[ru] {m19/107}
+[en] {m19/107}
+[ru] {dom/86}
+3x [ru] {dom/98}
+4x [ru] {dom/88}
+[ru] {dom/100}
+4x [ru] {dom/104}
+[ru] {tsr/138}
+2x Ламия, Вскрывающая Могилы (THB) - {thb/98}
+[ru] {m21/104}
+[ru] {iko/84} вилка
+[ru] {eld/101}
 
 	
 Красные:
@@ -234,15 +278,11 @@ Jace's Triumph - {war/55}
 [ru] {xln/138}
 [ru] {soi/155}
 [ru] {hou/98}
-[ru] {soi/157}
 [ru] {soi/151}
-[en] {ima/125}
 [ru] {aer/83}
 [ru] {rix/115}
 2x [ru] {rix/107}
-[en] {mb1/987}
 3x [en] {mb1/1071}
-[ru] {soi/145}
 [ru] {soi/159}
 [ru] {soi/163}
 [ru] {aer/90}
@@ -263,16 +303,13 @@ Jace's Triumph - {war/55}
 [ru] {m19/300}
 [ru] {xln/153}
 [ru] {dom/131}
-[ru] {akh/137}
-[en] {mb1/874}
+2x [ru] {akh/137}
 [ru] {soi/166}
 [ru] {ths/115}
 [ru] {war/119}
 [ru] {m19/129}
 [ru] {aer/81}
 [en] {mm2/119}
-[en] {mm2/129}
-[en] {mm2/134}
 [en] {mm2/111}
 [ru] {mh1/139}
 [ru] {soi/184}
@@ -281,7 +318,6 @@ Jace's Triumph - {war/55}
 [en] {2xm/122}
 [en] {2xm/132}
 [en] {2xm/139}
-[en] {grn/99}
 4x [ru] {rna/99}
 2x [ru] {war/138}
 [en] {grn/98}
@@ -293,12 +329,44 @@ Jace's Triumph - {war/55}
 [en] {2xm/117}
 2x [en] {cmr/175}
 [ru] {hou/96}
-[ru] {hou/92}
-[ru] {akh/149}
+2x [ru] {akh/149}
 [en] {jmp/21}
 [en] {jmp/332}
 [en] {jmp/361}
 [en] {cmr/162}
+[ru] {bfz/162}
+[ru] {bfz/127}
+[ru] {hou/90}
+[ru] {akh/213}
+2x [ru] {xln/173}
+2x [ru] {xln/161}
+[ru] {rna/108}
+3x [ru] {dom/143}
+2x [ru] {m19/135}
+[ru] {rix/103}
+[ru] {cmr/419}
+[ru] {cmr/420}
+[ru] {cmr/412}
+[ru] {m21/133}
+[ru] {cmr/416}
+[ru] {cmr/411}
+[ru] {cmr/364}
+[ru] {tsr/167}
+[ru] {tsr/179}
+[ru] {tsr/156}
+[ru] {rix/99}
+[en] {2xm/128}
+[en] {2xm/117}
+[en] {cmr/188}
+[en] {cmr/410}
+2x [ru] {m19/154}
+[ru] {ths/143}
+4x Шок - {m19/156}
+2x [ru] {thb/157}
+[ru] {m21/143} вилка
+[ru] {eld/133}
+[en] {mb1/1105}
+[ru] {mh1/128}
 
 	
 Зеленые:
@@ -308,7 +376,6 @@ Jace's Triumph - {war/55}
 [en] {ima/163}
 [ru] {hou/132}
 [en] {mb1/1118}
-[en] {a25/168}
 [en] {rtr/139}
 -[en] {mb1/1299}
 [ru] {ths/150}
@@ -321,43 +388,30 @@ Jace's Triumph - {war/55}
 [ru] {frf/146}
 [ru] {m19/169}
 [ru] {frf/142}
-[ru] {frf/138}
 [ru] {frf/137}
 [ru] {m19/176}
 [ru] {soi/230}
 [en] {mb1/1338}
 [ru] {frf/131}
 [ru] {frf/147}
-2x [ru] {frf/141}
 [ru] {frf/148}
 [ru] {m19/197}
 [ru] {akh/183}
 [ru] {grn/128}
-2x [ru] {eld/163}
 [ru] {frf/123}
 [ru] {soi/225}
-3x [en] {ima/173}
+2x [en] {ima/173}
 [en] {mb1/1272}
 [en] {mb1/1133}
-[ru] {eld/149}
-[ru] {akh/170}
-[en] {eld/172}
-[ru] {aer/123}
-[ru] {m19/192}
+[en] {eld/149} русская
 [en] {mb1/1159}
-2x [en] {mm2/157}
 [en] {mm2/138}
 4x [ru] {mh1/175}
-[ru] {mh1/170}
-3x [ru] {mh1/190}
 2x [ru] {akh/175}
-[en] {mb1/1266}
 3x [en] {mb1/1363}
 [ru] {m20/167}
 [en] {2xm/175}
-[en] {2xm/178}
 [ru] {rix/150} вилка
-3x [ru] {war/181}
 3x [ru] {grn/123}
 [en] {rna/130}
 2x [ru] {war/172}
@@ -369,15 +423,36 @@ Jace's Triumph - {war/55}
 [ru] {rna/122}
 [en] {mb1/1339}
 [ru] {m19/200}
-[en] {2xm/182}
 [en] {2xm/175}
 [en] {2xm/155}
 [en] {cmr/238}
 [en] {cmr/242}
-[ru] {akh/160}
+2x [ru] {akh/160}
 [ru] {ktk/133}
 [en] {cmr/272}
 [en] {cmr/220}
+[ru] {bfz/198}
+[ru] {bfz/180}
+[ru] {bfz/170}
+[ru] {ktk/154}
+2x [ru] {xln/203}
+[ru] {m19/192}
+[ru] {m19/302}
+[ru] {dom/184}
+[ru] {m19/186}
+[ru] {tsr/234}
+[ru] {tsr/220}
+[ru] {tsr/203}
+[ru] {tsr/215}
+3x Неистовый Бронтодон (RIX) - {rix/148}
+Араста Бесконечной Паутины (THB) - {thb/165}
+[en] {thb/188}
+3x [ru] {m21/180}
+2x [ru] {m21/208}
+2x [ru] {iko/168}
+[ru] {iko/148}
+[ru] {thb/178}
+[ru] {thb/165}
 
 	
 Многоцветные:
@@ -419,27 +494,20 @@ Jace's Triumph - {war/55}
 5x [ru] {war/201}
 2x [ru] {war/236} (ru, jp)
 [ru] {war/235}
-[ru] {war/203}
 [ru] {aer/128}
 [en] {rtr/162}
-[ru] {rna/207}
-[ru] {m20/207}
-[ru] {rna/158}
+2x [ru] {rna/207}
 6x [ru] {grn/161}
-7x [ru] {grn/180}
+6x [ru] {grn/180}
 [ru] {ths/201}
-[ru] {ths/193}
 [ru] {m19/215}
 [ru] {hou/155}
 2x [en] {ima/208}
-[ru] {eld/188}
 [en] {uma/207}
 [en] {rtr/171}
 [en] {rtr/209}
 [en] {rtr/212}
-[en] {a25/204}
 [en] {a25/200}
-[en] {rtr/166}
 [en] {cns/185}
 [en] {a25/202}
 2x [ru] {war/233}
@@ -455,16 +523,12 @@ Jace's Triumph - {war/55}
 [ru] {jou/150}
 3x [ru] {rna/212}
 [ru] {m20/214}
-[ru] {rna/185}
 3x [ru] {rna/157}
-3x [ru] {rna/192}
-4x [ru] {grn/159}
+2x [ru] {rna/192}
+3x [ru] {grn/159}
 [ru] {rna/167}
-2x [ru] {grn/208}
 [ru] {m20/215}
-[ru] {rna/193}
 2x [ru] {m20/213}
-[ru] {rtr/214}
 [ru] {rtr/184}
 3x [ru] {grn/226}
 2x [ru] {xln/217}
@@ -475,24 +539,21 @@ Jace's Triumph - {war/55}
 2x [ru] {war/165}
 3x [ru] {rna/211}
 [ru] {m20/219}
-4x [ru] {xln/231}
+3x [ru] {xln/231}
 2x [ru] {rix/153}
 [ru] {grn/190}
 2x [ru] {rna/200}
 [en] {mm2/176}
-[en] {mm2/182}
 [en] {mm2/178}
 3x [ru] {mh1/198}
 2x [ru] {mh1/204}
-5x [ru] {mh1/207}
+4x [ru] {mh1/207}
 [en] {mm3/201}
 2x [ru] {akh/195}
 3x [ru] {akh/208}
 [en] {mb1/1519}
-[en] {rtr/172}
 [en] {rtr/145}
 [ru] {mh1/196}
-[en] {2xm/195}
 [en] {2xm/218}
 [en] {2xm/223}
 [en] {2xm/193}
@@ -519,30 +580,46 @@ Jace's Triumph - {war/55}
 [en] {2xm/213}
 [en] {2xm/226}
 [en] {2xm/203}
-[en] {cmr/293}
-[en] {cmr/286}
-[en] {cmr/267}
-[en] {cmr/294}
 [en] {cmr/265}
 [ru] {hou/153}
 [ru] {hou/148}
 [ru] {hou/138}
 [ru] {akh/224}
 [ru] {ktk/206}
-[en] {cmr/275}
-[en] {cmr/288}
-[en] {cmr/277}
-[en] {cmr/289}
-[en] {cmr/274}
-[en] {cmr/266}
+[ru] {akh/223}
+[ru] {bfz/202}
+[ru] {bfz/217}
+[ru] {bfz/206}
+[ru] {bfz/199}
+[ru] {bfz/203}
+[ru] {hou/157}
+[ru] {hou/139}
+[ru] {ktk/203}
+[ru] {ktk/180}
+[ru] {m19/212}
+[ru] {rna/166}
+[ru] {m19/225}
+[ru] {dom/198}
+[ru] {grn/188}
+[ru] {m19/219}
+[ru] {cmr/447}
+[en] {cmr/449} русская
+2x [ru] {tsr/255}
+[ru] {tsr/251}
+[ru] {tsr/256}
+2x [ru] {war/228}
+[ru] {iko/233} вилка
+[ru] {iko/186}
+[ru] {thb/212}
+2x [ru] {iko/201}
+[ru] {iko/207}
+[ru] {akh/196}
 
 	
 Бесцветные:
 [ru] {xln/234}
 [ru] {xln/243}
-[ru] {xln/235}
 [en] {mb1/1575}
-[en] {mb1/1566}
 [en] {mb1/1577}
 [ru] {m19/241}
 [en] {mb1/1567}
@@ -550,9 +627,7 @@ Jace's Triumph - {war/55}
 [en] {mb1/1570}
 [en] {mb1/6}
 [ru] {ths/210}
-[en] {mb1/1593}
 [en] {mb1/1571}
-[ru] {rix/176}
 2x [en] {mb1/1573}
 [en] {a25/233}
 [ru] {ths/214}
@@ -560,42 +635,36 @@ Jace's Triumph - {war/55}
 [ru] {soi/252}
 [en] {mb1/1556}
 [en] {ima/230}
-[ru] {m19/232}
 [ru] {akh/234}
-2x [ru] {dom/237}
 2x [en] {mb1/1638}
-3x [en] {mb1/1561}
+2x [en] {mb1/1561}
 [ru] {rna/242}
 [en] {mb1/1553}
 [ru] {xln/237}
 [ru] {rix/177}
 [ru] {eld/218}
-[ru] {akh/235}
+2x [ru] {akh/235}
 [ru] {m19/235}
 [ru] {m19/232}
 [ru] {xln/241}
 [en] {mm2/231}
-3x [en] {mm2/234}
+2x [en] {mm2/234}
 [en] {mm2/206}
 [en] {mm2/209}
-4x [ru] {mh1/232}
+3x [ru] {mh1/232}
 5x [ru] {mh1/231}
-4x [ru] {mh1/233}
-3x [ru] {mh1/230}
+[ru] {mh1/233}
+2x [ru] {mh1/230}
 [ru] {soi/257}
-2x [ru] {akh/236}
+[ru] {akh/236}
 2x [ru] {akh/233}
-[ru] {akh/225}
-      [ru] {akh/229}
+[ru] {akh/229}
 2x [ru] {mh1/218}
 [en] {2xm/307}
 [en] {mb1/1577}
 [en] {mb1/1602}
-[en] {2xm/233}
 [en] {2xm/266}
-[en] {2xm/267}
 [en] {2xm/281}
-[en] {2xm/231}
 [en] {2xm/236}
 [en] {2xm/279}
 [en] {2xm/295}
@@ -605,7 +674,6 @@ Jace's Triumph - {war/55}
 [en] {mb1/3}
 [ru] {m20/233}
 [en] {2xm/266}
-[en] {2xm/249}
 [en] {2xm/300}
 [en] {2xm/251}
 [en] {2xm/271}
@@ -613,6 +681,30 @@ Jace's Triumph - {war/55}
 2x [en] {cmr/1}
 [en] {cmr/302}
 2x [en] {cmr/300}
+2x [ru] {bfz/222}
+[ru] {bfz/8}
+[ru] {bfz/9}
+[ru] {bfz/11}
+[ru] {bfz/17}
+[ru] {dom/225}
+[ru] {grn/232}
+[ru] {rix/175}
+[ru] {dom/215}
+[ru] {dom/233}
+[ru] {cmr/465}
+[ru] {cmr/475}
+[ru] {cmr/473}
+[en] {cmr/306}
+2x [ru] {tsr/274}
+[ru] {tsr/262}
+[ru] {tsr/266}
+[ru] {cmr/472}
+[en] {ima/219}
+[ru] {dom/217}
+[en] {mb1/1604}
+[ru] {thb/236}
+2x [ru] {m21/240}
+[ru] {thb/237}
 
 	
 Земли:
@@ -622,20 +714,34 @@ Jace's Triumph - {war/55}
 [en] {rtr/249}
 -[en] {a25/246}
 [en] {a25/241}
-[en] {a25/241}
 6x [ru] {mh1/239}
 [en] {mm3/228}
 [en] {mb1/1654}
-[en] {2xm/322}
-2x [en] {2xm/320}
-3x [en] {2xm/310}
-[en] {2xm/316}
-2x [en] {2xm/325}
 [en] {2xm/312}
-[ru] {c19/282}
 2x [ru] {hou/184}
 [ru] {hou/183}
 [ru] {hou/176}
 [ru] {hou/178}
 [ru] {hou/177}
+[ru] {bfz/235}
+[ru] {bfz/228}
+[ru] {bfz/245}
+2x [ru] {bfz/247}
+[ru] {bfz/241}
+[ru] {bfz/239}
+[ru] {m19/249}
+[ru] {m19/254}
+[ru] {tsr/284}
+[ru] {tsr/281}
+[ru] {kld/242}
+[ru] {iko/245}
+[ru] {thb/248}
+[ru] {thb/244}
+[ru] {m21/242} вилка
+[ru] {m21/255} вилка
+[ru] {m21/253} вилка
+[ru] {m21/256} вилка
+[ru] {m21/254} вилка
+[ru] {thb/246}
+[en] {emn/203} (it) SP
 
