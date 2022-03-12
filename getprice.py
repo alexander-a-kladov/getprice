@@ -203,7 +203,7 @@ def set_foil_promo(line):
 
 def get_price_modifier(mtg_set):
     price_modifier = 1.0;
-    price_dict={"2xm":0.9,"m21":0.65,"eld":0.60,"thb":0.60,"iko":0.60,"mh1":1.0,"mb1":0.65};
+    price_dict={"2xm":1.0,"mh1":1.1,"mb1":0.9,"khm":0.9};
     if mtg_set in price_dict:
         price_modifier = price_dict[mtg_set]
     #print("price_modifier"+str(price_modifier))
@@ -258,11 +258,11 @@ def get_prices(filename):
                     price1 = price2 = 0
                     price3 = 0
                     if token.get('prices').get('usd'):
-                        price1 = int(50.0*float(token.get('prices').get('usd')))
+                        price1 = int(60.0*float(token.get('prices').get('usd')))
                     if token.get('prices').get('eur'):
-                        price2 = int(60.0*float(token.get('prices').get('eur')))
+                        price2 = int(70.0*float(token.get('prices').get('eur')))
                     if token.get('prices').get('usd_foil'):
-                        price3 = int(40.0*float(token.get('prices').get('usd_foil')))
+                        price3 = int(50.0*float(token.get('prices').get('usd_foil')))
                         if (get_set_present(line)=="FMB1"):
                             price3 = int(price3/4.0)
                         if lang=='ru':

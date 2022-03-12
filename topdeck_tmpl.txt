@@ -1,73 +1,46 @@
 Стандарт:
-Белый [:w::w::w:]  
-[ru] {znr/41}
-[ru] {znr/5}
+Белый [:w::w::w:]
 [en] {khm/15} русская
-[en] {khm/21} русская
-[ru] {afr/8}
-[ru] {afr/27}
-[ru] {khm/27}
 [ru] {mid/41}
-[en] {mid/277} русская
+[ru] {vow/36}
 
 	
 Синий :u::u::u:
-2x [ru] {znr/67}
-[ru] {znr/49}
-[ru] {znr/54}
-2x [ru] {znr/72}
-[ru] {znr/53} вилка
-[ru] {khm/63}
-[ru] {afr/86}
+[ru] {znr/67}
+[ru] {znr/72}
 [en] {stx/151} русская
 
 	
 Черный :b::b::b:
 [ru] {znr/188}
-[ru] {znr/95}
-[ru] {stx/64}
 [ru] {stx/66}
 [ru] {afr/87}
 [ru] {khm/90}
 [ru] {stx/66}
-[ru] {stx/80}
 [en] {stx/161} русская
-[ru] {mid/108}
 
 	
 Красный :r::r::r:
-2x [ru] {znr/175}
-[ru] {znr/159}
+[ru] {znr/175}
 [ru] {khm/146}
-[ru] {znr/147}
 [ru] {mid/131}
-[ru] {mid/146}
+[ru] {khm/156}
 
 	
-Зеленый :g::g::g: 
-3x [ru] {znr/198}
-[ru] {znr/209}
+Зеленый :g::g::g:
 [ru] {znr/178}
 [ru] {znr/203}
-[en] {khm/181} русская
 [ru] {stx/119}
 [ru] {stx/133}
+[ru] {vow/225}
 
 	
 Многоцветные:
-2x [ru] {znr/233}
-[ru] {znr/226}
-[ru] {znr/239}
 [ru] {khm/207}
 [ru] {khm/219}
-[ru] {stx/168}
-[ru] {afr/229}
-[ru] {khm/219}
-[ru] {mid/230}
 
 	
 Бесцветные:
-[ru] {znr/244}
 [ru] {znr/252}
 [ru] {khm/237}
 [ru] {khm/241}
@@ -79,6 +52,4 @@ Field of Ruin (MB1) - {xln/254}
 2x [ru] {khm/272}
 [ru] {stx/265}
 [ru] {stx/269}
-
-
 
