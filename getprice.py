@@ -23,6 +23,7 @@ test_set = ""
 lang = ""
 test = False
 html = False
+inTopic = False
 
 result_fn = 'topdeck.txt'
 result_html = 'topdeck.html'
@@ -203,28 +204,43 @@ def set_foil_promo(line):
 
 def get_price_modifier(mtg_set):
     price_modifier = 1.0;
-    price_dict={"2xm":1.0,"mh1":1.1,"mb1":0.9,"khm":0.9};
+    price_dict={"2xm":1.0,"mh1":1.1,"mb1":0.9,"khm":0.9,"neo":1.7,"jmp":1.8,"snc":2.5,"dmu":1.9};
     if mtg_set in price_dict:
         price_modifier = price_dict[mtg_set]
     #print("price_modifier"+str(price_modifier))
     return price_modifier
 
+def write_html_headers():
+    fhtml.write('<html>')
+    style_f=open('style.html','r')
+    fhtml.write(style_f.read())
+    fhtml.write('<body>')
+    contacts_f=open('contacts.html','r')
+    fhtml.write(contacts_f.read())
+    topdeck_search_f=open('topdeck_search.js','r')
+    fhtml.write('<script>')
+    fhtml.write(topdeck_search_f.read())
+    fhtml.write('</script>')
+
 def get_prices(filename):
-    global total_cards, total_price, foil, promo, lang, test, test_set, fhtml
+    global total_cards, total_price, foil, promo, lang, test, test_set, fhtml, inTopic
+    albumNames={"Стандарт:","Пионер:","Модерн:","Коммандер:","Фойл:"}
+    album_spoilers_f=open('album_spoilers.html','r')
+    albumSpoilers=album_spoilers_f.read()
+    album_spoilers_f.close()
+    
     line_num = 1
     f=open(filename,'r')
-    if html:
-        fhtml.write('<html>')
-        style_f=open('style.html','r')
-        fhtml.write(style_f.read())
-        fhtml.write('<body>')
-        contacts_f=open('contacts.html','r')
-        fhtml.write(contacts_f.read())
-        #fhtml.write('<scrip src="find.js"></script>')
     print(filename)
     print(test_set)
     foil=promo=0
     for line in f:
+        if html and line.strip() in albumNames:
+            if inTopic:
+                fhtml.write("</details></p>")
+            fhtml.write(albumSpoilers.replace('Topic_Name',line.strip()))
+            inTopic=True
+            continue
         reserv = False
         if line[0]=='-':
             reserv = True
@@ -258,15 +274,15 @@ def get_prices(filename):
                     price1 = price2 = 0
                     price3 = 0
                     if token.get('prices').get('usd'):
-                        price1 = int(60.0*float(token.get('prices').get('usd')))
+                        price1 = int(45.0*float(token.get('prices').get('usd')))
                     if token.get('prices').get('eur'):
-                        price2 = int(70.0*float(token.get('prices').get('eur')))
+                        price2 = int(50.0*float(token.get('prices').get('eur')))
                     if token.get('prices').get('usd_foil'):
-                        price3 = int(50.0*float(token.get('prices').get('usd_foil')))
+                        price3 = int(40.0*float(token.get('prices').get('usd_foil')))
                         if (get_set_present(line)=="FMB1"):
-                            price3 = int(price3/4.0)
+                            price3 = int(price3/5.0)
                         if lang=='ru':
-                            price3 = int(2.5*price3)
+                            price3 = int(1.7*price3)
                         if promo:
                             price3 = int(0.5*price3)
                     if (price1>price2):
@@ -274,13 +290,14 @@ def get_prices(filename):
                     else:
                         price = price2
                     if price1>1.0 and price2>1.0:
-                        price = int((price1+price2)/2.0);
+                        price = int((price1+price2)/2.0)
                     if foil or promo:
                         price=price3
                         price=price+4 # add perfect's price
-                    if price>0 and price<4:
-                        price = 4;
+                    #if price>=0 and price<4:
+                    #    price = 4;
                     price *= get_price_modifier(mtgset)
+                    price *= (-1.0*(price*150.0)**0.6+9000.0)/8000.0
                     price = int(price)
                     if test and test_set[0]=='>':
                         if price < int(test_set.split('>')[1]):
@@ -329,6 +346,17 @@ def get_prices(filename):
                     fhtml.write(' alt=')
                     fhtml.write('"'+str0[0]+'"')
                     fhtml.write(' height="430px"')
+                    fhtml.write(' onclick=comparePrice("')
+                    if card_name:
+                        compare_card_name=card_name.replace(' ','+')
+                    else:
+                        parser = re.search('[0-9]x ',line);
+                        if parser:
+                            compare_card_name=str0[0][parser.end():].split('(')[0].strip().strip('-').strip().replace(' ','+')
+                        else:
+                            compare_card_name=str0[0].split('(')[0].strip().strip('-').strip().replace(' ','+')
+                    fhtml.write(compare_card_name)
+                    fhtml.write('")')
                     fhtml.write('>')
                     fhtml.write('<p>')
                     if get_set_present(line):
@@ -375,6 +403,7 @@ if __name__ == '__main__':
         fw.write(fheader.read())
         if html:
             fhtml=open(result_html,'w')
+            write_html_headers()
         for filename in sys.argv:
             if count_args and filename != result_fn:
                 if (test and count_args > 2) or test==False:

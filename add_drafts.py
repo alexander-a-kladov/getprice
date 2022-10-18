@@ -11,14 +11,10 @@ if __name__ == '__main__':
     count_boosters=1
     card_name=1
     print("Вводите номера карт, для завершения введите 0")
-    while card_name:
-        card_name_str=input()
-        if len(card_name_str)==0:
-            continue
-        card_name=int(card_name_str)
-        if card_name==0:
-            break
-        cards.append(card_name)
+    inputf=open("draft_data.txt","r")
+    for card_name in inputf.readlines():
+        if len(card_name.strip())>0:
+            cards.append(int(card_name.strip()))
     fw=open("draft_"+set_name+".txt","w")
     for card in cards:
         if count_cards==0:
