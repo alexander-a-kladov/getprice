@@ -1,7 +1,6 @@
 <foil>
 Фойл:
-Белые:
-[ru] {grn/19}
+Белые :w::w::w:
 [ru] {akh/270}
 [en] {kld/15}
 [ru] {rna/30}
@@ -13,44 +12,40 @@
 [ru] {rix/14}
 [ru] {grn/6}
 [ru] {eld/27}
-[en] {eld/6}
 [ru] {thb/41}
-[ru] {eld/24}
 [en] {mm3/10}
 [en] {ima/34}
 [en] {csp/23} (FMB1)
 [en] {gpt/18} (FMB1)
-[ru] {eld/21}
 [en] {eld/276} русская
 [ru] {rna/9}
 [ru] {rna/10} 
-[ru] {iko/32} /nonpromo/
 [ru] {m21/289}
 [ru] {m21/26}
 [ru] {m21/23}
 [en] {mm2/12}
 [en] {mm2/34}
-[en] {2xm/17}
 [ru] {znr/292}
 [ru] {znr/33}
 [en] {iko/365} русская
-[ru] {iko/24} вилка
 [ru] {znr/15} царапина
 [ru] {znr/32}
 [en] {2xm/4}
 [ru] {thb/19} вилка
-[ru] {m21/43}
-[ru] {mh2/33}
 [ru] {akh/23}
-[ru] {stx/35}
 [ru] {thb/15} вилка
 [ru] {rna/16}
 [ru] {rna/19}
-[ru] {znr/24} вилка
 [ru] {mh2/34}
+[ru] {khm/15}
+[ru] {thb/24} /promo/
+[en] {snc/26} /nonpromo/
+[ru] {vow/19}
+[en] {cmr/554}
+[en] {dmu/27}
 
 	
-Синие:
+Синие :u::u::u:
 [ru] {grn/46} /nonpromo/
 [ru] {grn/59}
 [en] {a25/61}
@@ -76,7 +71,6 @@
 [en] {9ed/100} (FMB1)
 [en] {fut/59} (FMB1)
 [ru] {mh1/74}
-[ru] {m20/73}
 [en] {mm3/34}
 [ru] {m21/295}
 [ru] {m21/51}
@@ -84,7 +78,6 @@
 [en] {mm2/42}
 [en] {mm2/68}
 [en] {2xm/67}
-[ru] {iko/52}
 2x [en] {2xm/46}
 [en] {2xm/60}
 [en] {2xm/45}
@@ -98,27 +91,23 @@
 [ru] {znr/67} вилка
 [ru] {thb/67}
 [ru] {hou/42}
-[en] {cmr/92}
-[en] {cmr/57}
-[en] {cmr/76}
 [en] {2xm/74}
 [ru] {tsr/87}
 [ru] {m19/55}
 [ru] {dom/52}
 [ru] {grn/45}
 [ru] {mh2/50}
-[ru] {ktk/39}
 [ru] {m21/74}
 [ru] {dom/67}
 [ru] {rna/37}
 [ru] {khm/56}
-[en] {cmr/100}
 [ru] {m21/60} /promo/
+[en] {dmu/70} /nonpromo/
 
 
-Черные:
+Черные :b::b::b:
 [en] {mrd/59} (FMB1)
-2x [ru] {war/79} /promo/
+[ru] {war/79} /promo/
 [ru] {m20/110} /nonpromo/
 [ru] {m19/91} /promo/
 [ru] {dom/98}
@@ -160,7 +149,6 @@
 [ru] {znr/100}
 [ru] {znr/109}
 [ru] {znr/126}
-[ru] {iko/82}
 [en] {2xm/108}
 [en] {2xm/92}
 [en] {2xm/80}
@@ -168,16 +156,18 @@
 [ru] {thb/119}
 [ru] {m21/95} вилка
 [ru] {znr/108} вилка
-[en] {cmr/125}
 [ru] {tsr/142}
 [ru] {tsr/119}
 [ru] {akh/89}
 [ru] {mid/96}
 [ru] {mh2/104}
 [ru] {znr/108} /promo/
+[en] {snc/87} /nonpromo/
+[en] {neo/122}
+[en] {dmu/102}
 
 	
-Красные:
+Красные :r::r::r:
 [ru] {war/119} /promo/
 [ru] {mh1/215} /nonpromo/
 [ru] {mh1/142}
@@ -192,7 +182,6 @@
 [ru] {ths/145}
 [ru] {ths/115}
 [ru] {rna/93}
-[en] {a25/156}
 [ru] {dom/319}
 [ru] {grn/114}
 [en] {uma/144}
@@ -207,7 +196,6 @@
 [ru] {grn/95}
 [ru] {rix/94} /promo/
 [ru] {dom/135} /nonpromo/
-[en] {eld/116}
 [ru] {thb/154}
 [ru] {thb/133}
 [ru] {thb/159}
@@ -220,14 +208,11 @@
 [en] {ima/123}
 [ru] {eld/128}
 [en] {10e/211} (FMB1)
-[en] {eld/292}
 [ru] {mh1/154}
 [ru] {m20/141} /promo/
 [en] {csp/76} /nonpromo/
 [en] {fmb1/51}
 [en] {thb/150}
-[ru] {iko/121}
-[ru] {iko/117}
 [ru] {m21/170}
 [ru] {m21/141}
 [en] {mm2/113}
@@ -243,18 +228,13 @@
 [ru] {znr/135}
 [ru] {znr/134}
 [en] {thb/127}
-[en] {2xm/147}
 [en] {2xm/144}
 [ru] {khm/151}
 [ru] {khm/147}
 [ru] {thb/157} вилка
 [ru] {thb/146}
 [ru] {akh/130}
-[en] {cmr/166}
-[en] {cmr/169}
 [en] {2xm/140}
-[en] {cmr/199}
-[ru] {tsr/174}
 [ru] {tsr/162}
 [ru] {tsr/189}
 [ru] {tsr/166}
@@ -262,9 +242,14 @@
 [ru] {iko/141} /promo/
 [ru] {m21/139}
 [ru] {iko/139}
+[en] {snc/130} /nonpromo/
+[en] {snc/122}
+[en] {dmu/118}
+[en] {dmu/145}
+[en] {dmu/148}
 
 	
-Зеленые:
+Зеленые :g::g::g:
 [ru] {war/150} /promo/
 [ru] {rix/130}
 [ru] {rna/178}
@@ -281,19 +266,13 @@
 [ru] {soi/217}
 [ru] {rix/138}
 [ru] {grn/146}
-[ru] {soi/194}
 [en] {rna/137} /nonpromo/
-[ru] {xln/216}
 [ru] {akh/170}
 [ru] {war/170}
 [ru] {grn/123}
 [ru] {m19/187}
 [ru] {m19/171}
 [en] {9ed/254} (FMB1)
-[en] {eld/153}
-[ru] {eld/162}
-[en] {eld/178}
-[ru] {thb/182}
 [en] {ima/176}
 [en] {ima/184}
 [ru] {akh/178}
@@ -303,12 +282,10 @@
 [en] {ima/178}
 [en] {ima/155}
 [ru] {frf/147}
-[ru] {frf/121}
 [ru] {thb/172}
 [en] {ima/170}
 [en] {ima/171}
 [en] {10e/295} (FMB1)
-[en] {sok/144} (FMB1)
 [en] {mm3/118}
 [ru] {war/171} /promo/
 [ru] {rna/143} /nonpromo/
@@ -316,7 +293,6 @@
 [ru] {m21/186}
 [en] {mm2/155}
 [en] {2xm/165}
-[en] {2xm/181}
 [ru] {m21/188}
 [ru] {znr/191}
 [ru] {znr/181}
@@ -330,24 +306,19 @@
 [ru] {thb/167}
 [ru] {hou/135}
 [ru] {akh/175}
-[en] {cmr/256}
-[en] {cmr/240}
-[ru] {ktk/129}
-[ru] {tsr/223}
 [ru] {mh1/181}
-[en] {cmr/255}
 [ru] {mid/202}
 [ru] {mh2/179}
 [ru] {mh2/163}
+[en] {dmu/157}
 
 	
-Многоцветные:
+Многоцветные :mc:
 [ru] {thb/269}
 [ru] {akh/201}
 [ru] {akh/209}
 [en] {ima/202}
 [ru] {frf/158}
-[ru] {eld/200}
 [ru] {rna/208}
 [en] {eve/132}
 [en] {gtc/144}
@@ -363,41 +334,37 @@
 [en] {mm2/198}
 [en] {mm2/197}
 [en] {2xm/302}
-[ru] {eld/193}
-[ru] {iko/204}
-[ru] {iko/218}
 [ru] {khm/201}
 [ru] {thb/225}
 [ru] {akh/224}
-[ru] {ktk/198}
 [ru] {mid/243}
-[ru] {mid/230} /promo/
+[ru] {m20/211}
+[ru] {iko/203} вилка
+[ru] {war/275}
+[en] {snc/188}
+[en] {cmr/594}
+[en] {dmu/226}
 
 	
-Бесцветные:
-[en] {eld/228} /nonpromo/
-[en] {ima/229}
+Бесцветные :c:
+[en] {ima/229} /nonpromo/
 [ru] {eld/229}
 [en] {ima/226}
 [en] {ala/210} (FMB1)
-[en] {mm2/213}
 [en] {2xm/262}
 [en] {2xm/290}
-[en] {2xm/294}
 [ru] {znr/252}
-[en] {2xm/269}
 [en] {2xm/280}
 [ru] {stx/1}
+[en] {snc/233}
 
 	
 Земли:
 [ru] {akh/239}
 [en] {ima/248}
 [en] {mm3/247}
-[en] {mm3/230}
 [ru] {dom/248} /promo/
 3x [ru] {war/248}
-[ru] {xln/258}
 [ru] {m20/242} /nonpromo/
 [ru] {rix/186} /promo/
 [ru] {rna/252} /nonpromo/
@@ -410,28 +377,25 @@
 [ru] {thb/246} вилка
 [en] {khm/267}
 [ru] {akh/262}
+[ru] {eld/241}
+[ru] {akh/240}
+[ru] {dom/239}
+[ru] {grn/258}
+[en] {dmu/239}
+[en] {dmu/245}
 
 	
-Базовые
+Базовые:
 [ru] {m19/261}
 [en] {thb/250}
-[ru] {ktk/252}
 	
 [en] {thb/251}
 [en] {thb/252}
-[ru] {iko/263}
-[ru] {kld/253}
 	
 [ru] {soi/291}
-[ru] {iko/266}
 	
-[ru] {xln/272}
-[ru] {ktk/265}
+[ru] {mh1/253}
 	
 [en] {eld/266}
-[ru] {eld/267}
-[ru] {frf/185}
 [ru] {kld/264}
-[ru] {ktk/269}
-
 

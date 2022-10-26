@@ -1,55 +1,66 @@
 Стандарт:
-Белый [:w::w::w:]
-[en] {khm/15} русская
-[ru] {mid/41}
+Белый :w::w::w:
 [ru] {vow/36}
-
+[en] {neo/13}
+[en] {dmu/38}
+	
 	
 Синий :u::u::u:
-[ru] {znr/67}
-[ru] {znr/72}
-[en] {stx/151} русская
+[en] {dmu/73}
+[en] {snc/34}
+[en] {snc/38}
+[en] {neo/60}
+[en] {neo/84}
+[en] {dmu/40}
+[en] {dmu/46}
+5x [ru] {rix/44}
+5x [ru] {aer/40} 
 
 	
 Черный :b::b::b:
-[ru] {znr/188}
-[ru] {stx/66}
-[ru] {afr/87}
-[ru] {khm/90}
-[ru] {stx/66}
-[en] {stx/161} русская
+[en] {dmu/87}
+[en] {snc/97}
+[en] {snc/72}
 
 	
 Красный :r::r::r:
-[ru] {znr/175}
-[ru] {khm/146}
-[ru] {mid/131}
-[ru] {khm/156}
+[en] {neo/134}
+[en] {dmu/291}
+2x [en] {dmu/147}
+[en] {dmu/141}
+[en] {snc/105}
+[en] {dmu/117}
+[en] {dmu/119}
+[en] {dmu/121}
 
 	
 Зеленый :g::g::g:
-[ru] {znr/178}
-[ru] {znr/203}
-[ru] {stx/119}
-[ru] {stx/133}
 [ru] {vow/225}
+[en] {neo/194}
+[en] {neo/199}
+[en] {neo/200}
+[en] {snc/145}
+[ru] {mid/200}
+2x [en] {dmu/185}
+[en] {snc/347}
+[en] {dmu/175}
 
 	
-Многоцветные:
-[ru] {khm/207}
-[ru] {khm/219}
+Многоцветные :mc:
+[en] {snc/215}
+[en] {snc/219}
+[en] {dmu/221}
+[en] {snc/210}
+[en] {snc/229}
+[ru] {mid/232}
 
 	
-Бесцветные:
-[ru] {znr/252}
-[ru] {khm/237}
-[ru] {khm/241}
-[ru] {mid/257}
+Бесцветные :c:
 
 	
 Земли:
-Field of Ruin (MB1) - {xln/254}
-2x [ru] {khm/272}
-[ru] {stx/265}
-[ru] {stx/269}
+[en] {dmu/259}
+[en] {snc/261}
+
+
 

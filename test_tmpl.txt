@@ -2,6 +2,7 @@
 [ru] {soi/108} (FMB1) <foil> /promo/ вилка SP еще что-то там 
 1x [en] {soi/108} (FMB1) <foil>
 Ангел Освобождения (SOI) - {soi/2}
+3x Ангел Освобождения - {soi/2} (SOI)
 2x [en] {soi/108} <nonfoil>
 3x [en] {2xm/110}
 [en] {khm/15} русская

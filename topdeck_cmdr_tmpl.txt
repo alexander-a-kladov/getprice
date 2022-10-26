@@ -1,45 +1,32 @@
 	
-Командир и не только:
-Белые:
-Капитан Ханвирского Ополчения - {soi/21} (SOI)
-Serra Angel - {ima/30} (IMA)
-Knight of Dawn - {mb1/146} (MB1)
+Коммандер:
+Белые :w::w::w:
+-Serra Angel - {ima/30} (IMA)
 Darien, King of Kjeldor - {a25/9} (A25)
-Infantry Veteran - {mb1/138} (MB1)
-2x Beacon of Immortality - {mb1/35} (MB1)
-Предначертанное Возмездие - {bng/11} (BNG)
+Beacon of Immortality - {mb1/35} (MB1)
+-Предначертанное Возмездие - {bng/11} (BNG)
 Гелиод, Бог Солнца - {ths/17} (THS)
 Дар Бессмертия - {ths/14} (THS)
-Knight of Cliffhaven - {mb1/145} (MB1)
-2x Сторукий - {ths/20) (THS)
-Величественный Гелиоптер - {rix/13} (RIX)
-Пристав из Хаазды - {grn/13}
-Archangel - {mb1/25}
-Небесная Странница Заката - {xln/9}
-Рыцарь-Новичок - {m19/30}
-Призрак Одинокого Бдения - {emn/27}
-2x Странствующая Поборница - {frf/29}
+-Knight of Cliffhaven - {mb1/145} (MB1)
+-Archangel - {mb1/25}
 Капканозубый Тиран - {rix/29}
 Аватара Пробуждающего Солнца - {xln/44}
 Умащенная Процессия - {akh/2}
 Божественное Явление - {grn/10}
 [ru] - {m19/27}
-[en] - {mb1/268}
-[ru] - {m14/41}
-[ru] - {m13/28}
+-[en] - {mb1/268}
 [en] - {mb1/76}
-2x [ru] {mh1/16}
-[en] {2xm/9}
+-2x [ru] {mh1/16}
+-[en] {2xm/9}
 [ru] {rna/15}
 3x [ru] {war/16}
 2x [ru] {war/30}
 [en] {grn/19}
 [ru] {war/24}
-3x [ru] {grn/4}
+2x [ru] {grn/4}
 2x [ru] {war/12}
-[en] {mb1/225}
+-[en] {mb1/225}
 [ru] {grn/30}
-[ru] {hou/22}
 [ru] {rix/22}
 [ru] {rix/284}
 [ru] {cmr/363}
@@ -47,410 +34,306 @@ Archangel - {mb1/25}
 [ru] {cmr/379}
 [ru] {cmr/378}
 [ru] {cmr/392}
-[ru] {cmr/415}
 [en] {cmr/11} русская
-[en] {cmr/47} русская
 [en] {cmr/3} русская
 [ru] {tsr/15}
 [ru] {tsr/34}
-[ru] {tsr/41}
 [ru] {soi/32}
-Эйдолон Воспрещения (THB) - {thb/12}
+-Эйдолон Воспрещения (THB) - {thb/12}
 [ru] {m21/23}
-5x Прекрасный Принц (ELD) - {eld/8}
+3x Прекрасный Принц (ELD) - {eld/8}
 2x [ru] {eld/8}
+[ru] {aer/11}
+[ru] {kld/9} SP
 
 		
-Синие:
-[ru] - {aer/46}
+Синие :u::u::u:
 [ru] - {m19/74}
-[en] - {mb1/381}
-[ru] - {aer/43}
+-[en] - {mb1/381}
 Подтвержденные Подозрения - {soi/53}
-Фрагменты Головоломки - {soi/78}
-Явление на Кладбище Кораблей - {soi/59}
 Судья Идеалов - {bng/31}
 Предначертанная Одержимость - {bng/39}
-Deepglow Skate - {mb1/347}
+-Deepglow Skate - {mb1/347}
 Magus of the Bazaar - {uma/63}
-Disrupting Shoal - {uma/51}
-Conjured Currency - {rtr/33}
-2x Скользкая Прохвостка - {rix/55}
-Шпионка Проворных Кузнецов - {aer/41}
-Floodgate - {mb1/381}
-Phantasmal Dragon - {mb1/454}
-Opt - {mb1/451}
+-Floodgate - {mb1/381}
+Opt {mb1/451}
 Метаморфическое Преобразование - {m19/60}
 2x Guild Summit - {grn/41}
 Проклятие Эха - {dka/34}
-Сфинкс, Мастер Загадок - {m19/287}
-Связанный Мыслью Фантом - {grn/55}
-Крах Мореплавателя - {xln/63}
 3x Настойчивые Жалобщики - {rna/44}
 Теззерет, Мастер Механизмов - {m19/79}
-Глубоководный Гигант - {ths/41}
-Привратная Воровка - {rna/40}
 Завораживающий Бентид - {rna/43}
-Дерзкая Диверсантка - {xln/49}
-2x Ревун-Грабитель - {rix/54}
-Убежище Дрейков - {akh/51}
-Элементаль Воздуха - {m20/44}
-3x Разбогатевший Моряк - {xln/73}
+-Убежище Дрейков - {akh/51}
 Находчивая Карманница - {rix/33}
-Jace's Triumph - {war/55}
 [ru] {grn/38}
 [en] {mm2/49}
-3x [ru] {mh1/76}
-[ru] {soi/73}
+[ru] {mh1/76}
 [en] {2xm/58}
-[en] {2xm/44}
 [ru] {war/66}
 [ru] {rna/45}
-[en] {2xm/55}
-[en] {cmr/55}
-[ru] {thb/81}
-[ru] {bfz/78}
-[ru] {bfz/81}
-[ru] {bfz/87}
-[ru] {xln/71}
-[ru] {rix/51}
+-[en] {2xm/55}
+-[ru] {bfz/78}
+-[ru] {bfz/81}
+-[ru] {bfz/87}
 [ru] {xln/57}
-[ru] {xln/54}
 [ru] {dom/59}
-[ru] {tsr/51}
-[ru] {tsr/97}
-2x [ru] {tsr/75}
+-[ru] {tsr/51}
+-[ru] {tsr/97}
+[ru] {tsr/75}
 Stolen by the Fae (ELD) - {eld/66}
-Похищенный Феями (ELD) - {eld/66}
-Gadwick, the Wizened (ELD) - {eld/48}
-Волшебное Зеркало (ELD) - {eld/51}
-[en] {cmr/64}
-[en] {cmr/78}
+[ru] {m21/275} 
+[ru] {kld/59}
+[ru] {aer/27}
+[ru] {aer/41}
+[ru] {aer/29}
+[ru] {kld/52} SP
+[ru] {kld/56} SP
+[ru] {kld/39}
+[ru] {kld/41}
+[ru] {kld/62}
 
 	
-Черные:
-[en] - {ima/106}
+Черные :b::b::b:
 [ru] - {soi/70}
 [ru] - {xln/104}
 [ru] - {soi/118}
 [ru] - {rix/82}
-[en] - {mb1/688}
+-[en] - {mb1/688}
 2x [ru] - {xln/116}
-[ru] - {xln/126}
 [ru] {xln/106}
-[ru] {akh/269}
+-[ru] {akh/269}
 2x [ru] {xln/129}
 [ru] {frf/64}
 2x [ru] {m20/97}
 [en] {rix/86}
-2x [ru] {akh/84}
-[en] {7ed/145}
-[en] {eld/83}
-2x [en] {eld/78}
-[ru] {eld/107}
-[ru] {emn/103}
-[ru] {rna/65}
-[ru] {rix/85}
-[en] {mb1/731}
+-2x [ru] {akh/84}
+-[en] {mb1/731}
 [ru] {aer/83}
-2x [ru] {dom/96}
-4x [ru] {mh1/81}
-[ru] {akh/99}
-2x [en] {mb1/703}
-3x [ru] {akh/101}
+[ru] {mh1/81}
+-[ru] {akh/99}
+-2x [en] {mb1/703}
+-3x [ru] {akh/101}
 [en] {ima/88}
 [en] {c17/97}
 [ru] {xln/117}
 [en] {2xm/113}
 2x [ru] {grn/69}
-[ru] {rna/61}
-[ru] {m20/104}
 [ru] {m20/98}
-[ru] {m20/90}
-2x [ru] {war/92}
-[en] {mb1/735}
+-[en] {mb1/735}
 [en] {2xm/108}
 [en] {cmr/152}
-2x [en] {cmr/145}
-2x [ru] {akh/107}
-[ru] {bfz/123}
+-2x [ru] {akh/107}
+-[ru] {bfz/123}
 [ru] {bfz/99}
-2x [ru] {bfz/107}
-[ru] {bfz/123}
-[ru] {m19/107}
-[en] {m19/107}
-[ru] {dom/86}
+[ru] {bfz/107}
+-[ru] {bfz/123}
 2x [ru] {dom/98}
 [ru] {dom/100}
 4x [ru] {dom/104}
-[ru] {tsr/138}
-[en] {mb1/570}
+-[en] {mb1/570}
+[en] {neo/118}
+[ru] {kld/96} 
+[ru] {kld/90}
+[ru] {kld/92}
 
 	
-Красные:
+Красные :r::r::r:
 [en] {ima/145}
 [en] {uma/146}
-3x [en] {mb1/1032}
+2x [en] {mb1/1032}
 [en] {ima/152}
-2x [en] {uma/128}
-[ru] {bng/115}
-[ru] {bng/108}
-[ru] {jou/93}
+-[ru] {bng/108}
 [en] {ima/144}
 [ru] {kld/109}
-[en] {a25/138}
+-[en] {a25/138}
 [ru] {soi/155}
-[ru] {hou/98}
-[ru] {soi/151}
-[ru] {aer/83}
-[ru] {rix/115}
-2x [ru] {rix/107}
-3x [en] {mb1/1071}
+2x [en] {mb1/1071}
 [ru] {soi/159}
 [ru] {soi/163}
 [ru] {aer/90}
 - [ru] {m19/154}
 [ru] {frf/91}
-[ru] {frf/110}
 [ru] {frf/113}
-[ru] {xln/135}
-[en] {mb1/994}
-[ru] {war/124}
+-[en] {mb1/994}
 [ru] {war/135}
 2x [ru] {xln/159}
 [ru] {aer/96}
 [ru] {frf/91}
 [ru] {frf/99}
-[ru] {akh/153}
+-[ru] {akh/153}
 [ru] {m19/300}
 [ru] {xln/153}
-[ru] {dom/131}
-[ru] {akh/137}
-[ru] {soi/166}
-[ru] {ths/115}
-[ru] {war/119}
-[ru] {m19/129}
-[ru] {aer/81}
-[en] {mm2/119}
-[ru] {mh1/139}
+-[ru] {akh/137}
+-[ru] {mh1/139}
 [ru] {soi/184}
-[en] {mb1/839}
-[ru] {bng/115}
-4x [ru] {rna/99}
+-[en] {mb1/839}
+3x [ru] {rna/99}
 2x [ru] {war/138}
 4x [ru] {war/140}
-[en] {mb1/1072}
-[en] {2xm/116}
-[en] {2xm/128}
+-[en] {mb1/1072}
 2x [en] {cmr/175}
-[ru] {hou/96}
-[ru] {akh/149}
-[en] {jmp/21}
-[en] {jmp/361}
-[en] {cmr/162}
-[ru] {bfz/162}
-[ru] {bfz/127}
-[ru] {hou/90}
-2x [ru] {xln/173}
+-[ru] {akh/149}
+-[ru] {bfz/162}
+-[ru] {bfz/127}
+[ru] {xln/173}
 2x [ru] {xln/161}
 [ru] {rna/108}
 3x [ru] {dom/143}
 2x [ru] {m19/135}
-[ru] {rix/103}
 [ru] {cmr/419}
 [ru] {cmr/420}
-[ru] {cmr/416}
 [ru] {cmr/411}
 [ru] {cmr/364}
 [ru] {tsr/167}
-[ru] {tsr/179}
-[ru] {tsr/156}
+-[ru] {tsr/179}
 [ru] {rix/99}
 [en] {2xm/128}
 [en] {2xm/117}
 [en] {cmr/188}
-[en] {cmr/410}
 2x [ru] {m19/154}
 4x Шок - {m19/156}
-[ru] {thb/157}
-[ru] {mh1/128}
+-[ru] {thb/157}
+[ru] {m21/143}
+[ru] {aer/96}
+[ru] {aer/90}
+[ru] {kld/114}
+[ru] {kld/124} SP
+[ru] {kld/130}
 
 	
-Зеленые:
+Зеленые :g::g::g:
 [en] {ima/172}
 [en] {a25/191}
 3x [en] {uma/157}
-[ru] {hou/132}
-[en] {mb1/1118}
+-[ru] {hou/132}
+-[en] {mb1/1118}
 [en] {rtr/139}
 -[en] {mb1/1299}
 [ru] {ktk/142}
 [ru] {rix/144}
-[ru] {xln/213}
-[ru] {xln/205}
-[en] {mb1/1241}
-[ru] {frf/146}
+-[en] {mb1/1241}
+-[ru] {frf/146}
 [ru] {m19/169}
-[ru] {frf/142}
-[ru] {frf/137}
-[ru] {m19/176}
-[ru] {soi/230}
-[ru] {frf/147}
-[ru] {frf/148}
+-[ru] {frf/142}
+-[ru] {frf/137}
+-[ru] {frf/147}
+-[ru] {frf/148}
 [ru] {m19/197}
 [ru] {grn/128}
-[ru] {frf/123}
 [ru] {soi/225}
-2x [en] {ima/173}
-[en] {mb1/1272}
+-2x [en] {ima/173}
+-[en] {mb1/1272}
 [en] {mb1/1133}
-[en] {mb1/1159}
-4x [ru] {mh1/175}
-2x [ru] {akh/175}
+-[en] {mb1/1159}
+[ru] {mh1/175}
+-2x [ru] {akh/175}
 [ru] {rix/150} вилка
 3x [ru] {grn/123}
 [en] {rna/130}
-2x [ru] {war/172}
-[ru] {bng/121}
 [ru] {war/180}
 2x [ru] {grn/145}
 [en] {grn/145}
 2x [en] {war/163} (1 en, 1 jp)
 [ru] {rna/122}
-[en] {mb1/1339}
+-[en] {mb1/1339}
 [ru] {m19/200}
 [en] {2xm/175}
 [en] {cmr/238}
-[ru] {akh/160}
-[ru] {ktk/133}
-[ru] {bfz/180}
-[ru] {bfz/170}
-[ru] {ktk/154}
-2x [ru] {xln/203}
+-[ru] {akh/160}
+-[ru] {bfz/180}
+-[ru] {bfz/170}
 [ru] {m19/192}
 [ru] {m19/302}
-[ru] {dom/184}
 [ru] {m19/186}
-[ru] {tsr/220}
-[ru] {tsr/215}
+-[ru] {tsr/220}
+-[ru] {tsr/215}
 3x Неистовый Бронтодон (RIX) - {rix/148}
 2x [ru] {m21/180}
 [ru] {iko/168}
+[ru] {m21/173}
+[ru] {m21/188}
+[ru] {aer/105}
+[ru] {kld/165}
+[ru] {kld/174}
+[ru] {kld/143}
+[ru] {kld/151}
 
 	
-Многоцветные:
+Многоцветные :mc:
 [ru] {xln/226}
-2x [ru] {rix/155}
-[ru] {frf/149}
-[ru] {m19/213}
-2x [ru] {grn/166}
+-[ru] {frf/149}
 5x [ru] {grn/181}
-4x [ru] {grn/177}
 2x [ru] {rna/206}
 2x [ru] {m19/223}
-5x [ru] {rna/208}
-[ru] {frf/155}
-[ru] {frf/157}
+-[ru] {frf/155}
+-[ru] {frf/157}
 [ru] {war/210}
-[ru] {grn/215}
-3x [ru] {war/215}
-3x [ru] {grn/161}
-[ru] {aer/139}
-[ru] {rna/204}
-2x [ru] {xln/227}
-4x [ru] {grn/204}
-[ru] {xln/221}
-3x [ru] {rna/182}
+[ru] {xln/227}
+3x [ru] {grn/204}
 3x [ru] {rna/225}
 [en] {war/206} (jp)
 2x [ru] {rna/228}
-[en] {mb1/1390}
-[ru] {rna/224}
+-[en] {mb1/1390}
 3x [ru] {rna/214}
-[ru] {grn/155}
-4x [ru] {war/212}
 5x [ru] {war/201}
 2x [ru] {war/236} (ru, jp)
 [ru] {war/235}
 [ru] {aer/128}
 [ru] {rna/207}
-6x [ru] {grn/161}
 6x [ru] {grn/180}
 [ru] {m19/215}
-[ru] {hou/155}
+-[ru] {hou/155}
 [en] {uma/207}
 [en] {rtr/171}
 [en] {rtr/209}
 [en] {rtr/212}
-[en] {a25/200}
+-[en] {a25/200}
 [en] {cns/185}
 [en] {a25/202}
 2x [ru] {war/233}
-2x [ru] {rna/222}
 2x [ru] {rna/175}
-3x [ru] {rna/156}
 2x [ru] {war/189}
-[ru] {xln/229}
 [ru] {soi/241}
 [ru] {jou/150}
 3x [ru] {rna/212}
 [ru] {m20/214}
 3x [ru] {rna/157}
-2x [ru] {rna/192}
 3x [ru] {grn/159}
-[ru] {m20/215}
-2x [ru] {m20/213}
-[ru] {rtr/184}
-2x [ru] {xln/217}
-[ru] {rtr/192}
 [ru] {rna/169}
-4x [ru] {grn/171}
-[ru] {grn/230}
-2x [ru] {war/165}
-3x [ru] {rna/211}
+3x [ru] {grn/171}
 3x [ru] {xln/231}
 2x [ru] {rix/153}
 [ru] {grn/190}
-3x [ru] {mh1/198}
-4x [ru] {mh1/207}
 [en] {mm3/201}
-[ru] {akh/195}
-3x [ru] {akh/208}
-[en] {mb1/1519}
+-[ru] {akh/195}
+-3x [ru] {akh/208}
+-[en] {mb1/1519}
 [en] {rtr/145}
-[ru] {mh1/196}
-[en] {2xm/218}
-[en] {2xm/223}
-[en] {2xm/193}
 [en] {2xm/209}
-2x [ru] {war/186}
 [ru] {war/234}
 [en] {war/234}
-2x [ru] {rna/213}
+[ru] {rna/213}
 [ru] {grn/153}
 2x [ru] {m20/220}
 2x [ru] {war/214}
 3x [ru] {war/216}
-[en] {mb1/1489}
-[en] {mb1/1500}
+-[en] {mb1/1489}
+-[en] {mb1/1500}
 [en] {2xm/213}
-[en] {2xm/226}
-[en] {cmr/265}
-[ru] {hou/153}
-[ru] {hou/148}
-[ru] {hou/138}
-[ru] {akh/224}
-[ru] {ktk/206}
-[ru] {akh/223}
-[ru] {bfz/202}
+-[en] {2xm/226}
+-[ru] {hou/153}
+-[ru] {hou/148}
+-[ru] {hou/138}
+-[ru] {akh/224}
+-[ru] {akh/223}
+-[ru] {bfz/202}
 [ru] {bfz/217}
 [ru] {bfz/206}
-[ru] {bfz/199}
-[ru] {bfz/203}
-[ru] {hou/157}
+-[ru] {bfz/199}
+-[ru] {bfz/203}
+-[ru] {hou/157}
 [ru] {hou/139}
 [ru] {ktk/180}
-[ru] {m19/212}
 [ru] {m19/225}
 [ru] {dom/198}
 [ru] {grn/188}
@@ -458,84 +341,88 @@ Gadwick, the Wizened (ELD) - {eld/48}
 [ru] {cmr/447}
 [en] {cmr/449} русская
 [ru] {iko/201}
-[ru] {iko/207}
-[en] {mb1/1522}
+-[ru] {iko/207}
+-[en] {mb1/1522}
+[ru] {aer/128}
+[ru] {kld/184} SP
+[ru] {kld/179} SP
 
 	
-Бесцветные:
+Бесцветные :c:
 [ru] {xln/234}
 [ru] {xln/243}
-[en] {mb1/1575}
+-[en] {mb1/1575}
 [ru] {m19/241}
-[en] {mb1/1567}
-[en] {mb1/1643}
-[en] {mb1/1570}
-[en] {mb1/1571}
-[en] {a25/233}
+-[en] {mb1/1567}
+-[en] {mb1/1643}
+-[en] {mb1/1570}
+-[en] {mb1/1571}
+-[en] {a25/233}
 [ru] {ths/214}
-[en] {ima/224}
-[ru] {soi/252}
-[en] {ima/230}
+-[en] {ima/224}
+
 [ru] {rna/242}
-[en] {mb1/1553}
-[ru] {xln/237}
+-[en] {mb1/1553}
+
 [ru] {rix/177}
-[ru] {eld/218}
-[ru] {akh/235}
+-[ru] {akh/235}
 [ru] {m19/235}
 [ru] {m19/232}
-[ru] {xln/241}
-[en] {mm2/231}
-2x [en] {mm2/234}
-[en] {mm2/206}
+-[en] {mm2/231}
+-2x [en] {mm2/234}
+-[en] {mm2/206}
 [en] {mm2/209}
-3x [ru] {mh1/232}
-5x [ru] {mh1/231}
-[ru] {mh1/233}
-2x [ru] {mh1/230}
+[ru] {mh1/231}
+-[ru] {mh1/233}
+-2x [ru] {mh1/230}
 [ru] {soi/257}
-[ru] {akh/236}
-2x [ru] {akh/233}
-[ru] {akh/229}
+-[ru] {akh/236}
+-2x [ru] {akh/233}
+-[ru] {akh/229}
 2x [ru] {mh1/218}
 [en] {mb1/1577}
-[en] {mb1/1602}
+-[en] {mb1/1602}
 [en] {2xm/266}
-[en] {2xm/281}
+-[en] {2xm/281}
 2x [ru] {grn/233}
-[en] {mb1/1628}
-[en] {mb1/3}
+-[en] {mb1/1628}
+-[en] {mb1/3}
 [ru] {m20/233}
 [en] {2xm/266}
 [en] {2xm/300}
-[en] {2xm/251}
-[en] {cmr/313}
-2x [en] {cmr/1}
+
 [en] {cmr/302}
 2x [en] {cmr/300}
-2x [ru] {bfz/222}
-[ru] {bfz/8}
-[ru] {bfz/9}
-[ru] {bfz/11}
-[ru] {bfz/17}
+-[ru] {bfz/8}
+-[ru] {bfz/9}
 [ru] {dom/225}
-[ru] {grn/232}
-[ru] {rix/175}
-[ru] {dom/215}
+
+
 [ru] {dom/233}
 [ru] {cmr/465}
 [ru] {cmr/475}
-[ru] {cmr/473}
-[en] {cmr/306}
-2x [ru] {tsr/274}
+[ru] {tsr/274}
 [ru] {tsr/262}
-[ru] {cmr/472}
-[en] {ima/219}
+-[en] {ima/219}
 [ru] {dom/217}
-[en] {mb1/1604}
-[ru] {m21/240}
-[ru] {thb/237}
-[en] {mb1/1622}
+-[en] {mb1/1604}
+
+-[ru] {thb/237}
+-[en] {mb1/1622}
+
+[ru] {aer/163}
+[ru] {aer/142} SP
+[ru] {aer/170}
+[ru] {aer/175} SP
+[ru] {aer/152} SP
+[ru] {kld/208}
+
+[ru] {kld/214} SP
+[ru] {kld/220}
+[ru] {kld/203} SP
+[ru] {kld/194} SP
+
+[ru] {hou/164}
 
 	
 Земли:
@@ -544,28 +431,24 @@ Gadwick, the Wizened (ELD) - {eld/48}
 [ru] {frf/167}
 [en] {rtr/249}
 -[en] {a25/246}
-[en] {a25/241}
-6x [ru] {mh1/239}
-[en] {mm3/228}
-[en] {2xm/312}
-2x [ru] {hou/184}
-[ru] {hou/183}
-[ru] {hou/176}
-[ru] {hou/178}
-[ru] {hou/177}
-[ru] {bfz/235}
-[ru] {bfz/228}
-[ru] {bfz/245}
-2x [ru] {bfz/247}
-[ru] {bfz/241}
-[ru] {m19/249}
+2x [ru] {mh1/239}
+-[en] {mm3/228}
+-[en] {2xm/312}
+-2x [ru] {hou/184}
+-[ru] {hou/183}
+-[ru] {hou/176}
+-[ru] {hou/178}
+-[ru] {hou/177}
+-[ru] {bfz/235}
+-[ru] {bfz/228}
+-[ru] {bfz/245}
+-[ru] {bfz/241}
 [ru] {m19/254}
-[ru] {tsr/284}
-[ru] {tsr/281}
+-[ru] {tsr/281}
 [ru] {kld/242}
 [ru] {iko/245}
-[ru] {thb/248}
-[ru] {thb/244}
+-[ru] {thb/248}
+-[ru] {thb/244}
 [ru] {m21/255} вилка
 [en] {emn/203} (it) SP
 
