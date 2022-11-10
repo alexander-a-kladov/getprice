@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # coding: utf8
 
-# topdeck_tmpl.txt topdeck_pioner_tmpl.txt topdeck_modern.txt topdeck_cmdr_tmpl.txt topdeck_foil.txt
+# topdeck_tmpl.txt topdeck_pioner_tmpl.txt topdeck_modern.txt topdeck_cmdr_tmpl.txt topdeck_foil.txt topdeck_piles.txt
 import sys, requests, json, time, datetime;
 import re;
 import sqlite3
@@ -289,9 +289,9 @@ def get_prices(filename):
                     if html:
                         image_uris = token.get('image_uris')
                         if image_uris:
-                            image_url = image_uris.get('normal')
+                            image_url = image_uris.get('small')
                         else:
-                            image_url = token.get('card_faces')[0].get('image_uris').get('normal')
+                            image_url = token.get('card_faces')[0].get('image_uris').get('small')
                     price1 = price2 = 0
                     price3 = 0
                     if token.get('prices').get('usd'):
@@ -367,7 +367,7 @@ def get_prices(filename):
                     fhtml.write(image_url)
                     fhtml.write(' alt=')
                     fhtml.write('"' + str0[0].replace(" - ", "") + '"')
-                    fhtml.write(' height="430px"')
+                    fhtml.write(' height="230px"')
                     fhtml.write(' onclick=comparePrice("')
                     if card_name:
                         compare_card_name = card_name.replace(' ', '+')
@@ -383,7 +383,12 @@ def get_prices(filename):
                     fhtml.write('"' + en_name.replace(' ', '+') if en_name else '')
                     fhtml.write('")')
                     fhtml.write('>')
-                    fhtml.write('<p>')
+                    fhtml.write('<h2><span>')
+                    if quantity > 1:
+                        fhtml.write(str(quantity)+"x  "+str(price) + ' р')
+                    else:
+                        fhtml.write("    " + str(price) + ' р')
+                    fhtml.write('</span></h2><p>')
                     if get_set_present(line):
                         fhtml.write(str0[0] + '<wbr>' + str1[1].strip() + '<wbr>')
                     else:
@@ -394,7 +399,7 @@ def get_prices(filename):
                         fhtml.write(' FOIL')
                     if promo:
                         fhtml.write(' promo')
-                    fhtml.write(' ' + str(price) + ' р </p>')
+                    fhtml.write('</p>')
                     fhtml.write('</div>')
                     fhtml.write('\n')
 

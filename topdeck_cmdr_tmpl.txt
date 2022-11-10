@@ -11,7 +11,6 @@ Beacon of Immortality - {mb1/35} (MB1)
 -Archangel - {mb1/25}
 Капканозубый Тиран - {rix/29}
 Аватара Пробуждающего Солнца - {xln/44}
-Умащенная Процессия - {akh/2}
 Божественное Явление - {grn/10}
 [ru] - {m19/27}
 -[en] - {mb1/268}
@@ -372,7 +371,6 @@ Stolen by the Fae (ELD) - {eld/66}
 -2x [en] {mm2/234}
 -[en] {mm2/206}
 [en] {mm2/209}
-[ru] {mh1/231}
 -[ru] {mh1/233}
 -2x [ru] {mh1/230}
 [ru] {soi/257}
@@ -411,7 +409,6 @@ Stolen by the Fae (ELD) - {eld/66}
 -[en] {mb1/1622}
 
 [ru] {aer/163}
-[ru] {aer/142} SP
 [ru] {aer/170}
 [ru] {aer/175} SP
 [ru] {aer/152} SP

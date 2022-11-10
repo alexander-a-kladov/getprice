@@ -155,13 +155,11 @@
 [en] {thb/113}
 [ru] {thb/119}
 [ru] {m21/95} вилка
-[ru] {znr/108} вилка
 [ru] {tsr/142}
 [ru] {tsr/119}
 [ru] {akh/89}
 [ru] {mid/96}
 [ru] {mh2/104}
-[ru] {znr/108} /promo/
 [en] {snc/87} /nonpromo/
 [en] {neo/122}
 [en] {dmu/102}
@@ -293,7 +291,6 @@
 [ru] {m21/186}
 [en] {mm2/155}
 [en] {2xm/165}
-[ru] {m21/188}
 [ru] {znr/191}
 [ru] {znr/181}
 [ru] {znr/206}
@@ -338,7 +335,6 @@
 [ru] {thb/225}
 [ru] {akh/224}
 [ru] {mid/243}
-[ru] {m20/211}
 [ru] {iko/203} вилка
 [ru] {war/275}
 [en] {snc/188}
@@ -379,9 +375,6 @@
 [ru] {akh/262}
 [ru] {eld/241}
 [ru] {akh/240}
-[ru] {dom/239}
-[ru] {grn/258}
-[en] {dmu/239}
 [en] {dmu/245}
 
 	

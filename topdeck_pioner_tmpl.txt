@@ -23,7 +23,7 @@ Augur of Bolas - {mm3/30} (MM17)
 2x [ru] {war/51}
 [ru] {war/68}
 [ru] {ktk/56}
-4x [ru] {dtk/78}
+3x [ru] {dtk/78}
 [ru] {grn/54}
 [ru] {znr/72}
 
@@ -65,7 +65,6 @@ Augur of Bolas - {mm3/30} (MM17)
 2x Смертоносный Тиран - {xln/179} (XLN)
 Трупожор-Падальщик - {xln/184} (XLN)
 [ru] {znr/178}
-[ru] {stx/133}
 
 	
 Многоцветные :mc:
