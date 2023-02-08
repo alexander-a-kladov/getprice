@@ -1,12 +1,10 @@
 Стандарт:
 Белый :w::w::w:
 [ru] {vow/36}
-[en] {neo/13}
-[en] {dmu/19}
+[en] {neo/2}
 	
 	
 Синий :u::u::u:
-[en] {dmu/73}
 [en] {snc/34}
 [en] {snc/38}
 [en] {neo/60}
@@ -18,45 +16,44 @@
 [en] {dmu/87}
 [en] {snc/97}
 [en] {snc/72}
-[en] {dmu/103}
+4x [en] {neo/120}
 
 	
 Красный :r::r::r:
-[en] {neo/134}
-[en] {dmu/291}
 2x [en] {dmu/147}
 [en] {dmu/141}
 [en] {snc/105}
 [en] {dmu/117}
-[en] {dmu/119}
 [en] {dmu/121}
 
 	
 Зеленый :g::g::g:
-[ru] {vow/225}
 [en] {neo/194}
 [en] {neo/199}
 [en] {neo/200}
 [en] {snc/145}
 [en] {snc/347}
-[en] {dmu/169}
 
 	
 Многоцветные :mc:
-[en] {snc/215}
 [en] {snc/219}
-[en] {dmu/221}
 [en] {snc/210}
 [en] {snc/229}
 [ru] {mid/232}
 [en] {dmu/215}
 2x [en] {dmu/213}
+[en] {neo/217}
+[en] {bro/225}
 
 	
 Бесцветные :c:
+[en] {neo/250}
 
 	
 Земли:
 [en] {dmu/259}
-[en] {dmu/244}
+2x [en] {snc/260}
+
+
+
 

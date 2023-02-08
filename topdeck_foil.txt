@@ -9,28 +9,23 @@
 [ru] {emn/18}
 [ru] {rna/23}
 [ru] {m19/1} /nonpromo/
-[ru] {rix/14}
 [ru] {grn/6}
 [ru] {eld/27}
 [ru] {thb/41}
-[en] {mm3/10}
 [en] {ima/34}
 [en] {csp/23} (FMB1)
 [en] {gpt/18} (FMB1)
-[en] {eld/276} русская
 [ru] {rna/9}
 [ru] {rna/10} 
 [ru] {m21/289}
 [ru] {m21/26}
 [ru] {m21/23}
 [en] {mm2/12}
-[en] {mm2/34}
 [ru] {znr/292}
 [ru] {znr/33}
 [en] {iko/365} русская
 [ru] {znr/15} царапина
 [ru] {znr/32}
-[en] {2xm/4}
 [ru] {thb/19} вилка
 [ru] {akh/23}
 [ru] {thb/15} вилка
@@ -38,11 +33,11 @@
 [ru] {rna/19}
 [ru] {mh2/34}
 [ru] {khm/15}
-[ru] {thb/24} /promo/
-[en] {snc/26} /nonpromo/
-[ru] {vow/19}
-[en] {cmr/554}
+[ru] {thb/24} /promo/ 
+[ru] {vow/19} /nonpromo/
 [en] {dmu/27}
+[en] {neo/40}
+[en] {neo/309}
 
 	
 Синие :u::u::u:
@@ -66,7 +61,6 @@
 [en] {bok/45} (FMB1)
 [en] {ima/49}
 [en] {ima/146}
-[en] {ima/51}
 [en] {ima/43}
 [en] {9ed/100} (FMB1)
 [en] {fut/59} (FMB1)
@@ -96,13 +90,14 @@
 [ru] {m19/55}
 [ru] {dom/52}
 [ru] {grn/45}
-[ru] {mh2/50}
 [ru] {m21/74}
 [ru] {dom/67}
 [ru] {rna/37}
 [ru] {khm/56}
 [ru] {m21/60} /promo/
 [en] {dmu/70} /nonpromo/
+[en] {neo/68}
+[en] {neo/81}
 
 
 Черные :b::b::b:
@@ -163,6 +158,8 @@
 [en] {snc/87} /nonpromo/
 [en] {neo/122}
 [en] {dmu/102}
+[en] {neo/126}
+[en] {neo/128}
 
 	
 Красные :r::r::r:
@@ -174,8 +171,7 @@
 [ru] {m19/213}
 [en] {a25/118}
 [ru] {war/226} /promo/
-[en] {rix/111} /nonpromo/
-[en] {a25/155}
+[en] {a25/155} /nonpromo/
 [ru] {ths/133}
 [ru] {ths/145}
 [ru] {ths/115}
@@ -195,7 +191,7 @@
 [ru] {rix/94} /promo/
 [ru] {dom/135} /nonpromo/
 [ru] {thb/154}
-[ru] {thb/133}
+[ru] {thb/133}	
 [ru] {thb/159}
 [en] {ima/141}
 [en] {ima/117}
@@ -243,8 +239,8 @@
 [en] {snc/130} /nonpromo/
 [en] {snc/122}
 [en] {dmu/118}
-[en] {dmu/145}
 [en] {dmu/148}
+[en] {neo/150}
 
 	
 Зеленые :g::g::g:
@@ -266,10 +262,8 @@
 [ru] {grn/146}
 [en] {rna/137} /nonpromo/
 [ru] {akh/170}
-[ru] {war/170}
 [ru] {grn/123}
 [ru] {m19/187}
-[ru] {m19/171}
 [en] {9ed/254} (FMB1)
 [en] {ima/176}
 [en] {ima/184}
@@ -300,14 +294,13 @@
 [ru] {znr/207} вилка
 [ru] {znr/203} вилка
 [ru] {thb/194}
-[ru] {thb/167}
 [ru] {hou/135}
 [ru] {akh/175}
 [ru] {mh1/181}
 [ru] {mid/202}
 [ru] {mh2/179}
-[ru] {mh2/163}
 [en] {dmu/157}
+[en] {neo/189}
 
 	
 Многоцветные :mc:
@@ -353,6 +346,7 @@
 [en] {2xm/280}
 [ru] {stx/1}
 [en] {snc/233}
+[en] {neo/253}
 
 	
 Земли:
@@ -372,8 +366,6 @@
 [ru] {eld/238} вилка
 [ru] {thb/246} вилка
 [en] {khm/267}
-[ru] {akh/262}
-[ru] {eld/241}
 [ru] {akh/240}
 [en] {dmu/245}
 

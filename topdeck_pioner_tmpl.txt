@@ -14,15 +14,12 @@ Lyra Dawnbringer (DOM) - {dom/26}
 Механизированное Производство (AER) - {aer/38}
 4x Выбор (DOM) - {dom/60}
 Среброжаберный Адепт (RIX) - {rix/53}
-Augur of Bolas - {mm3/30} (MM17)
 Сай, Мастер-Топтерист - {m19/69} (M19) 
-[ru] {m20/64} вилка
 3x [ru] {rna/32}
 2x [ru] {rna/55}
 2x [ru] {grn/44}
 2x [ru] {war/51}
 [ru] {war/68}
-[ru] {ktk/56}
 3x [ru] {dtk/78}
 [ru] {grn/54}
 [ru] {znr/72}
@@ -33,7 +30,6 @@ Augur of Bolas - {mm3/30} (MM17)
 2x Гонти, Владыка Роскоши - {kld/84} (KLD)
 2x Duress - {ima/88} (IMA)
 -Открытое Сердце - {akh/96} (AKH)
-3x Расхитительница Руин - {xln/118} (XLN)
 -Могильная Тень - {akh/107} (AKH)
 2x [ru] {war/87} (1 рус, 1 jp)
 [ru] {znr/188}
@@ -55,9 +51,9 @@ Augur of Bolas - {mm3/30} (MM17)
 [ru] {m20/127} вилка
 [en] {xln/149}
 [ru] {xln/149}
-3x [ru] {dtk/162}
+2x [ru] {dtk/162} SP
 [en] {thb/124}
-2x [ru] {akh/134} SP
+[ru] {akh/134} SP
 [ru] {znr/175}
 
 	
@@ -65,6 +61,7 @@ Augur of Bolas - {mm3/30} (MM17)
 2x Смертоносный Тиран - {xln/179} (XLN)
 Трупожор-Падальщик - {xln/184} (XLN)
 [ru] {znr/178}
+[en] {neo/211}
 
 	
 Многоцветные :mc:
@@ -79,7 +76,6 @@ Kiora, Behemoth Beckoner - {war/232} (WAR)
 [ru] {war/193}
 4x [ru] {grn/192}
 4x [ru] {m20/211}
-2x [ru] {war/213}
 2x [ru] {grn/224}
 [ru] {rna/205}
 [en] {rna/151}
@@ -100,5 +96,5 @@ Kiora, Behemoth Beckoner - {war/232} (WAR)
 4x [ru] {grn/250}
 2x [ru] {dtk/249}
 -[en] {jou/164}
-[ru] {m20/253}
+
 

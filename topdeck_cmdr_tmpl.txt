@@ -18,7 +18,7 @@ Beacon of Immortality - {mb1/35} (MB1)
 -2x [ru] {mh1/16}
 -[en] {2xm/9}
 [ru] {rna/15}
-3x [ru] {war/16}
+2x [ru] {war/16}
 2x [ru] {war/30}
 [en] {grn/19}
 [ru] {war/24}
@@ -43,7 +43,6 @@ Beacon of Immortality - {mb1/35} (MB1)
 3x Прекрасный Принц (ELD) - {eld/8}
 2x [ru] {eld/8}
 [ru] {aer/11}
-[ru] {kld/9} SP
 
 		
 Синие :u::u::u:
@@ -78,18 +77,14 @@ Opt {mb1/451}
 [ru] {dom/59}
 -[ru] {tsr/51}
 -[ru] {tsr/97}
-[ru] {tsr/75}
-Stolen by the Fae (ELD) - {eld/66}
 [ru] {m21/275} 
 [ru] {kld/59}
-[ru] {aer/27}
 [ru] {aer/41}
 [ru] {aer/29}
 [ru] {kld/52} SP
 [ru] {kld/56} SP
-[ru] {kld/39}
-[ru] {kld/41}
 [ru] {kld/62}
+[en] {thb/73}
 
 	
 Черные :b::b::b:
@@ -102,7 +97,6 @@ Stolen by the Fae (ELD) - {eld/66}
 [ru] {xln/106}
 -[ru] {akh/269}
 2x [ru] {xln/129}
-[ru] {frf/64}
 2x [ru] {m20/97}
 [en] {rix/86}
 -2x [ru] {akh/84}
@@ -120,7 +114,6 @@ Stolen by the Fae (ELD) - {eld/66}
 [ru] {m20/98}
 -[en] {mb1/735}
 [en] {2xm/108}
-[en] {cmr/152}
 -2x [ru] {akh/107}
 -[ru] {bfz/123}
 [ru] {bfz/99}
@@ -131,25 +124,20 @@ Stolen by the Fae (ELD) - {eld/66}
 4x [ru] {dom/104}
 -[en] {mb1/570}
 [en] {neo/118}
-[ru] {kld/96} 
 [ru] {kld/90}
 [ru] {kld/92}
 
 	
 Красные :r::r::r:
 [en] {ima/145}
-[en] {uma/146}
 2x [en] {mb1/1032}
-[en] {ima/152}
 -[ru] {bng/108}
 [en] {ima/144}
 [ru] {kld/109}
 -[en] {a25/138}
-[ru] {soi/155}
 2x [en] {mb1/1071}
 [ru] {soi/159}
 [ru] {soi/163}
-[ru] {aer/90}
 - [ru] {m19/154}
 [ru] {frf/91}
 [ru] {frf/113}
@@ -183,7 +171,6 @@ Stolen by the Fae (ELD) - {eld/66}
 [ru] {cmr/420}
 [ru] {cmr/411}
 [ru] {cmr/364}
-[ru] {tsr/167}
 -[ru] {tsr/179}
 [ru] {rix/99}
 [en] {2xm/128}
@@ -193,10 +180,7 @@ Stolen by the Fae (ELD) - {eld/66}
 4x Шок - {m19/156}
 -[ru] {thb/157}
 [ru] {m21/143}
-[ru] {aer/96}
-[ru] {aer/90}
 [ru] {kld/114}
-[ru] {kld/124} SP
 [ru] {kld/130}
 
 	
@@ -229,7 +213,6 @@ Stolen by the Fae (ELD) - {eld/66}
 [ru] {rix/150} вилка
 3x [ru] {grn/123}
 [en] {rna/130}
-[ru] {war/180}
 2x [ru] {grn/145}
 [en] {grn/145}
 2x [en] {war/163} (1 en, 1 jp)
@@ -243,7 +226,6 @@ Stolen by the Fae (ELD) - {eld/66}
 -[ru] {bfz/170}
 [ru] {m19/192}
 [ru] {m19/302}
-[ru] {m19/186}
 -[ru] {tsr/220}
 -[ru] {tsr/215}
 3x Неистовый Бронтодон (RIX) - {rix/148}
@@ -256,6 +238,9 @@ Stolen by the Fae (ELD) - {eld/66}
 [ru] {kld/174}
 [ru] {kld/143}
 [ru] {kld/151}
+3x [en] {2x2/138} Deutsch
+[en] {2x2/150} Deutsch
+[en] {2x2/154} Deutsch
 
 	
 Многоцветные :mc:
@@ -283,7 +268,6 @@ Stolen by the Fae (ELD) - {eld/66}
 [ru] {m19/215}
 -[ru] {hou/155}
 [en] {uma/207}
-[en] {rtr/171}
 [en] {rtr/209}
 [en] {rtr/212}
 -[en] {a25/200}
@@ -359,10 +343,8 @@ Stolen by the Fae (ELD) - {eld/66}
 -[en] {a25/233}
 [ru] {ths/214}
 -[en] {ima/224}
-
 [ru] {rna/242}
 -[en] {mb1/1553}
-
 [ru] {rix/177}
 -[ru] {akh/235}
 [ru] {m19/235}
@@ -387,15 +369,11 @@ Stolen by the Fae (ELD) - {eld/66}
 -[en] {mb1/3}
 [ru] {m20/233}
 [en] {2xm/266}
-[en] {2xm/300}
-
 [en] {cmr/302}
 2x [en] {cmr/300}
 -[ru] {bfz/8}
 -[ru] {bfz/9}
 [ru] {dom/225}
-
-
 [ru] {dom/233}
 [ru] {cmr/465}
 [ru] {cmr/475}
@@ -404,27 +382,22 @@ Stolen by the Fae (ELD) - {eld/66}
 -[en] {ima/219}
 [ru] {dom/217}
 -[en] {mb1/1604}
-
 -[ru] {thb/237}
 -[en] {mb1/1622}
-
 [ru] {aer/163}
 [ru] {aer/170}
 [ru] {aer/175} SP
 [ru] {aer/152} SP
-[ru] {kld/208}
-
 [ru] {kld/214} SP
 [ru] {kld/220}
 [ru] {kld/203} SP
 [ru] {kld/194} SP
-
 [ru] {hou/164}
+[en] {2x2/3} Deutsch
 
 	
 Земли:
 3x [ru] {soi/280}
-[ru] {rna/254}
 [ru] {frf/167}
 [en] {rtr/249}
 -[en] {a25/246}
@@ -446,6 +419,8 @@ Stolen by the Fae (ELD) - {eld/66}
 [ru] {iko/245}
 -[ru] {thb/248}
 -[ru] {thb/244}
+[en] {thb/246}
+
 [ru] {m21/255} вилка
 [en] {emn/203} (it) SP
 
