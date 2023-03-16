@@ -7,7 +7,7 @@
 [ru] {kld/10}
 [ru] {kld/25}
 4x [ru] {war/28} (3 рус, 1 jp)
-4x [ru] {grn/2}
+[ru] {grn/2}
 [en] {mb1/146}
 [en] {mb1/138}
 [ru] {rix/13}
@@ -92,7 +92,6 @@
 
 	
 Зеленые :g::g::g:
-4x [ru] {ktk/137} (KTK, UMA)
 [ru] {kld/156}
 [ru] {xln/176}
 [ru] {rix/124}
@@ -122,7 +121,7 @@
 2x [ru] {grn/227} (1 рус, 1 en)
 [ru] {grn/175}
 2x [ru] {rna/210}
-2x [ru] {grn/182}
+[ru] {grn/182}
 4x [ru] {rna/194}
 3x [ru] {rna/197}
 3x [ru] {rna/222}
@@ -173,7 +172,7 @@
 [ru] {kld/223}
 [ru] {kld/204}
 
-		
+
 Земли:
 [en] {rtr/245}
 2x [ru] {m20/244}

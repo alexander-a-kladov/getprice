@@ -5,12 +5,22 @@
 3x Ангел Освобождения - {soi/2} (SOI)
 2x [en] {soi/108} <nonfoil>
 3x [en] {2xm/110}
-[en] {khm/15} русская
+[en] {khm/15} 42 русская
 Синие:
-2x [en] {soi/108} <nonfoil>
-3x [en] {2xm/110}
+2x [en] {soi/108} 1351 <foil>
+3x [en] {2xm/110} <nonfoil>
+[ru] {rix/35}
+[en] {2x2/50} /nonpromo/
 Красные:
 [en] {thb/265} русская
 Белые:
 [ru] {mh2/333} /nonpromo/
+[en] {bro/225}
+Зеленые:
+[en] {jmp/28}
+Бесцветные:
+[en] {mh2/238}
+[en] {brr/22}
+Земли:
+[en] {mh2/261}
 

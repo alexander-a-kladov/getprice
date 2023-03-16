@@ -170,6 +170,23 @@ def update_card_name_for_lang(mtgset, number, lang, name):
     conn.commit()
 
 
+def get_price_from_txt(price_str):
+    price = None
+    pos = 0
+    price_str_tokens = price_str.split()
+    for token in price_str_tokens:
+        try:
+            price = int(token)
+            break
+        except ValueError:
+            price = None
+        pos += 1
+    if price:
+        del price_str_tokens[pos]
+        price_str = " ".join(price_str_tokens)
+    return price, price_str
+
+
 def get_card_name(lang, mtgset, number):
     global scryfall_url
     if lang:
@@ -218,11 +235,14 @@ def set_foil_promo(line):
     return line
 
 
-def get_price_modifier(mtg_set):
+def get_price_modifier(mtg_set, lang):
     price_modifier = 1.0
-    price_dict = {"2xm": 1.0, "mh1": 0.8, "mb1": 0.9, "khm": 0.9, "neo": 1.6, "jmp": 1.6, "snc": 2.3, "dmu": 1.8}
+    price_dict = {"2xm": 1.0, "2x2":1.4, "mh1": 0.8, "mb1": 0.9, "khm": 1.0, "neo": {"en":1.6, "ru":3.5}, "jmp": 1.6, "snc": 2.2, "dmu": 1.8, "bro":1.7, "one":3.0}
     if mtg_set in price_dict:
-        price_modifier = price_dict[mtg_set]
+        if not isinstance(price_dict[mtg_set], dict):
+            price_modifier = price_dict[mtg_set]
+        else:
+            price_modifier = price_dict[mtg_set][lang]
     # print("price_modifier"+str(price_modifier))
     return price_modifier
 
@@ -238,6 +258,38 @@ def write_html_headers():
     fhtml.write('<script>')
     fhtml.write(topdeck_search_f.read())
     fhtml.write('</script>')
+
+
+def calc_price(token, mtgset, lang, promo, foil, line):
+    price1 = price2 = 0
+    price3 = 0
+    if token.get('prices').get('usd'):
+        price1 = int(45.0 * float(token.get('prices').get('usd')))
+    if token.get('prices').get('eur'):
+        price2 = int(50.0 * float(token.get('prices').get('eur')))
+    if token.get('prices').get('usd_foil'):
+        price3 = int(40.0 * float(token.get('prices').get('usd_foil')))
+        if get_set_present(line) == "FMB1":
+            price3 = int(price3 / 5.0)
+        if lang == 'ru':
+            price3 = int(1.7 * price3)
+        if promo:
+            price3 = int(0.5 * price3)
+    if price1 > price2:
+        price = price1
+    else:
+        price = price2
+    if price1 > 1.0 and price2 > 1.0:
+        price = int((price1 + price2) / 2.0)
+    if foil or promo:
+        price = price3
+        price = price + 4  # add perfect's price
+                    # if price>=0 and price<4:
+                    #    price = 4;
+    price *= get_price_modifier(mtgset, "ru" if (~line.find("русский")) else lang)
+    price *= (-1.0 * (price * 150.0) ** 0.6 + 9000.0) / 8000.0
+    price = int(price)
+    return price
 
 
 def get_prices(filename):
@@ -292,34 +344,9 @@ def get_prices(filename):
                             image_url = image_uris.get('small')
                         else:
                             image_url = token.get('card_faces')[0].get('image_uris').get('small')
-                    price1 = price2 = 0
-                    price3 = 0
-                    if token.get('prices').get('usd'):
-                        price1 = int(45.0 * float(token.get('prices').get('usd')))
-                    if token.get('prices').get('eur'):
-                        price2 = int(50.0 * float(token.get('prices').get('eur')))
-                    if token.get('prices').get('usd_foil'):
-                        price3 = int(40.0 * float(token.get('prices').get('usd_foil')))
-                        if get_set_present(line) == "FMB1":
-                            price3 = int(price3 / 5.0)
-                        if lang == 'ru':
-                            price3 = int(1.7 * price3)
-                        if promo:
-                            price3 = int(0.5 * price3)
-                    if price1 > price2:
-                        price = price1
-                    else:
-                        price = price2
-                    if price1 > 1.0 and price2 > 1.0:
-                        price = int((price1 + price2) / 2.0)
-                    if foil or promo:
-                        price = price3
-                        price = price + 4  # add perfect's price
-                    # if price>=0 and price<4:
-                    #    price = 4;
-                    price *= get_price_modifier(mtgset)
-                    price *= (-1.0 * (price * 150.0) ** 0.6 + 9000.0) / 8000.0
-                    price = int(price)
+                    price, str1[1] = get_price_from_txt(str1[1])
+                    if not price:
+                        price = calc_price(token, mtgset, lang, promo, foil, line)
                     if test and test_set[0] == '>':
                         if price < int(test_set.split('>')[1]):
                             # print("price="+str(price)+" too small")
@@ -352,10 +379,10 @@ def get_prices(filename):
                         str0[0] = ''
                     str0[0] = str0[0] + card_name + ' - '
                 if get_set_present(line):
-                    fw.write(str0[0] + str(price) + ' р ' + str1[1].strip())
+                    fw.write(str0[0] + str1[1].strip() + ' ' + str(price))
                 else:
-                    fw.write(str0[0] + str(price) + ' р' + ' (' + mtgset.swapcase() + '/' + str(number) + ')' + str1[
-                        1].strip())
+                    fw.write(str0[0] + ' (' + mtgset.swapcase() + '/'+str(number)+ ')' + str1[
+                        1].strip() + ' ' + str(price))
                 if foil:
                     fw.write(' FOIL')
                 if promo:

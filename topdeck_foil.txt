@@ -1,6 +1,7 @@
-<foil>
+
 Фойл:
 Белые :w::w::w:
+[en] {one/8} <foil>
 [ru] {akh/270}
 [en] {kld/15}
 [ru] {rna/30}
@@ -8,18 +9,16 @@
 [en] {a25/38}
 [ru] {emn/18}
 [ru] {rna/23}
-[ru] {m19/1} /nonpromo/
-[ru] {grn/6}
+[ru] {m19/1} 
 [ru] {eld/27}
 [ru] {thb/41}
 [en] {ima/34}
 [en] {csp/23} (FMB1)
 [en] {gpt/18} (FMB1)
 [ru] {rna/9}
-[ru] {rna/10} 
+[ru] {rna/10}
 [ru] {m21/289}
 [ru] {m21/26}
-[ru] {m21/23}
 [en] {mm2/12}
 [ru] {znr/292}
 [ru] {znr/33}
@@ -31,17 +30,18 @@
 [ru] {thb/15} вилка
 [ru] {rna/16}
 [ru] {rna/19}
-[ru] {mh2/34}
 [ru] {khm/15}
-[ru] {thb/24} /promo/ 
-[ru] {vow/19} /nonpromo/
+[ru] {thb/24}  /promo/
+[ru] {vow/19}  /nonpromo/
 [en] {dmu/27}
 [en] {neo/40}
 [en] {neo/309}
 
 	
 Синие :u::u::u:
-[ru] {grn/46} /nonpromo/
+[en] {one/42}  /promo/
+[en] {one/75}
+[ru] {grn/46}  /nonpromo/
 [ru] {grn/59}
 [en] {a25/61}
 [en] {a25/48}
@@ -49,15 +49,14 @@
 [en] {uma/59}
 [en] {a25/72}
 [en] {a25/42}
-[en] {kld/50} SP
 [ru] {grn/34}
 [ru] {grn/58}
 [en] {rtr/46}
 [ru] {m19/57}
 [ru] {xln/68}
-[ru] {rna/32} /promo/
+[ru] {rna/32}  /promo/
 [ru] {rna/45}
-[ru] {grn/54} /nonpromo/
+[ru] {grn/54}  /nonpromo/
 [en] {bok/45} (FMB1)
 [en] {ima/49}
 [en] {ima/146}
@@ -72,7 +71,7 @@
 [en] {mm2/42}
 [en] {mm2/68}
 [en] {2xm/67}
-2x [en] {2xm/46}
+[en] {2xm/46}
 [en] {2xm/60}
 [en] {2xm/45}
 [ru] {znr/57}
@@ -80,33 +79,34 @@
 [en] {2xm/69}
 [ru] {khm/60}
 [ru] {m21/48} вилка
-[ru] {m21/76} вилка
+[ru] {m21/76} вилка 150
 [ru] {znr/49] вилка
-[ru] {znr/67} вилка
+[ru] {znr/67} вилка 230
 [ru] {thb/67}
 [ru] {hou/42}
 [en] {2xm/74}
 [ru] {tsr/87}
 [ru] {m19/55}
 [ru] {dom/52}
-[ru] {grn/45}
+[ru] {grn/45} 250
 [ru] {m21/74}
 [ru] {dom/67}
 [ru] {rna/37}
 [ru] {khm/56}
-[ru] {m21/60} /promo/
-[en] {dmu/70} /nonpromo/
+[ru] {m21/60}  /promo/
+[en] {dmu/70}  /nonpromo/
 [en] {neo/68}
 [en] {neo/81}
 
 
 Черные :b::b::b:
+[en] {one/99}
 [en] {mrd/59} (FMB1)
-[ru] {war/79} /promo/
-[ru] {m20/110} /nonpromo/
-[ru] {m19/91} /promo/
-[ru] {dom/98}
-[ru] {rna/64} /nonpromo/
+[ru] {war/79}  150 /promo/
+[ru] {m20/110}  /nonpromo/
+[ru] {m19/91}  /promo/
+[ru] {dom/98} 150
+[ru] {rna/64}  /nonpromo/
 [en] {a25/84}
 [en] {uma/91}
 [ru] {ths/93}
@@ -114,13 +114,13 @@
 [ru] {rna/66}
 [ru] {bng/80}
 [ru] {rna/86}
-[ru] {dom/98}
+[ru] {dom/98} 300
 [ru] {grn/86}
 [ru] {rna/81}
-[ru] {m19/91} /promo/
-[ru] {m19/110} 
+[ru] {m19/91}  /promo/
+[ru] {m19/110}
 [ru] {eld/100}
-[ru] {grn/85} /nonpromo/
+[ru] {grn/85}  /nonpromo/
 [ru] {dom/99}
 [ru] {grn/70}
 2x [ru] {grn/79}
@@ -155,7 +155,7 @@
 [ru] {akh/89}
 [ru] {mid/96}
 [ru] {mh2/104}
-[en] {snc/87} /nonpromo/
+[en] {snc/87} 
 [en] {neo/122}
 [en] {dmu/102}
 [en] {neo/126}
@@ -163,15 +163,15 @@
 
 	
 Красные :r::r::r:
-[ru] {war/119} /promo/
-[ru] {mh1/215} /nonpromo/
+[ru] {war/119}  /promo/
+[ru] {mh1/215}  /nonpromo/
+[en] {one/138}
 [ru] {mh1/142}
 [ru] {mh1/117}
-[en] {tsp/171} (FMB1)
 [ru] {m19/213}
 [en] {a25/118}
-[ru] {war/226} /promo/
-[en] {a25/155} /nonpromo/
+[ru] {war/226}  /promo/
+[en] {a25/155}  /nonpromo/
 [ru] {ths/133}
 [ru] {ths/145}
 [ru] {ths/115}
@@ -180,18 +180,18 @@
 [ru] {grn/114}
 [en] {uma/144}
 [en] {a25/154}
-[ru] {grn/115} /promo/
-[ru] {grn/96} /nonpromo/
+[ru] {grn/115}  /promo/
+[ru] {grn/96}  /nonpromo/
 [ru] {rna/113}
 [ru] {dom/116}
 [ru] {xln/164}
 [ru] {m19/158}
 [ru] {xln/148}
 [ru] {grn/95}
-[ru] {rix/94} /promo/
-[ru] {dom/135} /nonpromo/
+[ru] {rix/94}  /promo/
+[ru] {dom/135}  /nonpromo/
 [ru] {thb/154}
-[ru] {thb/133}	
+[ru] {thb/133}
 [ru] {thb/159}
 [en] {ima/141}
 [en] {ima/117}
@@ -203,8 +203,8 @@
 [ru] {eld/128}
 [en] {10e/211} (FMB1)
 [ru] {mh1/154}
-[ru] {m20/141} /promo/
-[en] {csp/76} /nonpromo/
+[ru] {m20/141}  /promo/
+[en] {csp/76}  /nonpromo/
 [en] {fmb1/51}
 [en] {thb/150}
 [ru] {m21/170}
@@ -217,7 +217,7 @@
 -[en] {2xm/114}
 -[en] {2xm/135}
 [en] {2xm/141}
-[en] {lrw/167}
+[en] {lrw/167} 150
 [ru] {znr/141}
 [ru] {znr/135}
 [ru] {znr/134}
@@ -233,10 +233,10 @@
 [ru] {tsr/189}
 [ru] {tsr/166}
 [ru] {afr/168} SP
-[ru] {iko/141} /promo/
+[ru] {iko/141}  /promo/
 [ru] {m21/139}
 [ru] {iko/139}
-[en] {snc/130} /nonpromo/
+[en] {snc/130}  /nonpromo/
 [en] {snc/122}
 [en] {dmu/118}
 [en] {dmu/148}
@@ -244,14 +244,13 @@
 
 	
 Зеленые :g::g::g:
-[ru] {war/150} /promo/
+[ru] {war/150}  /promo/
 [ru] {rix/130}
 [ru] {rna/178}
-[ru] {dom/165} /nonpromo/
+[ru] {dom/165}  /nonpromo/
 [ru] {rna/121}
 [en] {8ed/250} (FMB1)
 [en] {a25/169}
-[en] {a25/193}
 [ru] {m19/191}
 [ru] {grn/131}
 [ru] {mh1/159}
@@ -260,7 +259,7 @@
 [ru] {soi/217}
 [ru] {rix/138}
 [ru] {grn/146}
-[en] {rna/137} /nonpromo/
+[en] {rna/137} 
 [ru] {akh/170}
 [ru] {grn/123}
 [ru] {m19/187}
@@ -279,10 +278,10 @@
 [en] {ima/171}
 [en] {10e/295} (FMB1)
 [en] {mm3/118}
-[ru] {war/171} /promo/
-[ru] {rna/143} /nonpromo/
+[ru] {war/171}  /promo/
+[ru] {rna/143}  /nonpromo/
 [ru] {m21/195}
-[ru] {m21/186}
+[ru] {m21/186} 100
 [en] {mm2/155}
 [en] {2xm/165}
 [ru] {znr/191}
@@ -295,7 +294,7 @@
 [ru] {znr/203} вилка
 [ru] {thb/194}
 [ru] {hou/135}
-[ru] {akh/175}
+[ru] {akh/175} 230
 [ru] {mh1/181}
 [ru] {mid/202}
 [ru] {mh2/179}
@@ -310,15 +309,14 @@
 [en] {ima/202}
 [ru] {frf/158}
 [ru] {rna/208}
-[en] {eve/132}
-[en] {gtc/144}
+[en] {eve/132} 90 (FMB1)
+[en] {gtc/144} 80 (FMB1)
 [en] {mm3/172}
 [en] {mm3/182}
 [en] {mm3/169}
 [en] {mm3/202}
 [en] {mm3/149}
 [en] {gpt/140} (FMB1)
-[en] {arb/109} (FMB1)
 [ru] {war/186}
 [ru] {frf/156}
 [en] {mm2/198}
@@ -336,7 +334,10 @@
 
 	
 Бесцветные :c:
-[en] {ima/229} /nonpromo/
+[en] {one/230}
+[en] {one/231}
+[en] {one/233}
+[en] {ima/229} 
 [ru] {eld/229}
 [en] {ima/226}
 [en] {ala/210} (FMB1)
@@ -353,14 +354,14 @@
 [ru] {akh/239}
 [en] {ima/248}
 [en] {mm3/247}
-[ru] {dom/248} /promo/
+[ru] {dom/248}  /promo/
 3x [ru] {war/248}
-[ru] {m20/242} /nonpromo/
-[ru] {rix/186} /promo/
-[ru] {rna/252} /nonpromo/
+[ru] {m20/242}  /nonpromo/
+[ru] {rix/186}  /promo/
+[ru] {rna/252}  /nonpromo/
 [ru] {war/263}
-[ru] {m19/254} /promo/
-[ru] {m19/258} /nonpromo/
+[ru] {m19/254}  /promo/
+[ru] {m19/258}  /nonpromo/
 [ru] {m19/248}
 [ru] {mh1/242}
 [ru] {eld/238} вилка
@@ -378,8 +379,6 @@
 [en] {thb/252}
 	
 [ru] {soi/291}
-	
-[ru] {mh1/253}
 	
 [en] {eld/266}
 [ru] {kld/264}
