@@ -266,13 +266,13 @@ def calc_price(token, mtgset, lang, promo, foil, line):
     if token.get('prices').get('usd'):
         price1 = int(45.0 * float(token.get('prices').get('usd')))
     if token.get('prices').get('eur'):
-        price2 = int(50.0 * float(token.get('prices').get('eur')))
+        price2 = 0#int(50.0 * float(token.get('prices').get('eur')))
     if token.get('prices').get('usd_foil'):
-        price3 = int(40.0 * float(token.get('prices').get('usd_foil')))
+        price3 = int(25.0 * float(token.get('prices').get('usd_foil')))
         if get_set_present(line) == "FMB1":
             price3 = int(price3 / 5.0)
         if lang == 'ru':
-            price3 = int(1.7 * price3)
+            price3 = int(1.5 * price3)
         if promo:
             price3 = int(0.5 * price3)
     if price1 > price2:
@@ -322,6 +322,7 @@ def get_prices(filename):
         str0 = line.split("{")
         if len(str0) > 1:
             str1 = str0[1].split("}")
+            quantity = 0
             if len(str1) > 1:
                 mtgset = str1[0].split("/")[0]
                 number = int(str1[0].split("/")[1])
@@ -390,6 +391,7 @@ def get_prices(filename):
                 if html:
                     fhtml.write('<div id="container">')
                     # fhtml.write('<p>'+str(price)+' р </p>')
+                    fhtml.write('<input style="width:100px" type="number" />')
                     fhtml.write(' <img src=')
                     fhtml.write(image_url)
                     fhtml.write(' alt=')

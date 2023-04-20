@@ -1,7 +1,6 @@
 Стандарт:
 Белый :w::w::w:
-[en] {one/19}
-[en] {one/23} 1800
+[en] {one/23} 1500
 [en] {one/24}
 [en] {one/38} 195
 [ru] {neo/7}
@@ -18,22 +17,18 @@
 [en] {snc/34}
 [en] {snc/38}
 [en] {neo/60}
-[ru] {vow/319}
 4x [en] {neo/57} русский
 4x [ru] {neo/58}
-4x [ru] {neo/62}
 4x [ru] {neo/82}
 [ru] {rix/44}
 5x [ru] {aer/40}
 
 	
 Черный :b::b::b:
-[en] {one/98}
 [en] {dmu/87}
 [en] {snc/72}
 4x [ru] {neo/88}
 4x [ru] {neo/99}
-4x [ru] {neo/113}
 4x [ru] {neo/122}
 4x [ru] {neo/123}
 4x [en] {neo/124} русский
@@ -41,32 +36,28 @@
 
 	
 Красный :r::r::r:
-[en] {one/149}
 2x [en] {one/154}
 2x [en] {dmu/147}
 [en] {snc/105}
 [en] {dmu/117}
 [en] {bro/139}
 [ru] {vow/121}
-2x [ru] {neo/140}
-4x [ru] {neo/145}
+3x [ru] {neo/145}
 4x [ru] {neo/147}
 3x [ru] {neo/153}
 4x [ru] {neo/154}
 4x [ru] {neo/155}
 4x [ru] {neo/159}
-4x [ru] {neo/166}
+2x [ru] {neo/166}
 
 	
 Зеленый :g::g::g:
 [en] {neo/194}
-[en] {neo/199} 300
 [en] {neo/200}
 [en] {snc/145}
 [en] {snc/347}
 [en] {vow/225} русский
 4x [en] {neo/181} русский
-4x [ru] {neo/193}
 4x [ru] {neo/197}
 4x [ru] {neo/201}
 4x [ru] {neo/206}
@@ -78,12 +69,9 @@
 [en] {one/206}
 [en] {snc/219}
 [en] {snc/210}
-[en] {snc/229}
 [ru] {mid/232} 80
 [en] {dmu/215}
 2x [en] {dmu/213}
-[en] {neo/217}
-4x [ru] {neo/217}
 3x [ru] {neo/222}
 4x [ru] {neo/224}
 4x [ru] {neo/228}
@@ -96,16 +84,12 @@
 	
 Бесцветные :c:
 [en] {one/229}
-[en] {neo/250}
 4x [ru] {neo/245}
 4x [ru] {neo/249}
 4x [ru] {neo/260}
 	
 Земли:
-[en] {one/249}
-[en] {one/255}
 [en] {one/254}
-[ru] {vow/267}
 
 
 

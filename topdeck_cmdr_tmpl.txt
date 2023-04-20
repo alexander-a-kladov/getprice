@@ -9,38 +9,30 @@ Beacon of Immortality - {mb1/35} (MB1)
 -Knight of Cliffhaven - {mb1/145} (MB1)
 -Archangel - {mb1/25}
 Капканозубый Тиран - {rix/29} 150
-Аватара Пробуждающего Солнца - {xln/44} 100
-Божественное Явление - {grn/10} 200
-[ru] - {m19/27}
 -[en] - {mb1/268}
 [en] - {mb1/76}
 -2x [ru] {mh1/16}
 -[en] {2xm/9}
 [ru] {rna/15}
-2x [ru] {war/16} 190
+[ru] {war/16} 190
 2x [ru] {war/30}
 [en] {grn/19}
-[ru] {war/24}
-[ru] {grn/4}
 2x [ru] {war/12}
 -[en] {mb1/225}
 [ru] {grn/30}
 [ru] {rix/22}
 [ru] {rix/284}
-[ru] {cmr/363}
 [ru] {cmr/375}
-[ru] {cmr/379}
-[ru] {cmr/378}
 [en] {cmr/11} русская
 [en] {cmr/3} русская 350
 [ru] {tsr/34}
 [ru] {soi/32}
 -Эйдолон Воспрещения (THB) - {thb/12}
-[ru] {m21/23}
 3x Прекрасный Принц (ELD) - {eld/8} 80
 2x [ru] {eld/8} 80
-2x [ru] {khm/12}
-3x [ru] {khm/27}
+[ru] {khm/12}
+2x [ru] {khm/27}
+[en] {2xm/7}
 
 
 Синие :u::u::u:
@@ -52,7 +44,6 @@ Beacon of Immortality - {mb1/35} (MB1)
 -Deepglow Skate - {mb1/347}
 -Floodgate - {mb1/381}
 Opt {mb1/451}
-Метаморфическое Преобразование - {m19/60}
 2x Guild Summit - {grn/41}
 Проклятие Эха - {dka/34}
 3x Настойчивые Жалобщики - {rna/44}
@@ -60,11 +51,9 @@ Opt {mb1/451}
 Завораживающий Бентид - {rna/43}
 -Убежище Дрейков - {akh/51}
 Находчивая Карманница - {rix/33}
-[ru] {grn/38}
 [en] {mm2/49} 350
 [ru] {mh1/76}
 [en] {2xm/58}
-[ru] {war/66}
 [ru] {rna/45}
 -[en] {2xm/55}
 -[ru] {bfz/78}
@@ -74,33 +63,27 @@ Opt {mb1/451}
 [ru] {dom/59}
 -[ru] {tsr/51}
 -[ru] {tsr/97}
-[ru] {m21/275}
+[en] {m21/275} русский
 [ru] {kld/59}
-[ru] {aer/41}
 [ru] {aer/29}
-[ru] {kld/52} SP
 [ru] {kld/56} SP
 [ru] {kld/62}
 [ru] {aer/49}
 [en] {2xm/75}
-2x [ru] {khm/50}
-2x [ru] {khm/51}
-2x [ru] {khm/52}
-3x [ru] {khm/61}
-2x [ru] {khm/63}
+[en] {khm/50} русский
+[ru] {khm/52}
+2x [ru] {khm/61}
 2x [ru] {khm/69}
+[ru] {mh1/57}
 
 	
 Черные :b::b::b:
 [ru] - {soi/70}
-[ru] - {xln/104}
 [ru] - {soi/118}
 [ru] - {rix/82}
 -[en] - {mb1/688}
-2x [ru] - {xln/116}
 [ru] {xln/106}
 -[ru] {akh/269}
-2x [ru] {xln/129}
 2x [ru] {m20/97} 5
 [en] {rix/86}
 -2x [ru] {akh/84}
@@ -115,7 +98,6 @@ Opt {mb1/451}
 [ru] {xln/117} 250
 [en] {2xm/113} 250
 2x [ru] {grn/69} 190
-[ru] {m20/98}
 -[en] {mb1/735}
 [en] {2xm/108}
 -2x [ru] {akh/107}
@@ -131,43 +113,31 @@ Opt {mb1/451}
 [ru] {kld/90}
 [ru] {kld/92} 10
 [en] {uma/116}
-3x [ru] {khm/79}
-2x [ru] {khm/82}
-3x [ru] {khm/90}
-[en] {khm/92} русский
-[ru] {khm/94}
-3x [ru] {khm/107}
-4x [ru] {khm/109}
+2x [ru] {khm/79}
+2x [ru] {khm/90}
+[ru] {khm/98}
+3x [ru] {khm/109}
+[en] {khm/112} русский
 
 	
 Красные :r::r::r:
-[en] {ima/145}
 2x [en] {mb1/1032}
 -[ru] {bng/108}
 [en] {ima/144}
 [ru] {kld/109}
 -[en] {a25/138}
-2x [en] {mb1/1071}
 [ru] {soi/159}
-[ru] {soi/163}
 - [ru] {m19/154}
 [ru] {frf/91}
-[ru] {frf/113}
 -[en] {mb1/994}
-[ru] {war/135}
-2x [ru] {xln/159}
 [ru] {aer/96}
 [ru] {frf/91}
 [ru] {frf/99}
 -[ru] {akh/153}
-[ru] {m19/300}
-[ru] {xln/153}
 -[ru] {akh/137}
 -[ru] {mh1/139}
-[ru] {soi/184}
 -[en] {mb1/839}
 3x [ru] {rna/99}
-2x [ru] {war/138}
 4x [ru] {war/140}
 -[en] {mb1/1072}
 2x [en] {cmr/175}
@@ -178,10 +148,6 @@ Opt {mb1/451}
 2x [ru] {xln/161}
 [ru] {rna/108}
 3x [ru] {dom/143}
-[ru] {cmr/419}
-[ru] {cmr/420}
-[ru] {cmr/411}
-[ru] {cmr/364}
 -[ru] {tsr/179}
 [ru] {rix/99}
 [en] {2xm/128}
@@ -189,16 +155,8 @@ Opt {mb1/451}
 2x [ru] {m19/154} 420
 4x Шок - {m19/156}
 -[ru] {thb/157}
-[ru] {m21/143} 490
 [ru] {kld/114}
-[ru] {kld/130}
 [en] {2xm/139}
-[en] {m21/164} 600
-4x [ru] {khm/125}
-3x [ru] {khm/131}
-2x [ru] {khm/142}
-4x [ru] {khm/146}
-3x [ru] {khm/156}
 
 	
 Зеленые :g::g::g:
@@ -209,7 +167,6 @@ Opt {mb1/451}
 [en] {rtr/139}
 -[en] {mb1/1299}
 [ru] {ktk/142}
-[ru] {rix/144} 390
 -[en] {mb1/1241}
 -[ru] {frf/146}
 [ru] {m19/169}
@@ -224,7 +181,6 @@ Opt {mb1/451}
 -[en] {mb1/1272}
 [en] {mb1/1133}
 -[en] {mb1/1159}
-[ru] {mh1/175}
 -2x [ru] {akh/175}
 [ru] {rix/150} вилка 230
 3x [ru] {grn/123} 80
@@ -244,28 +200,19 @@ Opt {mb1/451}
 -[ru] {tsr/220}
 -[ru] {tsr/215}
 3x Неистовый Бронтодон (RIX) - {rix/148}
-2x [ru] {m21/180}
-[ru] {iko/168}
-[ru] {m21/173} 300
+[ru] {m21/180}
 [ru] {m21/188} 420
-[ru] {aer/105}
-[ru] {kld/174}
-[ru] {kld/143}
-[ru] {kld/151}
 2x [en] {2x2/138} Deutsch 420
 [ru] {m15/169}
-2x [ru] {khm/161}
-3x [ru] {khm/179}
-2x [ru] {khm/181}
-[ru] {khm/185}
+2x [en] {khm/179} русский
+[en] {khm/181} русский
 
 	
 Многоцветные :mc:
-[ru] {xln/226}
 -[ru] {frf/149}
 5x [ru] {grn/181}
 2x [ru] {rna/206}
-2x [ru] {m19/223}
+[ru] {m19/223}
 -[ru] {frf/155}
 -[ru] {frf/157}
 [ru] {war/210}
@@ -274,14 +221,13 @@ Opt {mb1/451}
 [en] {war/206} (jp)
 2x [ru] {rna/228}
 -[en] {mb1/1390}
-3x [ru] {rna/214}
-5x [ru] {war/201}
+[ru] {rna/214}
+[ru] {war/201}
 2x [ru] {war/236} (ru, jp)
 [ru] {war/235}
 [ru] {aer/128}
 [ru] {rna/207}
 6x [ru] {grn/180}
-[ru] {m19/215}
 -[ru] {hou/155}
 [en] {uma/207}
 [en] {rtr/209}
@@ -289,8 +235,7 @@ Opt {mb1/451}
 -[en] {a25/200}
 [en] {cns/185}
 [en] {a25/202}
-2x [ru] {war/233}
-2x [ru] {rna/175}
+[ru] {war/233}
 2x [ru] {war/189}
 [ru] {soi/241}
 [ru] {jou/150} 500
@@ -299,10 +244,7 @@ Opt {mb1/451}
 3x [ru] {rna/157}
 3x [ru] {grn/159}
 [ru] {rna/169}
-3x [ru] {grn/171}
 3x [ru] {xln/231} 150
-2x [ru] {rix/153}
-[ru] {grn/190}
 [en] {mm3/201}
 -[ru] {akh/195}
 -3x [ru] {akh/208}
@@ -334,25 +276,14 @@ Opt {mb1/451}
 [ru] {ktk/180}
 [ru] {m19/225}
 [ru] {dom/198}
-[ru] {grn/188}
-[ru] {m19/219}
-[ru] {cmr/447}
 [en] {cmr/449} русская
 [ru] {iko/201}
 -[ru] {iko/207}
 -[en] {mb1/1522}
 [ru] {aer/128}
-[ru] {kld/179} SP
 2x [ru] {grn/152}
-[ru] {khm/204}
-4x [ru] {khm/205}
-3x [ru] {khm/207}
-[ru] {khm/210}
-3x [ru] {khm/213}
-3x [ru] {khm/214}
-2x [ru] {khm/219}
-3x [ru] {khm/227}
-2x [ru] {khm/228}
+[ru] {khm/228}
+[ru] {mh1/197}
 
 	
 Бесцветные :c:
@@ -369,7 +300,6 @@ Opt {mb1/451}
 -[en] {ima/224}
 [ru] {rna/242}
 -[en] {mb1/1553}
-[ru] {rix/177}
 -[ru] {akh/235}
 [ru] {m19/235}
 [ru] {m19/232}
@@ -397,7 +327,6 @@ Opt {mb1/451}
 -[ru] {bfz/9}
 [ru] {dom/225}
 [ru] {dom/233}
-[ru] {cmr/465}
 [ru] {cmr/475}
 [ru] {tsr/274}
 [ru] {tsr/262} 420
@@ -405,28 +334,23 @@ Opt {mb1/451}
 -[en] {mb1/1604}
 -[ru] {thb/237}
 -[en] {mb1/1622}
-[ru] {aer/163}
-[ru] {aer/170}
 [ru] {aer/175} SP
 [ru] {aer/152} SP
-[ru] {kld/214} SP
-[ru] {kld/220}
 [ru] {kld/203} SP
 [ru] {kld/194} SP
 [ru] {hou/164}
 [en] {2x2/3} Deutsch 1200
 [en] {2xm/260}
-[ru] {m19/229}
 [en] {2xm/298} 900
 [ru] {frf/163}
 [en] {mh2/238} 400
 [en] {brr/22}
-4x [ru] {khm/241}
+3x [ru] {khm/241}
+[en] {cmr/346}
 
 	
 Земли:
 3x [ru] {soi/280}
-[ru] {frf/167}
 [en] {rtr/249}
 -[en] {a25/246}
 -[en] {mm3/228}
@@ -446,11 +370,9 @@ Opt {mb1/451}
 [ru] {iko/245}
 -[ru] {thb/248}
 -[ru] {thb/244}
-[en] {thb/246}
-[ru] {m21/255} вилка
 [en] {emn/203} (it) SP
 [ru] {war/244}
 [en] {c14/298}
-[en] {mh2/261} 400
-3x [ru] {khm/272}
+[ru] {khm/272}
+[ru] {ktk/233} SP 1900
 

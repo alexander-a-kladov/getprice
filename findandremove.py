@@ -200,7 +200,11 @@ def read_request_file(request_file: str):
                     tail = args1[1].strip()
                 else:
                     name = args[0]
-                number_of_cards += int(quantity)
+                try:
+                	number_of_cards += int(quantity)
+                except:
+                	number_of_cards += 1
+                	quantity = "1"
                 request_data.append((int(quantity), name, tail))
         f.close()
     return request_data, number_of_cards
@@ -228,7 +232,7 @@ def process_request_data(albums: dict, search_data: list, request_data: list):
             promo = ''
         for s in search_data:
             quan, mtgset_number, line = s
-            if len(line.split(name))>1:
+            if len(line.lower().split(name.lower()))>1:
                 if foil == 'FOIL' and len(line.split(foil))>1 or foil == '' and len(line.split('FOIL'))<=1:
                     if promo == 'promo' and len(line.split(promo))>1 or promo == '' and len(line.split('promo'))<=1:
                         if quan >= quantity:
@@ -251,16 +255,13 @@ def print_not_found(not_found):
 # findandremove.py topdeck_*.txt topdeck.txt
 
 if __name__ == '__main__':
-    album_names = list()
-    search_file = ""
+    album_names = ['topdeck_tmpl.txt', 'topdeck_pioner_tmpl.txt', 'topdeck_modern.txt', 'topdeck_cmdr_tmpl.txt', 'topdeck_foil.txt', 'topdeck_piles.txt']
+    search_file = "topdeck.txt"
     request_file = ""
-    if len(sys.argv) > 4:
-        for i in range(1, len(sys.argv)-2):
-            album_names.append(sys.argv[i])
-        search_file = sys.argv[len(sys.argv)-2]
-        request_file = sys.argv[len(sys.argv)-1]
+    if len(sys.argv) > 1:
+        request_file = sys.argv[1]
     else:
-        print("not enought arguments")
+        print("usage: ./findandremove.py request_file")
         exit(1)
     albums = read_albums(album_names)
    # print_albums(albums)

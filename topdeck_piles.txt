@@ -1,92 +1,59 @@
 Пайло:
 Белые :w::w::w:
-[en] {uma/18}
+[en] {uma/18}      <nonfoil>
 6x [ru] {grn/14}
 4x [ru] {m19/37}
-2x [ru] {kld/33}
 [ru] {kld/10}
 [ru] {kld/25}
-4x [ru] {war/28} (3 рус, 1 jp)
+[ru] {war/28} (3 рус, 1 jp)
 [ru] {grn/2}
-[en] {mb1/146}
 [en] {mb1/138}
 [ru] {rix/13}
 [ru] {grn/13}
 [ru] {xln/9}
 [ru] {emn/27}
 2x [ru] {frf/29}
-[ru] {m13/28}
-[ru] {aer/4}
-[ru] {aer/22}
 [ru] {kld/8}
 	
 Синие :u::u::u:
 [en] {rtr/32}
 [ru] {ths/39}
 [ru] {war/50}
-[ru] {rna/37}
 [ru] {aer/46}
 [ru] {aer/43}
-[ru] {rtr/33}
 2x [ru] {rix/55}
-[ru] {aer/41}
 [ru] {mb1/454}
-[ru] {m19/287}
-[ru] {grn/55}
-[ru] {xln/63}
 [ru] {ths/41}
 [ru] {rna/40}
-[ru] {xln/49}
 [ru] {rix/54}
 [ru] {m20/44}
 3x [ru] {xln/73}
 [ru] {war/55}
 [ru] {soi/73}
-[en] {cmr/64}
-[en] {cmr/78}
 
 	
 Черные :b::b::b:
 4x [ru] {rix/79}
-[ru] {rix/73}
 [ru] {kld/105}
-2x [ru] {rna/73}
 [ru] {war/100}
-4x [ru] {rna/73}
+3x [ru] {rna/73}
 [ru] {war/85}
 3x [ru] {rna/68}
-4x [ru] {grn/83}
 3x [ru] {grn/79}
 [en] {7ed/145}
 [ru] {emn/103}
-[ru] {rna/65}
-[ru] {rix/85}
-2x [ru] {dom/96}
-[ru] {m20/104}
-[ru] {m20/90}
-[ru] {aer/66}
-[ru] {kld/78}
 [ru] {aer/71}
 
 	
 Красные :r::r::r:
-4x [ru] {xln/155}
-[ru] {dom/122}
 [ru] {kld/135}
 [ru] {kld/131}
-2x [ru] {rna/101}
-3x [ru] {rna/92}
 4x [ru] {m20/132}
 4x [ru] {m20/137}
-[ru] {hou/98}
-[ru] {soi/151}
 [ru] {aer/83}
 [ru] {war/124}
 [ru] {soi/166}
 [ru] {ths/115}
-[ru] {hou/96}
-[ru] {rix/103}
-[ru] {aer/93}
 [ru] {kld/122}
 [ru] {kld/136}
 
@@ -94,22 +61,13 @@
 Зеленые :g::g::g:
 [ru] {kld/156}
 [ru] {xln/176}
-[ru] {rix/124}
-[ru] {dom/178}
-[ru] {rix/129}
-3x [ru] {hou/121}
 3x [ru] {m20/205}
 7x [ru] {grn/136}
-4x [ru] {grn/148}
 2x [en] {war/167}
 [en] {grn/128}
 3x [ru] {grn/128}
 [ru] {m19/176}
 [ru] {frf/123}
-[ru] {bng/121}
-[ru] {ktk/154}
-[ru] {aer/108}
-[ru] {kld/152}
 
 	
 Многоцветные :mc:
@@ -122,10 +80,8 @@
 [ru] {grn/175}
 2x [ru] {rna/210}
 [ru] {grn/182}
-4x [ru] {rna/194}
 3x [ru] {rna/197}
 3x [ru] {rna/222}
-2x [ru] {rna/172}
 4x [ru] {rna/155}
 [en] {grn/201}
 3x [ru] {grn/201}
@@ -133,15 +89,12 @@
 2x [ru] {grn/173}
 2x [ru] {rix/155}
 [ru] {m19/213}
-2x [ru] {grn/166}
 4x [ru] {grn/177}
 5x [ru] {rna/208}
 [ru] {grn/215}
 3x [ru] {war/215}
-8x [ru] {grn/161}
 [ru] {aer/139}
 [ru] {rna/204}
-[ru] {xln/221}
 [ru] {rna/224}
 [ru] {grn/155}
 4x [ru] {war/212}
@@ -152,10 +105,6 @@
 [ru] {rtr/192}
 2x [ru] {war/165}
 3x [ru] {rna/211}
-[ru] {mh1/196}
-2x [ru] {war/186}
-[en] {cmr/265}
-[ru] {aer/107}
 
 	
 Бесцветные :c:
@@ -163,20 +112,12 @@
 4x [ru] {m19/231}
 [ru] {kld/219}
 2x [ru] {rna/241}
-4x [ru] {grn/232}
-[ru] {soi/252}
-[ru] {xln/237}
-[en] {cmr/313}
-[ru] {rix/175}
-[ru] {m21/240}
-[ru] {kld/223}
-[ru] {kld/204}
 
 
 Земли:
 [en] {rtr/245}
-2x [ru] {m20/244}
-4x [ru] {war/249}
+[ru] {m20/244}
+[ru] {war/249}
 
 
 
