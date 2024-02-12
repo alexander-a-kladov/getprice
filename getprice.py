@@ -24,6 +24,7 @@ lang = ""
 test = False
 html = False
 inTopic = False
+rarity_dict = dict()
 
 result_fn = 'topdeck.txt'
 result_html = 'topdeck.html'
@@ -237,7 +238,7 @@ def set_foil_promo(line):
 
 def get_price_modifier(mtg_set, lang):
     price_modifier = 1.0
-    price_dict = {"2xm": 1.0, "2x2":1.4, "mh1": 0.8, "mb1": 0.9, "khm": 1.0, "neo": {"en":1.6, "ru":3.5}, "jmp": 1.6, "snc": 2.2, "dmu": 1.8, "bro":1.7, "one":3.0}
+    price_dict = {"rex":2.8,"lcc":2.3, "lci":2.3, "woe": 2.0, "2x2":1.4, "mh1": 0.8, "mh2":2.0, "mb1": 0.9, "neo": {"en":1.2, "ru":3.0}, "jmp": 1.2, "snc": 1.5, "dmu": 1.2, "bro":1.2, "one":1.2, "mom":1.2, "ltr":1.7}
     if mtg_set in price_dict:
         if not isinstance(price_dict[mtg_set], dict):
             price_modifier = price_dict[mtg_set]
@@ -264,11 +265,11 @@ def calc_price(token, mtgset, lang, promo, foil, line):
     price1 = price2 = 0
     price3 = 0
     if token.get('prices').get('usd'):
-        price1 = int(45.0 * float(token.get('prices').get('usd')))
+        price1 = int(50.0 * float(token.get('prices').get('usd')))
     if token.get('prices').get('eur'):
         price2 = 0#int(50.0 * float(token.get('prices').get('eur')))
     if token.get('prices').get('usd_foil'):
-        price3 = int(25.0 * float(token.get('prices').get('usd_foil')))
+        price3 = int(30.0 * float(token.get('prices').get('usd_foil')))
         if get_set_present(line) == "FMB1":
             price3 = int(price3 / 5.0)
         if lang == 'ru':
@@ -287,13 +288,22 @@ def calc_price(token, mtgset, lang, promo, foil, line):
                     # if price>=0 and price<4:
                     #    price = 4;
     price *= get_price_modifier(mtgset, "ru" if (~line.find("русский")) else lang)
-    price *= (-1.0 * (price * 150.0) ** 0.6 + 9000.0) / 8000.0
+    #price *= (-1.0 * (price * 150.0) ** 0.6 + 9000.0) / 8000.0
     price = int(price)
     return price
 
 
+def add_to_rarity_dict(rarity_count, rarity, quantity, price):
+    if rarity not in rarity_count:
+        rarity_count[rarity] = [quantity, price]
+    else:
+        q = rarity_count[rarity][0]
+        p = rarity_count[rarity][1]
+        rarity_count[rarity] = [q+quantity, p+price]
+
+
 def get_prices(filename):
-    global total_cards, total_price, foil, promo, lang, test, test_set, fhtml, inTopic
+    global total_cards, total_price, foil, promo, lang, test, test_set, fhtml, inTopic, rarity_dict
     album_names = {"Стандарт:": "Standard.png", "Пионер:": "Pioneer.png", "Модерн:": "Modern.png",
                   "Коммандер:": "Commander.jpg", "Фойл:": "Foil.jpg", "Пайло:": "Piles.jpg"}
     mana_symbols = {":w::w::w:": "w.html", ":u::u::u:": "u.html", ":b::b::b:": "b.html", ":r::r::r:": "r.html",
@@ -325,7 +335,7 @@ def get_prices(filename):
             quantity = 0
             if len(str1) > 1:
                 mtgset = str1[0].split("/")[0]
-                number = int(str1[0].split("/")[1])
+                number = str1[0].split("/")[1]
                 if test and mtgset != test_set:
                     if test_set != "all" and test_set[0] != '>':
                         continue
@@ -353,9 +363,12 @@ def get_prices(filename):
                             # print("price="+str(price)+" too small")
                             continue
                     if price > 0:
+                        if price < 10:
+                            price = 10
                         quantity = get_number_of_cards(line)
                         total_cards += quantity
                         total_price += quantity * price
+                        add_to_rarity_dict(rarity_dict, token.get("rarity"), quantity, quantity*price)
                         if not test:
                             add_price_for_card(mtgset, number, date_today, price, quantity)
                     if price == 0:
@@ -446,6 +459,7 @@ def get_prices(filename):
                 # fhtml.write('</div>')
                 fhtml.write('\n')
         line_num += 1
+    print(rarity_dict)
 
 
 if __name__ == '__main__':
