@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # coding: utf8
 
 import sqlite3
@@ -87,11 +87,11 @@ def main():
     if conn is not None:
         # create projects table
         create_table(conn, sql_create_cards_prices_table)
-	create_table(conn, sql_create_total_data_table)
-	create_table(conn, sql_create_cards_names)
-	create_table(conn, sql_create_albums_table)
-	create_table(conn, sql_create_colors_table)
-	create_table(conn, sql_create_cards_table)
+        create_table(conn, sql_create_total_data_table)
+        create_table(conn, sql_create_cards_names)
+        create_table(conn, sql_create_albums_table)
+        create_table(conn, sql_create_colors_table)
+        create_table(conn, sql_create_cards_table)
     else:
         print("Error! cannot create the database connection.")
 
