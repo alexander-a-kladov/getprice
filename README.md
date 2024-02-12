@@ -9,6 +9,7 @@ create local sqlite mycards.db, through create_db.py and create_tables.py
 usage:
 to get lists with prices and names (from scryfall.com)
 ./getprice.py topdeck_tmpl.txt topdeck_modern.txt ... topdeck_foils.txt
+
 output: topdeck.txt, topdeck.html
 it saves some information to sqlite mycards.db, names, prices when works, to not save data of prices use
 ./getprice.py test all topdeck_tmpl.txt topdeck_modern.txt ... topdeck_foils.txt
@@ -22,3 +23,6 @@ to update topdeck_lists input files
 
 to get topdeck_lists from lists of card names
 ./wanttobuy.py quantity_name_list
+
+other script should be not used, or used after understanded
+all script are used as is, without any guarantee
