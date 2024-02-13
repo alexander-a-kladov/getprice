@@ -70,12 +70,11 @@ def get_prices(filename):
         if len(line.strip())==0:
             continue
         tokens = line.strip().split('\t')
-        if len(tokens) == 1:
-            if tokens[0][0] in {'0','1','2','3','4','5','6','7','8','9'}:
-                tokens.insert(0, tokens[0].split(' ')[0])
-                tokens[1] = tokens[1].split(tokens[0]+' ')[1]
-            else:
-                tokens.insert(0, '1')
+        if tokens[0][0] in {'0','1','2','3','4','5','6','7','8','9'}:
+            tokens.insert(0, tokens[0].split(' ')[0])
+            tokens[1] = tokens[1].split(tokens[0]+' ')[1]
+        else:
+            tokens.insert(0, '1')
         if len(tokens) == 2:
             tokens.append('')
         if len(tokens) == 3:
