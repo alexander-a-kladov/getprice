@@ -177,7 +177,7 @@ def get_price_from_txt(price_str):
     price_str_tokens = price_str.split()
     for token in price_str_tokens:
         try:
-            price = int(token)
+            price = float(token)
             break
         except ValueError:
             price = None
@@ -185,6 +185,10 @@ def get_price_from_txt(price_str):
     if price:
         del price_str_tokens[pos]
         price_str = " ".join(price_str_tokens)
+        try:
+            price = int(token)
+        except ValueError:
+            pass
     return price, price_str
 
 
@@ -237,8 +241,9 @@ def set_foil_promo(line):
 
 
 def get_price_modifier(mtg_set, lang):
-    price_modifier = 1.0
-    price_dict = {"rex":2.8,"lcc":2.3, "lci":2.3, "woe": 2.0, "2x2":1.4, "mh1": 0.8, "mh2":2.0, "mb1": 0.9, "neo": {"en":1.2, "ru":3.0}, "jmp": 1.2, "snc": 1.5, "dmu": 1.2, "bro":1.2, "one":1.2, "mom":1.2, "ltr":1.7}
+    price_modifier = 2.0
+    price_dict = {"thb":1.0, "stx":1.0, "m19":1.0, "a25":1.0,"dom":1.0, "kld":1.0, "rex":2.8,"lcc":2.3,"ltc":2.0,"lci":2.3, "woe": 2.0, "2x2":1.4, "mh1": 0.8, "mb1": 0.9, "neo": {"en":1.2, "ru":3.0}, "jmp": 1.2, "snc": 1.5, "dmu": 1.5, "bro":1.2, "one":1.2, "mom":1.5, "ltr":1.7, "mkm":2.3, "grn":1.0, "rna":1.0, "znr":1.0, "dkt":1.0, "rix":1.0, "war":1.0, "ogw":1.0, "brc":3.0,
+    "khm":1.0}
     if mtg_set in price_dict:
         if not isinstance(price_dict[mtg_set], dict):
             price_modifier = price_dict[mtg_set]
@@ -356,8 +361,13 @@ def get_prices(filename):
                         else:
                             image_url = token.get('card_faces')[0].get('image_uris').get('small')
                     price, str1[1] = get_price_from_txt(str1[1])
-                    if not price:
+                    if not price or isinstance(price, float):
+                        topdeck_multiplier = price
                         price = calc_price(token, mtgset, lang, promo, foil, line)
+                        if isinstance(topdeck_multiplier, float):
+                            print(topdeck_multiplier)
+                            price = int(price*topdeck_multiplier)
+                            
                     if test and test_set[0] == '>':
                         if price < int(test_set.split('>')[1]):
                             # print("price="+str(price)+" too small")

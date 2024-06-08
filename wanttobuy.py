@@ -22,11 +22,12 @@ def request_scryfall(name, set_name):
 
 def get_attributes(attrs):
     global foils, promo
-    if attrs.count("Foil") > 0:
+    attrs = attrs.lower()
+    if attrs.count("foil") > 0:
         new_foils = True
     else:
         new_foils = False
-    if attrs.count("Prerelease") > 0:
+    if attrs.count("prerelease") > 0:
         new_promo = True
     else:
         new_promo = False
@@ -73,6 +74,9 @@ def get_prices(filename):
         if tokens[0][0] in {'0','1','2','3','4','5','6','7','8','9'}:
             tokens.insert(0, tokens[0].split(' ')[0])
             tokens[1] = tokens[1].split(tokens[0]+' ')[1]
+        elif tokens[0][-1] in {'0','1','2','3','4','5','6','7','8','9'}:
+            tokens[0] = tokens[1].split(' x')[-1]
+            tokens[1] = tokens[1].split(' x'+tokens[0])[0]
         else:
             tokens.insert(0, '1')
         if len(tokens) == 2:
@@ -88,6 +92,7 @@ def get_prices(filename):
                 if set_name not in mtg_sets:
                     mtg_sets[set_name] = 0
                 mtg_sets[set_name] += 1
+                tokens[1]=tokens[1].strip()
                 set_number, rarity = request_scryfall(tokens[1], set_name)
                 add_str = get_attributes(tokens[2])
                 if set_number:

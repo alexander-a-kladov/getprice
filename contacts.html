@@ -27,31 +27,88 @@ function toggleSpoilers() {
   });
 }
 
-function AddToBasket() {
+function findOne(quan, name, params) {
+  let inputs = window.document.getElementsByTagName("input");
+  let summ = 0;
+  let number = 0;
+  let value = quan;
+  console.log(quan, name, params);
+  for (let i = 3; i < inputs.length; i++) {
+  	data = getElementData(inputs[i].nextElementSibling.nextElementSibling,
+  			inputs[i].parentElement.lastElementChild);
+  	
+ 	let [cname, cparams] = data.name.split(' -  ');
+ 	cname = cname.split(' (')[0];
+ 	console.log(cname, data.quantity);
+  	if (cname == name) {
+  	if (value>data.quantity) {
+  		value = data.quantity;
+  	}
+  	number += value;
+  	summ += value * data.price;
+  	if (value) {
+  		inputs[i].value = value
+  	}
+	if (number >= quan) {
+		break;
+	}
+	}
+  }
+  return [number, summ] 
+}
+
+function findMany() {
+	let summ = 0;
+	let number = 0;
+	let result = "Найдено карт:\n"
+	let deck_list = window.document.getElementById('deck').value.split('\n');
+	for (let i = 0; i < deck_list.length;i++) {
+		let quan = Number(deck_list[i].split(' ')[0]);
+		let name = deck_list[i].split(quan+' ')[1];
+		let [quan_find, price] = findOne(quan, name);
+		number += quan_find;
+		summ += price;
+		if (quan_find) {
+			result+=quan_find+" "+name+" "+price+"\n";
+		}
+	}
+	result+="\nВсего карт: "+number+"\n";
+	result+="Сумма: "+summ+"\n";
+	alert(result);
+}
+
+function getElementData(price_el, name_el, quantity_el)
+{
+	let quantity = 1;
+	let price = price_el.innerHTML.split('<span>').join('').split(' ');
+  	price = Number(price[price.length-2]);
+  	let name = name_el.innerHTML.split('<wbr>').join(' ');
+	if (~name.indexOf('x ')) {
+  	if (name.split('x ')[0].match(/(-?\d+(\.\d+)?)/g)) {
+  		quantity = Number(name.split('x ')[0]);
+  		name = name.split(quantity+'x ')[1];
+  	}
+  	}
+  	return {price: price, name: name, quantity: quantity}
+}
+
+function addToBasket() {
   let inputs = window.document.getElementsByTagName("input");
   let summ = 0;
   let number = 0;
   let result_str = "Здравствуйте. Хочу купить у вас следующие карты:\n"; 
   for (let i = 1; i < inputs.length; i++) {
   	if (Number(inputs[i].value)>0) {
-  	let price = inputs[i].nextElementSibling.nextElementSibling.innerHTML.split('<span>').join('').split(' ');
-  	price = Number(price[price.length-2]);
-  	let name = inputs[i].parentElement.lastElementChild.innerHTML.split('<wbr>').join(' ');
-  	let quantity = 1;
   	let value = Number(inputs[i].value);
-  	if (~name.indexOf('x ')) {
-  	if (name.split('x ')[0].match(/(-?\d+(\.\d+)?)/g)) {
-  		quantity = Number(name.split('x ')[0]);
-  		name = name.split(quantity+'x ')[1];
-  	}
-  	}
+  	data = getElementData(inputs[i].nextElementSibling.nextElementSibling,
+  			inputs[i].parentElement.lastElementChild);
   	
-  	if (value>quantity) {
-  		value = quantity;
+  	if (value>data.quantity) {
+  		value = data.quantity;
   	}
   	number += value;
-  	summ += value * price;
-  	result_str += value + " "+ name +" "+ price+" р \n";
+  	summ += value * data.price;
+  	result_str += value + " "+ data.name +" "+ data.price+" р \n";
   	}
   }
   result_str+="\nСумма "+summ+" р\nКоличество карт "+number;
@@ -67,8 +124,15 @@ function AddToBasket() {
 
 </script>
 
-<input type="button" id="find-button" onclick="AddToBasket()" value="Добавить в корзину"/>
+<input type="button" id="basket-button" onclick="addToBasket()" value="Добавить в корзину"/>
 <input type="button" id="spoilers-button" onclick="toggleSpoilers()" value="Открыть/закрыть все альбомы"/>
+<p><details>
+<summary>Поиск множества карт</summary>
+<form>
+<p><textarea name="deck" id="deck" placeholder="Copy your deck here"></textarea>
+<p><input type="button" id="find-button" onclick="findMany()" value="Найти"></p>
+</form>
+</details></p>
 <br/>
 <hr/>
 
