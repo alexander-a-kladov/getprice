@@ -361,11 +361,18 @@ def get_prices(filename):
                         else:
                             image_url = token.get('card_faces')[0].get('image_uris').get('small')
                     price, str1[1] = get_price_from_txt(str1[1])
+                    frame_effect = token.get('frame_effects')
+                    if frame_effect:
+                        frame_effect = frame_effect[0].replace("extendedart", "Extended")
+                        if not frame_effect == "Extended":
+                            frame_effect = ""
+                    else:
+                        frame_effect = ""
+                        
                     if not price or isinstance(price, float):
                         topdeck_multiplier = price
                         price = calc_price(token, mtgset, lang, promo, foil, line)
                         if isinstance(topdeck_multiplier, float):
-                            print(topdeck_multiplier)
                             price = int(price*topdeck_multiplier)
                             
                     if test and test_set[0] == '>':
@@ -376,6 +383,8 @@ def get_prices(filename):
                         if price < 10:
                             price = 10
                         quantity = get_number_of_cards(line)
+                        if quantity > 4:
+                            quantity = 4
                         total_cards += quantity
                         total_price += quantity * price
                         add_to_rarity_dict(rarity_dict, token.get("rarity"), quantity, quantity*price)
@@ -406,11 +415,13 @@ def get_prices(filename):
                     fw.write(str0[0] + str1[1].strip() + ' ' + str(price))
                 else:
                     fw.write(str0[0] + ' (' + mtgset.swapcase() + '/'+str(number)+ ')' + str1[
-                        1].strip() + ' ' + str(price))
+                        1].strip() + ' '+ str(price))
                 if foil:
                     fw.write(' FOIL')
                 if promo:
                     fw.write(' promo')
+                if len(frame_effect):
+                    fw.write(f' {frame_effect}')
                 if html:
                     fhtml.write('<div id="container">')
                     # fhtml.write('<p>'+str(price)+' р </p>')
