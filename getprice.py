@@ -494,7 +494,7 @@ if __name__ == '__main__':
         print("usage: getprice.py file_tmpl.txt file_tmpl1.txt")
     else:
         print(sys.argv[1])
-        if re.search("test", sys.argv[1]):
+        if sys.argv[1] == "test":
             test_set = sys.argv[2]
             test = True
             if test_set[0] != '>' and test_set[0] != '<':
