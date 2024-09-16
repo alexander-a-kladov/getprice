@@ -263,7 +263,7 @@ def write_html_headers():
     topdeck_search_f = open('topdeck_search.js', 'r')
     fhtml.write('<script>')
     fhtml.write(topdeck_search_f.read())
-    fhtml.write('</script>')
+    fhtml.write('</script>\n')
 
 
 def calc_price(token, mtgset, lang, promo, foil, line):
@@ -342,7 +342,7 @@ def get_prices(filename):
                 mtgset = str1[0].split("/")[0]
                 number = str1[0].split("/")[1]
                 if test and mtgset != test_set:
-                    if test_set != "all" and test_set[0] != '>':
+                    if test_set != "all" and test_set[0] != '>' and test_set[0] != '<':
                         continue
                 # if mtgset=="znr":
                 #    continue;
@@ -377,7 +377,10 @@ def get_prices(filename):
                             
                     if test and test_set[0] == '>':
                         if price < int(test_set.split('>')[1]):
-                            # print("price="+str(price)+" too small")
+                            #print("price="+str(price)+" too small")
+                            continue
+                    if test and test_set[0] == '<':
+                        if price > int(test_set.split('<')[1]):
                             continue
                     if price > 0:
                         if price < 10:
@@ -396,6 +399,7 @@ def get_prices(filename):
                 else:
                     price = ""
                     print("error:" + str(r.status_code) + " " + str(line_num) + " " + line)
+                    continue
                 if reserve:
                     continue
                 en_name = get_card_name('en', mtgset, number)
@@ -493,10 +497,10 @@ if __name__ == '__main__':
         if re.search("test", sys.argv[1]):
             test_set = sys.argv[2]
             test = True
-            if test_set[0] != '>':
+            if test_set[0] != '>' and test_set[0] != '<':
                 print("test_set=" + test_set)
             else:
-                print("test_price=" + test_set.split('>')[1])
+                print("test_price=" + test_set)
 
         date_today = str(datetime.date.today())
         conn = create_connection(r"mycards.db")
