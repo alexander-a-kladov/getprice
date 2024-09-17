@@ -33,8 +33,5 @@ e.g. https://topdeck.ru/apps/toptrade/auctions/425580 (scryfall like)
 to sort html files in descending price order
 ./sort_results.py topdeck.html
 
-find cards in mycards.db by deck lists exported from mtggoldfish.com
-./find_cards.py mtggoldfish_deck.txt
-
 other script should not be used without understand what they do
 all script are used as is, without any guarantee
