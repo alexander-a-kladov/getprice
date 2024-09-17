@@ -255,12 +255,12 @@ def get_price_modifier(mtg_set, lang):
 
 def write_html_headers():
     fhtml.write('<html>')
-    style_f = open('style.html', 'r')
+    style_f = open('html/style.html', 'r')
     fhtml.write(style_f.read())
     fhtml.write('<body>')
-    contacts_f = open('contacts.html', 'r')
+    contacts_f = open('html/contacts.html', 'r')
     fhtml.write(contacts_f.read())
-    topdeck_search_f = open('topdeck_search.js', 'r')
+    topdeck_search_f = open('html/topdeck_search.js', 'r')
     fhtml.write('<script>')
     fhtml.write(topdeck_search_f.read())
     fhtml.write('</script>\n')
