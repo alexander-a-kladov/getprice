@@ -26,6 +26,8 @@ to get topdeck_lists from lists of card names, e.g. to evaluate prices for mass 
 ./wanttobuy.py quantity_name_list
 
 to get topdeck_list from exported moxfield.com lists, or something exported from scryfall (or other unknown site)
+e.g. https://topdeck.ru/apps/toptrade/auctions/425161 (moxfiled like)
+e.g. https://topdeck.ru/apps/toptrade/auctions/425580 (scryfall like)
 ./moxfield_convert.py file.list mox, or ./moxfield_convert.py file.list
 
 to sort html files in descending price order
