@@ -313,7 +313,7 @@ def get_prices(filename):
                   "Коммандер:": "Commander.jpg", "Фойл:": "Foil.jpg", "Пайло:": "Piles.jpg"}
     mana_symbols = {":w::w::w:": "w.html", ":u::u::u:": "u.html", ":b::b::b:": "b.html", ":r::r::r:": "r.html",
                    ":g::g::g:": "g.html", ":c:": "colorless.html", ":mc:": "multicolor.html"}
-    album_spoilers_f = open('album_spoilers.html', 'r')
+    album_spoilers_f = open('html/album_spoilers.html', 'r')
     album_spoilers = album_spoilers_f.read()
     album_spoilers_f.close()
 
@@ -477,7 +477,7 @@ def get_prices(filename):
                 # fhtml.write('<div id="line">')
                 if len(line.strip().split()) > 1 and line.strip().split()[1] in mana_symbols:
                     print(line.strip().split()[1])
-                    file_mana_f = open("manasymbols/" + mana_symbols[line.strip().split()[1]])
+                    file_mana_f = open("html/" + mana_symbols[line.strip().split()[1]])
                     line = line.replace(line.strip().split()[1], file_mana_f.read())
                     file_mana_f.close()
                 fhtml.write('<p id="line">' + line + '</p>')
