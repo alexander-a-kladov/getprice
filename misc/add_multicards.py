@@ -13,16 +13,32 @@ if __name__ == '__main__':
         card_name_str=input()
         if len(card_name_str)==0:
             continue
-        card_name=int(card_name_str)
-        if card_name>0:
+        card_name=card_name_str.strip()
+        if card_name != "0":
             if cards.get(card_name) is None:
                 cards[card_name]=1
             else:
                 cards[card_name]+=1
+        else:
+            break
     fw=open(set_name+lang+".txt","w")
-    for key in sorted(cards.keys()):
+    foil=False
+    new_foil=False
+    for key in cards.keys():
+        num = key
+        if key[-1] == 'f':
+            num = key[:-1]
+            new_foil=True
+        else:
+            new_foil=False
+        if foil != new_foil:
+            if new_foil:
+                fw.write("<foil>\n")
+            else:
+                fw.write("<nonfoil>\n")
+            foil = new_foil
         if cards[key]>1:
             print(str(cards[key])+"x ",end='')
             fw.write(str(cards[key])+"x ")
-        print("["+lang+"] "+"{"+set_name+"/"+str(key)+"}")
-        fw.write("["+lang+"] "+"{"+set_name+"/"+str(key)+"}"+"\n")
+        print("["+lang+"] "+"{"+set_name+"/"+str(num)+"}")
+        fw.write("["+lang+"] "+"{"+set_name+"/"+str(num)+"}"+"\n")
