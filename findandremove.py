@@ -197,6 +197,13 @@ def read_request_file(request_file: str):
                 args1 = line.split(' - ')
                 if len(args1)>1:
                     name = args1[0].strip()
+                    try:
+                        tokens = name.split(' ')
+                        int(tokens[0])
+                        quantity = tokens[0]
+                        name = " ".join(tokens[1:])
+                    except:
+                        pass
                     tail = args1[1].strip()
                 else:
                     name = args[0]
