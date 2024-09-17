@@ -32,7 +32,7 @@ def create_table(conn, create_table_sql):
         print(e)
 
 def main():
-    database = "mycards.db"
+    database = "../mycards.db"
 
     sql_create_cards_prices_table = """ CREATE TABLE IF NOT EXISTS cards_prices (
                                         set_id text,
