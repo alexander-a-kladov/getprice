@@ -155,7 +155,7 @@ def save_albums(albums: dict):
                     if quantity > 1:
                         qunt_str = str(quantity)+'x '
                     foil_promo_str, foil_c, promo_c = make_foil_promo_str(foil_c, promo_c, foil, promo)
-                    f.write(qunt_str + line + foil_promo_str + "\n")
+                    f.write(qunt_str + strip(line) + foil_promo_str + "\n")
             f.close()
 
 
