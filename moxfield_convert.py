@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 import sys
 
+#tabs_dict={"name":0, "set":1, "quantity":3, "foil":4, "number":6}
+tabs_dict={"name":0, "set":1, "foil":3, "number":2}
+
 def convert_moxfield_file(filename):
     f = open(filename, "r")
     fc = open(filename.split(".txt")[0]+"_list.txt", "w")
@@ -44,19 +47,22 @@ def convert_scryfall_file(filename):
                 if index!=-1:
                     line = line[index:]
             tokens = line.split(',')
-            quan = tokens[3]
-            set_name = tokens[1].lower()
+            if "quantity" in tabs_dict:
+                quan = tokens[tabs_dict["quantity"]]
+            else:
+                quan = "1"
+            set_name = tokens[tabs_dict["set"]].lower()
             if len(set_name)==4 and set_name!="plst":
                 set_name = set_name[1:]
             if set_name=="plst":
                 set_name = set_name.upper()
-            number = tokens[6]
+            number = tokens[tabs_dict["number"]]
             try:
                 int(number[-1])
             except:
                 number = number[:-1]
             number = number.lower()
-            if tokens[4]=='foil':
+            if tokens[tabs_dict["foil"]].lower()=='foil':
                 ff.write(quan+"x [en] {"+set_name+"/"+number+"}\n")
             else:
                 fc.write(quan+"x [en] {"+set_name+"/"+number+"}\n")
