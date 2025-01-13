@@ -20,7 +20,7 @@ def get_data(l):
             tokens[0]=tokens[0][len(quan_token[0]):]
         except:
             quantity = 1
-        key = tokens[0].strip()+')'
+        key = '('+tokens[0].split('(')[1]+')'
         foil_token = tokens[1].split("FOIL")
         if len(foil_token)>1:
             key += " FOIL"
@@ -45,6 +45,8 @@ def update_topdeck():
     global order_dict
     fi = open(inputfile, "r")
     fs = open(resultfile, "w")
+    lines = 0
+    cards = 0
     lastl = None
     if fi and fs:
         for l in fi.readlines():
@@ -53,7 +55,8 @@ def update_topdeck():
             key, quantity = get_data(l)
             if key and quantity:
                 if key in order_dict:
-                    quan0_len = len(str(quantity))
+                    quan0 = quantity
+                    lines += 1
                     o_quan = order_dict[key]
                     if quantity - o_quan>=0:
                         del order_dict[key]
@@ -61,9 +64,10 @@ def update_topdeck():
                     else:
                         order_dict[key]-=quantity
                         quantity = 0
+                    cards += quan0 - quantity
                     if quantity:
                         if l[0] in ['0','1','2','3','4','5','6','7','8','9']:
-                            l = str(quantity)+l[quan0_len:]
+                            l = str(quantity)+l[len(str(quan0)):]
                     else:
                          l=""
             if len(l.strip())==0 and lastl==l.strip():
@@ -71,6 +75,9 @@ def update_topdeck():
             lastl = l
             if l:
                 fs.write(l)
+        print(f'found lines={lines} cards={cards}')
+        print("not found:")
+        print(order_dict)
         fi.close()
         fs.close()
                         
