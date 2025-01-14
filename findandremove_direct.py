@@ -45,6 +45,7 @@ def update_topdeck():
     global order_dict
     fi = open(inputfile, "r")
     fs = open(resultfile, "w")
+    total_cards = 0
     lines = 0
     cards = 0
     lastl = None
@@ -66,16 +67,20 @@ def update_topdeck():
                         quantity = 0
                     cards += quan0 - quantity
                     if quantity:
+                        total_cards += quantity
                         if l[0] in ['0','1','2','3','4','5','6','7','8','9']:
                             l = str(quantity)+l[len(str(quan0)):]
                     else:
                          l=""
+                else:
+                    total_cards += quantity
             if len(l.strip())==0 and lastl==l.strip():
                 l = ""
             lastl = l
             if l:
                 fs.write(l)
         print(f'found lines={lines} cards={cards}')
+        print(f'cards left {total_cards}')
         print("not found:")
         print(order_dict)
         fi.close()

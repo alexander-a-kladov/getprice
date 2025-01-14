@@ -10,6 +10,7 @@ promo = False
 def request_scryfall(name, set_name):
     url = "https://api.scryfall.com/cards/named?fuzzy="
     url += name.replace(' ', '+')
+    print(url)
     if len(set_name)>0:
         url += "&set="+set_name
     r = requests.get(url)
