@@ -67,8 +67,6 @@ Outrageous Robbery -  (MKM/97) 35
 
 2x Поцелуй Вампира -  (VOW/136) 14
 
-Фонтан Крови -  (VOW/95) 18
-
 Spiteful Hexmage -  (WOE/108) 11
 
 Deadly Cover-Up -  (MKM/399) 86 Extended
@@ -102,8 +100,6 @@ Big Score -  (SNC/102) 125
 2x Сварщик Металлолома -  (NEO/159) 12
 
 Lamplight Phoenix -  (MKM/137) 21
-
-Игра с Огнем -  (MID/154) 11
 
 2x Keldon Flamesage -  (DMU/407) 10 Extended
 
@@ -139,9 +135,6 @@ Llanowar Greenwidow -  (DMU/415) 18 Extended
 
 Green Sun's Twilight -  (ONE/391) 45 Extended
 
-Aloe Alchemist -  (OTJ/152) 10
-
-    
 Многоцветные :mc:
 Rivaz of the Claw -  (DMU/215) 86
 
@@ -619,7 +612,7 @@ Wilderness Reclamation -  (RNA/149) 30
 
 3x Отрастание -  (STA/56) 24
 
-4x Пережить Бурю -  (STA/58) 11
+4x Пережить Бурю -  (STA/58) 15
 
 Railway Brawler -  (OTJ/175) 551
 
@@ -879,8 +872,6 @@ East-Mark Cavalier -  (LTR/9) 10 FOIL
 
 Take Up the Shield -  (OTJ/34) 10 FOIL
 
-3x Wall of Omens -  (2X2/344)jp Borderless 13 FOIL
-
 3x Seeker of the Way -  (2X2/341)jp Borderless 10 FOIL
 
 3x Mentor of the Meek -  (2X2/340)jp Borderless 17 FOIL
@@ -964,8 +955,6 @@ Isolation at Orthanc -  (LTR/57) 10 FOIL
 
 Nimrodel Watcher -  (LTR/63) 10 FOIL
 
-This Town Ain't Big Enough -  (OTJ/74) 30 FOIL
-
 Shifting Grift -  (OTJ/66) 15 FOIL
 
 Clammy Prowler -  (DSK/45) 10 FOIL
@@ -975,23 +964,17 @@ Duskmourn's Domination -  (DSK/50) 10 FOIL
 Clammy Prowler -  (DSK/45) 10 FOIL
 
 Черные :b::b::b:
-2x Necrogen Communion -  (ONE/99) 10 FOIL
-
 Chimney Imp - (FMB1) 11 FOIL
 
 Клеймящие Клинки -  (RNA/64) 10 FOIL
 
 Death's-Head Buzzard -  (A25/84) 10 FOIL
 
-Dark Dabbling -  (UMA/91) 16 FOIL
-
 Горгона-Собирательница -  (THS/93) 19 FOIL
 
 Заразный Грудион -  (RNA/78) 10 FOIL
 
 Бес-Падальщик -  (RNA/66) 14 FOIL
-
-Провидец Боли -  (BNG/80) 18 FOIL
 
 Кромсатель со Шпилей -  (RNA/86) 10 FOIL
 
@@ -1155,8 +1138,6 @@ Olog-hai Crusher -  (LTR/140) 10 FOIL
 
 Battle-Scarred Goblin -  (LTR/115) 10 FOIL
 
-Iron-Fist Pulverizer -  (OTJ/131) 10 FOIL
-
 Case of the Burning Masks -  (MKM/113) 10 FOIL
 
 Person of Interest -  (MKM/139) 10 FOIL
@@ -1205,8 +1186,6 @@ Assault Formation -  (IMA/155) 82 FOIL
 
 Ветра Кэл-Сизма -  (FRF/147) 86 FOIL
 
-Рост Гидры -  (THB/172) 56 FOIL
-
 Ivy Elemental -  (IMA/170) 10 FOIL
 
 Jaddi Offshoot -  (IMA/171) 22 FOIL
@@ -1226,8 +1205,6 @@ Elvish Aberration -  (2XM/165) 10 FOIL
 Сломанные Крылья -  (ZNR/181) 10 FOIL
 
 Whisperer of the Wilds -  (2XM/187) 14 FOIL
-
-Вивьен, Заступница Диких Земель -  (WAR/180)вилка 44 FOIL
 
 Рой Cкутов -  (ZNR/203)вилка 112 FOIL
 
@@ -1271,8 +1248,6 @@ Wayfaring Temple -  (MM3/202) 19 FOIL
 
 Yore-Tiller Nephilim - (FMB1) 58 FOIL
 
-Гидра Биоэссенции -  (WAR/186) 18 FOIL
-
 Оджутай, Дух Зимы -  (FRF/156) 148 FOIL
 
 Возвышение к Славе -  (THB/225) 10 FOIL
@@ -1311,8 +1286,6 @@ Shimmering Grotto -  (IMA/248) 12 FOIL
 Лесная Теснина -  (M19/258) 19 FOIL
 
 Пепельные Пустоши -  (M19/248) 16 FOIL
-
-Lush Oasis -  (OTJ/261) 11 FOIL
 
 Arid Archway -  (OTJ/252) 86 FOIL
 
