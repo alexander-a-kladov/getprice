@@ -151,8 +151,6 @@ Rivaz of the Claw -  (DMU/215) 86
 
 Котосэ, Безмолвная Паучиха -  (NEO/228) 12
 
-Melira, the Living Cure -  (ONE/333) 10
-
 Risona, Asari Commander -  (NEO/492) 10
 
     
@@ -317,6 +315,78 @@ Flight of Equenauts -  (GRN/11) 10
 
 Reluctant Role Model -  (DSK/26) 47
 
+Охотница за Наградами -  (GRN/2) 10
+
+Герой Первого Округа -  (RNA/11) 10
+
+Поединок -  (WAR/30) 10
+
+Light of the Legion -  (GRN/19) 10
+
+Ангел Осуждения -  (HOU/3) 25
+
+Неповоротливый Бастион -  (RNA/15) 10
+
+Апофеоз Славы -  (WAR/12) 40
+
+Стражница Серры -  (M19/284) 25
+
+Истребление Сильных -  (RIX/22) 10
+
+Почтенный Локсодон -  (GRN/30) 10
+
+One Last Job -  (OTJ/22) 15
+
+Лина, Самоотверженная Заступница -  (M19/21) 10
+
+Глашатай Анафензы -  (KTK/12) 15
+
+Очистительная Вспышка -  (M19/9) 20
+
+Серьезный Новобранец -  (AER/22) 10
+
+Сторукий -  (THS/20) 10
+
+Эфирный Рудокоп -  (AER/4) 10
+
+Репрессии Консульства -  (AER/11) 15
+
+Генерал Чешуи Дракона -  (FRF/11) 10
+
+Небесный Архонт -  (THS/3) 10
+
+Предначертанное Возмездие -  (BNG/11) 15
+
+Нерушимый Строй -  (RNA/29) 25
+
+Ангел Ограничений -  (AKH/1) 20
+
+Осада Цитадели -  (FRF/8) 20
+
+Эйдолон Воспрещения -  (THB/12) 10
+
+В Плену у Консульства -  (KLD/8) 10
+
+Последняя Милость Окетры -  (HOU/18) 15
+
+Закат -  (AKH/210) 15
+
+Кровакс, Властный Герой -  (TSR/15) 20
+
+Eagle of Deliverance -  (LTR/829) 15
+
+Devastating Mastery -  (STX/288) 10
+
+Disciple of Caelus Nin -  (BRC/41) 15
+
+Robaran Mercenaries -  (DMC/72) 10
+
+From the Rubble -  (LCC/40) 10
+
+Sanwell, Avenger Ace -  (BRC/52) 20
+
+Beacon of Immortality -  (PLST/E02-1) 100
+
 Синие :u::u::u:
 Сон -  (M19/74) 10
 
@@ -444,6 +514,58 @@ Kediss, Emberclaw Familiar -  (CMR/188) 221
 Irreverent Gremlin -  (DSK/142) 10
 
 Enduring Courage -  (DSK/133) 166
+
+Illuminate History -  (STX/108) 10
+
+Оскорбление -  (AKH/213) 20
+
+Звезда Вымирания -  (XLN/161) 45
+
+Зеркальный Марш -  (RNA/108) 25
+
+Милость Хазорет -  (AKH/137) 12
+
+Командир Осадчиков -  (DOM/143) 10
+
+Выпустить Гремлинов -  (AER/96) 10
+
+Тиран Невидимого Луча -  (ZNR/147) 50
+
+Громовая Дуга -  (FRF/91) 20
+
+Éomer, Marshal of Rohan -  (LTR/120) 15
+
+Нехеб, Поборник Орды Ужаса -  (WAR/140) 20
+
+Шаман Яростнокровных -  (THS/138) 10
+
+Пляшущий с Огнем Сатир -  (BNG/108) 20
+
+Капризы Судьбы -  (BNG/115) 15
+
+Молниеносная Бегунья -  (AER/90) 30
+
+Сумасбродный Эксперимент -  (KLD/122) 10
+
+Территориальный Пожиратель -  (KLD/136) 10
+
+Молот Пирфора -  (THS/124) 50
+
+Судьбоносная Схватка -  (KLD/114) 10
+
+Mana Cannons -  (DMC/7) 15
+
+Draconic Intervention -  (STX/96) 10
+
+Tesak, Judith's Hellhound -  (MKC/36) 10
+
+Изгнанный Повелитель Драконов -  (AFC/124) 45
+
+Grim Lavamancer -  (DMR/126) 12
+
+Siege-Gang Commander -  (DMR/136) 22
+
+Blasphemous Act -  (DSC/160) 100
 
     
 Зеленые :g::g::g:
@@ -687,8 +809,6 @@ Mask of Memory -  (PLST/C14-249) 18
 
 Mechtitan Core -  (NEO/402) 84
 
-Whispersilk Cloak -  (PLST/PCA-115) 70
-
 Dissection Tools -  (DSK/245) 36
 
 2x Codex Shredder -  (CMR/304) 10
@@ -730,8 +850,6 @@ Fumigate -  (KLD/15) 46 FOIL
 Триумфальный Рывок -  (THB/41) 10 FOIL
 
 Survival Cache -  (IMA/34) 18 FOIL
-
-Spelltithe Enforcer - (FMB1) 57 FOIL
 
 Запрещающий Дух -  (RNA/9) 17 FOIL
 
@@ -1174,8 +1292,6 @@ Fear of Infinity -  (DSK/214) 10 FOIL
     
 Бесцветные :c:
 Обжигающий Котел -  (ELD/229) 10 FOIL
-
-Lich's Mirror - (FMB1) 81 FOIL
 
 Arc Spitter -  (SNC/233) 10 FOIL
 
