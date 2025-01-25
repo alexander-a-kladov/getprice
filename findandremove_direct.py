@@ -41,7 +41,7 @@ def read_orderfile(fname):
     f = open(fname, "r")
     if f:
         for l in f.readlines():
-            key, quantity = get_data(l)
+            key, quantity, price = get_data(l)
             if key and quantity:
                 if key not in order_dict:
                     order_dict[key] = quantity
