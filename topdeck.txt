@@ -337,13 +337,15 @@ Flight of Equenauts -  (GRN/11) 10
 
 3x Eagle of Deliverance -  (LTR/829) 71 Extended
 
-4x Мановый Налог -  (STA/8) 42
+4x Дарованные Земли -  (STA/6) 18
+
+4x Мановый Налог -  (STA/8) 20
 
 2x Судный День -  (STA/2) 44
 
-3x Приближение Второго Солнца -  (STA/1) 98
+4x Приближение Второго Солнца -  (STA/1) 90
 
-3x Воля Богов -  (STA/7) 10
+4x Воля Богов -  (STA/7) 10
 
 Reluctant Role Model -  (DSK/26) 47
 
@@ -438,13 +440,13 @@ Beacon of Immortality -  (PLST/E02-1) 100
 
 2x Minas Tirith Garrison -  (LTR/830) 31 Extended
 
-3x Маниакальное Исследование -  (STA/14) 10
+4x Маниакальное Исследование -  (STA/14) 10
 
 2x Зенит Синего Солнца -  (STA/12) 71
 
-3x Провал в Памяти -  (STA/16) 10
+4x Провал в Памяти -  (STA/16) 10
 
-3x Гамбит Теззерета -  (STA/21) 10
+4x Гамбит Теззерета -  (STA/21) 10
 
 Marina Vendrell's Grimoire -  (DSK/64) 28
 
@@ -495,7 +497,9 @@ Terisiare's Devastation -  (BRC/56) 21 Extended
 
 1x Wire Surgeons -  (BRC/57) 18 Extended
 
-3x Подписание Кровью -  (STA/32) 42
+4x Клинок Судьбы -  (STA/28) 10
+
+4x Подписание Кровью -  (STA/32) 42
 
 4x Усики Агонии -  (STA/34) 10
 
@@ -527,13 +531,15 @@ Kediss, Emberclaw Familiar -  (CMR/188) 221
 
 1x Farid, Enterprising Salvager -  (BRC/60) 16 Extended
 
+4x Крупная Картечь -  (STA/39) 14
+
 4x Ярость Урзы -  (STA/47) 10
 
-3x Растущее Возмездие -  (STA/40) 64
+4x Растущее Возмездие -  (STA/40) 64
 
-3x Искривление Хаоса -  (STA/36) 46
+4x Искривление Хаоса -  (STA/36) 46
 
-3x Мастерство Миззикса -  (STA/43) 62
+4x Мастерство Миззикса -  (STA/43) 62
 
 4x Камнепад -  (STA/45) 10
 
@@ -631,17 +637,15 @@ Wilderness Reclamation -  (RNA/149) 30
 
 4x Arboria -  (DMR/438) 33
 
-3x Изобильный Урожай -  (STA/48) 10
+4x Изобильный Урожай -  (STA/48) 10
 
-3x Кросанская Хватка -  (STA/53) 16
-
-3x Клинок Судьбы -  (STA/28) 10
+4x Кросанская Хватка -  (STA/53) 16
 
 4x Гармония -  (STA/52) 10
 
 2x Преобразование -  (STA/50) 19
 
-3x Отрастание -  (STA/56) 24
+4x Отрастание -  (STA/56) 24
 
 4x Пережить Бурю -  (STA/58) 15
 
@@ -786,9 +790,11 @@ Ghired, Mirror of the Wilds -  (OTJ/205) 73
 
 3x Спираль Молний -  (STA/62) 47
 
-3x Лишение Искры -  (STA/59) 10
+4x Лишение Искры -  (STA/59) 10
 
-3x Спираль Роста -  (STA/61) 24
+4x Спираль Роста -  (STA/61) 24
+
+4x Гниение -  (STA/63) 10
 
 4x Электролиз -  (STA/60) 19
 
@@ -1037,6 +1043,11 @@ Duskmourn's Domination -  (DSK/50) 10 FOIL
 
 Clammy Prowler -  (DSK/45) 10 FOIL
 
+Hinder -  (2XM/54) 25 FOIL
+
+Treasure Mage -  (2XM/73) 25 FOIL
+
+
 Черные :b::b::b:
 Chimney Imp - (FMB1) 11 FOIL
 
@@ -1208,6 +1219,12 @@ Turn Inside Out -  (DSK/160) 19 FOIL
 
 Painter's Studio -  (DSK/147) 19 FOIL
 
+Dismantle -  (2XM/123) 25 FOIL
+
+Thopter Engineer -  (2XM/147) 14 FOIL
+
+Battle-Rattle Shaman (2XM/116) 14 FOIL
+
     
 Зеленые :g::g::g:
 Грунн, Одинокий Король -  (DOM/165) 298 FOIL
@@ -1289,6 +1306,10 @@ Loxodon Eavesdropper -  (MKM/168) 10 FOIL
 Manifest Dread -  (DSK/189) 10 FOIL
 
 Hauntwoods Shrieker -  (DSK/182) 294 FOIL promo
+
+Chatter of the Squirrel -  (2XM/157) 15 FOIL
+
+Ancient Stirrings -  (2XM/151) 75 FOIL
 
     
 Многоцветные :mc:
