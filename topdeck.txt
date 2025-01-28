@@ -77,8 +77,6 @@ Deadly Cover-Up -  (MKM/399) 86 Extended
 
 2x Defiler of Flesh -  (DMU/400) 29 Extended
 
-3x Shadow-Rite Priest -  (DMU/403) 14 Extended
-
 4x Tyrannical Pitlord -  (DMU/425) 16 Extended
 
 Archpriest of Shadows -  (MOM/356) 42 Extended
@@ -176,8 +174,6 @@ Disfigure -  (BRO/91) 10
 Красные :r::r::r:
 4x Предельная Скорость - (GRN) 10
 
-3x Temur Battle Rage -  (2XM/146) 11
-
 2x Потрясение Основ - (RIX) 10
 
 Громорожденный Пробудитель -  (M20/162)вилка 14
@@ -221,8 +217,6 @@ Kiora, Behemoth Beckoner - (WAR) 29
 Реликвия Небесного Анклава -  (ZNR/252) 30
 
 Земли:
-Поле Лотосов -  (M20/249)вилка 133
-
 4x Форум Магов Гильдий -  (GRN/250) 11
 
 2x Убежище Духа Дракона -  (DTK/249) 62
@@ -251,7 +245,6 @@ Gwaihir, Greatest of the Eagles -  (LTC/99) 127
 
     
 Черные :b::b::b:
-2x Гибелинг -  (MH1/89) 10
 Gravecrawler -  (PLST/DDQ-59) 400
 Безымянная Могила -  (MH2/106) 80
 Взрыв тьмы -  (RAV/82) 36
@@ -262,7 +255,6 @@ Gravecrawler -  (PLST/DDQ-59) 400
 
     
 Красные :r::r::r:
-3x Электродоминация -  (RNA/99) 56
 Simian Spirit Guide -  (A25/148) 73
 2x Rift Bolt -  (DDS/17) 20
 Cathartic Reunion -  (2XM/121) 10
@@ -272,7 +264,6 @@ Cathartic Reunion -  (2XM/121) 10
 Обсидиановый Огнеглот -  (MH2/137) 100
 Гений Гармонии -  (MH2/132) 50
 Взгляд в Грядущее -  (MH2/129) 12
-4x Гоблинский Обстрел -  (MH2/279) 35
 2x Случайная Встреча -  (MH2/277) 10
 
     
@@ -282,12 +273,9 @@ Cathartic Reunion -  (2XM/121) 10
 2x Трескоплюй -  (MH2/153) 15
 Титания, Защитница Аргота -  (MH2/287) 72
 Присутствие Чародейки -  (MH2/283) 30
-4x Низкородный Иерарх -  (MH2/166) 150
 4x Трескоклык, Беличий Генерал -  (MH2/151) 300
 4x Траста, Рев Бури -  (MH2/178) 60
 4x Лесной Гимн -  (MH2/176) 45
-4x Traverse the Ulvenwald -  (SOI/234) 120
-    
 Многоцветные :mc:
 Sméagol, Helpful Guide -  (LTR/231) 10
 Трофей Убийцы -  (GRN/152) 125
@@ -300,7 +288,6 @@ Maelstrom Pulse -  (UMA/204) 50
 Надежная Роща -  (MH2/293) 50
 2x Взыскание -  (MH2/294) 100
 Цепник, Адепт Кошмаров -  (MH2/289) 10
-4x Tidehollow Sculler -  (MD1/2) 20
 2x Генерал Феррос Рокирич -  (MH2/198) 20
 3x Гайядрона Дихада -  (MH2/199) 50
 
@@ -312,8 +299,6 @@ Sword of the Meek -  (2XM/299) 50
 4x Диск Невиниррала -  (MH2/298) 15
 Производитель Академии -  (MH2/219) 180
 4x Зеркало Пустоты -  (MH2/242) 16
-4x Проклятый Тотем -  (MH2/295) 74
-    
 Земли:
 3x Лаборатория Быстрины -  (MH2/303) 30
 
@@ -353,8 +338,6 @@ Flight of Equenauts -  (GRN/11) 10
 3x Eagle of Deliverance -  (LTR/829) 71 Extended
 
 4x Мановый Налог -  (STA/8) 42
-
-4x Дарованные Земли -  (STA/6) 18
 
 2x Судный День -  (STA/2) 44
 
@@ -502,8 +485,6 @@ Chainer's Edict -  (UMA/89) 105
 
 Hymn to Tourach -  (EMA/92) 35
 
-4x Chainer, Dementia Master -  (DMR/424) 19
-
 2x Oversold Cemetery -  (DMR/428) 37
 
 Warg Rider -  (LTR/831) 172 Extended
@@ -542,8 +523,6 @@ Kediss, Emberclaw Familiar -  (CMR/188) 221
 
 4x Siege-Gang Commander -  (DMR/436) 16
 
-2x Grim Lavamancer -  (DMR/434) 30
-
 4x Riders of the Mark -  (LTR/832) 161 Extended
 
 1x Farid, Enterprising Salvager -  (BRC/60) 16 Extended
@@ -555,8 +534,6 @@ Kediss, Emberclaw Familiar -  (CMR/188) 221
 3x Искривление Хаоса -  (STA/36) 46
 
 3x Мастерство Миззикса -  (STA/43) 62
-
-3x Крупная Картечь -  (STA/39) 14
 
 4x Камнепад -  (STA/45) 10
 
@@ -609,8 +586,6 @@ Draconic Intervention -  (STX/96) 10
 Tesak, Judith's Hellhound -  (MKC/36) 10
 
 Изгнанный Повелитель Драконов -  (AFC/124) 45
-
-Grim Lavamancer -  (DMR/126) 12
 
 Siege-Gang Commander -  (DMR/136) 22
 
@@ -716,8 +691,6 @@ Arboria -  (DMR/438) 16
 
 Преобразующая Послушница -  (AKH/160) 24
 
-Норовистый Мечезуб -  (RIX/150)вилка 90
-
 Рунический Армазавр -  (M19/200)вилка 60
 
 Последний Бой Ронаса -  (HOU/132) 14
@@ -795,8 +768,6 @@ Siegehorn Ceratops -  (RIX/171)SP 11
 
 2x Qasali Pridemage -  (2X2/386)jp Borderless 10
 
-4x Decimate -  (DMR/444) 22
-
 1x Culmination of Studies -  (STX/338) 10 Extended
 
 1x Plargg, Dean of Chaos -  (STX/328) 14
@@ -812,8 +783,6 @@ Elemental Expressionist -  (STX/342) 10 Extended
 Jadzi, Oracle of Arcavios -  (STX/325) 67
 
 Ghired, Mirror of the Wilds -  (OTJ/205) 73
-
-4x Гниение -  (STA/63) 10
 
 3x Спираль Молний -  (STA/62) 47
 
@@ -882,8 +851,6 @@ Restricted Office -  (DSK/227) 33
 Маналит -  (HOU/164) 10
 
 Свиток Мастеров -  (FRF/163) 15
-
-Sword of Hearth and Home -  (MH2/238) 244
 
 3x Погребальный Костер Героев -  (KHM/241) 32
 
@@ -1103,12 +1070,6 @@ Entomber Exarch -  (MM3/68) 18 FOIL
 
 Grisly Spectacle -  (IMA/92) 26 FOIL
 
-Herald of Leshrac - (FMB1) 124 FOIL
-
-Herald of Leshrac - (FMB1) 124 FOIL
-
-Хватка Тьмы -  (M21/102) 19 FOIL
-
 Личинка-Падальщик -  (M21/92) 11 FOIL
 
 Гибельная Коса -  (M21/112) 18 FOIL
@@ -1193,8 +1154,6 @@ Trumpet Blast -  (A25/154) 10 FOIL
 
 Азарт Возможностей -  (THB/159) 10 FOIL
 
-Pillar of Flame -  (IMA/141) 11 FOIL
-
 Hoarding Dragon -  (IMA/134) 18 FOIL
 
 Воители Огненной Крови -  (FRF/93) 10 FOIL
@@ -1202,8 +1161,6 @@ Hoarding Dragon -  (IMA/134) 18 FOIL
 Визгун-Громовержец -  (FRF/106) 15 FOIL
 
 Айренкрагская Пиромантка -  (ELD/128) 36 FOIL
-
-Guerrilla Tactics - (FMB1) 10 FOIL
 
 Balduvian Rage -  (CSP/76) 114 FOIL
 
@@ -1303,15 +1260,11 @@ Jaddi Offshoot -  (IMA/171) 22 FOIL
 
 Plummet -  (MM2/155) 10 FOIL
 
-Elvish Aberration -  (2XM/165) 10 FOIL
-
 Тяжелоступ из Казанду -  (ZNR/191) 10 FOIL
 
 Сломанные Крылья -  (ZNR/181) 10 FOIL
 
 Whisperer of the Wilds -  (2XM/187) 14 FOIL
-
-Рой Cкутов -  (ZNR/203)вилка 112 FOIL
 
 Стремительное Падение -  (THB/194) 10 FOIL
 
@@ -1358,8 +1311,6 @@ Yore-Tiller Nephilim - (FMB1) 58 FOIL
 Возвышение к Славе -  (THB/225) 10 FOIL
 
 Штормовой Скриликс -  (MID/243) 11 FOIL
-
-3x Coiling Oracle -  (2X2/375)jp Borderless 10 FOIL
 
 Cease -  (MKM/246) 11 FOIL
 
