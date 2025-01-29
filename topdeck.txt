@@ -405,7 +405,7 @@ One Last Job -  (OTJ/22) 15
 
 Закат -  (AKH/210) 15
 
-Кровакс, Властный Герой -  (TSR/15) 20
+4x Кровакс, Властный Герой -  (TSR/15) 18
 
 Eagle of Deliverance -  (LTR/829) 15
 
@@ -420,6 +420,9 @@ From the Rubble -  (LCC/40) 10
 Sanwell, Avenger Ace -  (BRC/52) 20
 
 Beacon of Immortality -  (PLST/E02-1) 100
+
+4x Беналийский Командир -  (TSR/8) 10
+
 
 Синие :u::u::u:
 Сон -  (M19/74) 10
@@ -449,6 +452,13 @@ Beacon of Immortality -  (PLST/E02-1) 100
 4x Гамбит Теззерета -  (STA/21) 10
 
 Marina Vendrell's Grimoire -  (DSK/64) 28
+
+4x Венсер, Ученый Заклинатель -  (TSR/96) 50
+
+4x Родовое Видение -  (TSR/52) 180
+
+4x Дорога Эонов -  (TSR/98) 80
+
 
 Черные :b::b::b:
 Изыскания Джейса -  (SOI/70) 10
@@ -506,6 +516,10 @@ Terisiare's Devastation -  (BRC/56) 21 Extended
 3x Загадка Судьбы -  (STA/25) 70
 
 Cairn Wanderer -  (PLST/LRW-105) 21
+
+4x Искоренение -  (TSR/114) 50
+
+4x Могильный Охотник -  (TSR/146) 10
 
     
 Красные :r::r::r:
@@ -596,6 +610,8 @@ Tesak, Judith's Hellhound -  (MKC/36) 10
 Siege-Gang Commander -  (DMR/136) 22
 
 Blasphemous Act -  (DSC/160) 100
+
+3x Великий Гаргадон -  (TSR/167) 10
 
     
 Зеленые :g::g::g:
@@ -700,6 +716,10 @@ Arboria -  (DMR/438) 16
 Последний Бой Ронаса -  (HOU/132) 14
 
 Dragonsguard Elite -  (STX/316) 10 Extended
+
+4x Гипергенезия -  (TSR/210) 50
+
+4x Жизнь и Ветвь -  (TSR/215) 20
 
 
     
@@ -822,6 +842,12 @@ Restricted Office -  (DSK/227) 33
 
 2x Fleecemane Lion -  (C17/172) 14
 
+4x Радха, Наследница Келда -  (TSR/259) 10
+
+4x Саффи Эриксдоттер -  (TSR/260) 33
+
+4x Сверкающее Желание -  (TSR/253) 10
+
     
 Бесцветные :c:
 Метеоритный Голем -  (M19/241) 10
@@ -903,6 +929,10 @@ Transguild Promenade -  (RTR/249) 10
 Проломный Шпиль -  (M19/255) 10
 
 Arid Archway -  (OTJ/252) 77
+
+4x Двор Стаи -  (TSR/284) 300
+
+2x Жилище Дриад -  (TSR/277) 300
 
 Фойл:
 Белые :w::w::w:
