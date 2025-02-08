@@ -270,11 +270,11 @@ def calc_price(token, mtgset, lang, promo, foil, line):
     price1 = price2 = 0
     price3 = 0
     if token.get('prices').get('usd'):
-        price1 = int(50.0 * float(token.get('prices').get('usd')))
+        price1 = int(50.0 * float(token.get('prices').get('usd'))) # 50
     if token.get('prices').get('eur'):
         price2 = 0#int(50.0 * float(token.get('prices').get('eur')))
     if token.get('prices').get('usd_foil'):
-        price3 = int(30.0 * float(token.get('prices').get('usd_foil')))
+        price3 = int(30.0 * float(token.get('prices').get('usd_foil'))) # 30
         if get_set_present(line) == "FMB1":
             price3 = int(price3 / 5.0)
         if lang == 'ru':
@@ -374,7 +374,7 @@ def get_prices(filename):
                         price = calc_price(token, mtgset, lang, promo, foil, line)
                         if isinstance(topdeck_multiplier, float):
                             price = int(price*topdeck_multiplier)
-                            
+                    
                     if test and test_set[0] == '>':
                         if price < int(test_set.split('>')[1]):
                             #print("price="+str(price)+" too small")
@@ -383,6 +383,7 @@ def get_prices(filename):
                         if price > int(test_set.split('<')[1]):
                             continue
                     if price > 0:
+                        price = int(0.7*price)
                         if price < 10:
                             price = 10
                         quantity = get_number_of_cards(line)
@@ -490,6 +491,7 @@ def get_prices(filename):
 if __name__ == '__main__':
     count_args = 0
     html = True
+    prefix_fn = ""
     if len(sys.argv) < 2:
         print("usage: getprice.py file_tmpl.txt file_tmpl1.txt")
     else:
@@ -497,6 +499,7 @@ if __name__ == '__main__':
         if sys.argv[1] == "test":
             test_set = sys.argv[2]
             test = True
+            prefix_fn = "test_"
             if test_set[0] != '>' and test_set[0] != '<':
                 print("test_set=" + test_set)
             else:
@@ -504,14 +507,14 @@ if __name__ == '__main__':
 
         date_today = str(datetime.date.today())
         conn = create_connection(r"mycards.db")
-        fw = open(result_fn, 'w')
+        fw = open(prefix_fn+result_fn, 'w')
         fheader = open('header.txt', 'r')
         fw.write(fheader.read())
         if html:
-            fhtml = open(result_html, 'w')
+            fhtml = open(prefix_fn+result_html, 'w')
             write_html_headers()
         for filename in sys.argv:
-            if count_args and filename != result_fn:
+            if count_args and filename != prefix_fn+result_fn:
                 if (test and count_args > 2) or test == False:
                     print("Обработка файла: " + filename)
                     get_prices(filename)
