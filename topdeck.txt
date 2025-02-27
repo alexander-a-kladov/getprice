@@ -113,8 +113,6 @@ Clockwork Percussionist -  (DSK/295) 31
 
     
 Зеленый :g::g::g:
-1x The Dragon-Kami Reborn -  (NEO/181)русский 12
-
 Мститель Весеннего Листа -  (NEO/208) 12
 
 Славный Восход -  (VOW/200) 79
@@ -125,8 +123,6 @@ Clockwork Percussionist -  (DSK/295) 31
 
 3x Quirion Beastcaller -  (DMU/417) 41 Extended
 
-1x Threats Undetected -  (DMU/419) 29 Extended
-
 Herd Migration -  (DMU/413) 28 Extended
 
 Llanowar Greenwidow -  (DMU/415) 18 Extended
@@ -134,13 +130,9 @@ Llanowar Greenwidow -  (DMU/415) 18 Extended
 Green Sun's Twilight -  (ONE/391) 45 Extended
 
 Многоцветные :mc:
-Rivaz of the Claw -  (DMU/215) 86
-
 2x Рисона, Командир Асари -  (NEO/233) 23
 
 4x Иссин, Два Неба Как Одно -  (NEO/224) 60
-
-Котосэ, Безмолвная Паучиха -  (NEO/228) 12
 
 Risona, Asari Commander -  (NEO/492) 10
 
@@ -160,7 +152,7 @@ Risona, Asari Commander -  (NEO/492) 10
 
 2x Сфинкс Предвидения -  (RNA/55) 10
 
-2x Постановка Задачи -  (GRN/44) 10
+1x Постановка Задачи -  (GRN/44) 10
 
 3x Презрение Силумгара -  (DTK/78) 10
 
@@ -174,7 +166,7 @@ Disfigure -  (BRO/91) 10
 Красные :r::r::r:
 4x Предельная Скорость - (GRN) 10
 
-2x Потрясение Основ - (RIX) 10
+1x Потрясение Основ - (RIX) 10
 
 Громорожденный Пробудитель -  (M20/162)вилка 14
 
@@ -190,8 +182,6 @@ Lightning Strike -  (XLN/149) 10
 
     
 Зеленые :g::g::g:
-Трупожор-Падальщик - (XLN) 11
-
 Зеленое Мастерство -  (STX/146) 10
 
 Часовые Ясперы -  (KHM/178) 10
@@ -217,9 +207,9 @@ Kiora, Behemoth Beckoner - (WAR) 29
 Реликвия Небесного Анклава -  (ZNR/252) 30
 
 Земли:
-4x Форум Магов Гильдий -  (GRN/250) 11
+2x Форум Магов Гильдий -  (GRN/250) 11
 
-2x Убежище Духа Дракона -  (DTK/249) 62
+1x Убежище Духа Дракона -  (DTK/249) 62
 
 Модерн:
 Белые :w::w::w:
@@ -237,18 +227,13 @@ Gwaihir, Greatest of the Eagles -  (LTC/99) 127
 Синие :u::u::u:
 2x Нага из Картеля Тумана -  (MH1/58) 100
 Наблюдатель за Мыслями -  (MH2/71) 52
-2x Разоблачение -  (MH2/39) 80
-2x Неизбежное Предательство -  (MH2/47) 20
 2x Проснись и Пой -  (MH2/58) 20
 2x Смещение Пластов -  (MH2/270) 14
-Удивление -  (MH2/271) 15
-
-    
 Черные :b::b::b:
 Gravecrawler -  (PLST/DDQ-59) 400
 Безымянная Могила -  (MH2/106) 80
 Взрыв тьмы -  (RAV/82) 36
-2x Некрогойф -  (MH2/93) 14
+1x Некрогойф -  (MH2/93) 14
 2x Волхв Моста -  (MH2/92) 12
 2x Брейдс, Приспешница Кабала -  (MH2/273) 16
 4x Проклясть -  (MH2/80) 120
@@ -281,10 +266,8 @@ Sméagol, Helpful Guide -  (LTR/231) 10
 Трофей Убийцы -  (GRN/152) 125
 Maelstrom Pulse -  (UMA/204) 50
 3x Умеренность -  (MH2/206) 10
-2x Повелитель Смерти -  (MH2/205) 12
-Лонис, Криптозоолог -  (MH2/204) 10
 Карт Лев -  (MH2/189) 14
-4x Агент без Осколка -  (MH2/292) 15
+3x Агент без Осколка -  (MH2/292) 15
 Надежная Роща -  (MH2/293) 50
 2x Взыскание -  (MH2/294) 100
 Цепник, Адепт Кошмаров -  (MH2/289) 10
@@ -296,7 +279,7 @@ Maelstrom Pulse -  (UMA/204) 50
 Sword of the Meek -  (2XM/299) 50
 Алмазный Лев -  (MH2/225) 10
 Отпрыск Драко -  (MH2/234) 280
-4x Диск Невиниррала -  (MH2/298) 15
+3x Диск Невиниррала -  (MH2/298) 15
 Производитель Академии -  (MH2/219) 180
 4x Зеркало Пустоты -  (MH2/242) 16
 Земли:
@@ -441,8 +424,6 @@ Beacon of Immortality -  (PLST/E02-1) 100
 
 2x Высеченные Знания -  (KHM/61) 10
 
-Таинственное Отражение -  (KHM/69) 29
-
 Церемониальный Отказ -  (KLD/40)SP 10
 
 4x Denizen of the Deep -  (DMR/417) 16
@@ -453,21 +434,17 @@ Beacon of Immortality -  (PLST/E02-1) 100
 
 2x Зенит Синего Солнца -  (STA/12) 71
 
-4x Провал в Памяти -  (STA/16) 10
+2x Провал в Памяти -  (STA/16) 10
 
 4x Гамбит Теззерета -  (STA/21) 10
 
-Marina Vendrell's Grimoire -  (DSK/64) 28
-
-4x Венсер, Ученый Заклинатель -  (TSR/96) 50
+3x Венсер, Ученый Заклинатель -  (TSR/96) 50
 
 4x Родовое Видение -  (TSR/52) 180
 
-4x Дорога Эонов -  (TSR/98) 80
+3x Дорога Эонов -  (TSR/98) 80
 
 Падима, Консул Инноваций -  (KLD/59) 39
-
-Судья Идеалов -  (BNG/31) 18
 
 Вещее Восприятие -  (RNA/45) 10
 
@@ -480,8 +457,6 @@ Denizen of the Deep -  (DMR/417) 10
 Искусство Сахили -  (KLD/62) 10
 
 Завораживающий Бентид -  (RNA/43) 24
-
-Пожиратель Флотилий -  (XLN/57) 60
 
 Dream Strix -  (STX/296) 10 Extended
 
@@ -512,8 +487,6 @@ Ingenious Mastery -  (STX/297) 11 Extended
 Черные :b::b::b:
 Изыскания Джейса -  (SOI/70) 10
 
-Хищная Чупакабра -  (RIX/82) 10
-
 2x Насилие -  (M20/97) 10
 
 Tetzimoc, Primal Death -  (RIX/86) 21
@@ -526,19 +499,17 @@ Wound Reflection -  (2XM/113) 161
 
 2x Шепчущая Погибель -  (GRN/69) 105
 
-Supernatural Stamina -  (2XM/108) 10
-
 Мерзостный Душитель -  (BFZ/99) 39
 
-4x Собирание Душ -  (DOM/104) 10
+3x Собирание Душ -  (DOM/104) 10
 
 Okiba Salvage -  (NEO/118) 10
 
 Полуночные Бдения -  (KLD/92) 10
 
-2x Захватчик Снов -  (KHM/90) 13
+1x Захватчик Снов -  (KHM/90) 13
 
-3x Скемфарская Мстительница -  (KHM/109) 10
+2x Скемфарская Мстительница -  (KHM/109) 10
 
 Liliana of the Veil -  (DMU/373) 1499
 
@@ -554,15 +525,13 @@ Terisiare's Devastation -  (BRC/56) 21 Extended
 
 2x Wreck Hunter -  (BRC/58) 18 Extended
 
-1x Wire Surgeons -  (BRC/57) 18 Extended
-
-4x Клинок Судьбы -  (STA/28) 10
+3x Клинок Судьбы -  (STA/28) 10
 
 4x Подписание Кровью -  (STA/32) 42
 
-4x Усики Агонии -  (STA/34) 10
+3x Усики Агонии -  (STA/34) 10
 
-3x Загадка Судьбы -  (STA/25) 70
+2x Загадка Судьбы -  (STA/25) 70
 
 Cairn Wanderer -  (PLST/LRW-105) 21
 
@@ -610,7 +579,7 @@ Kediss, Emberclaw Familiar -  (CMR/188) 221
 
 4x Растущее Возмездие -  (STA/40) 64
 
-4x Искривление Хаоса -  (STA/36) 46
+3x Искривление Хаоса -  (STA/36) 46
 
 4x Мастерство Миззикса -  (STA/43) 62
 
@@ -633,8 +602,6 @@ Illuminate History -  (STX/108) 10
 Командир Осадчиков -  (DOM/143) 10
 
 Выпустить Гремлинов -  (AER/96) 10
-
-Тиран Невидимого Луча -  (ZNR/147) 50
 
 Громовая Дуга -  (FRF/91) 20
 
@@ -660,15 +627,11 @@ Illuminate History -  (STX/108) 10
 
 Mana Cannons -  (DMC/7) 15
 
-Draconic Intervention -  (STX/96) 10
-
 Tesak, Judith's Hellhound -  (MKC/36) 10
 
 Изгнанный Повелитель Драконов -  (AFC/124) 45
 
 Siege-Gang Commander -  (DMR/136) 22
-
-Blasphemous Act -  (DSC/160) 100
 
 3x Великий Гаргадон -  (TSR/167) 10
 
@@ -679,8 +642,6 @@ Blasphemous Act -  (DSC/160) 100
 Tree of Redemption -  (A25/191) 147
 
 Приживание -  (KTK/142) 10
-
-Доспехи Бланчвуда -  (M19/169) 10
 
 Припоминание -  (M19/197) 10
 
@@ -702,19 +663,15 @@ Kamahl's Will -  (CMR/238) 18
 
 Growing Rites of Itlimoc -  (LCI/380) 210
 
-4x Rampant Growth -  (2X2/371)jp Borderless 21
+3x Rampant Growth -  (2X2/371)jp Borderless 21
 
 Grappling Sundew -  (GRN/131) 10
 
 Enraged Ceratok -  (RNA/125) 10
 
-Погонщик Гигантов -  (XLN/187) 10
-
-Wilderness Reclamation -  (RNA/149) 30
-
 4x Arboria -  (DMR/438) 33
 
-4x Изобильный Урожай -  (STA/48) 10
+2x Изобильный Урожай -  (STA/48) 10
 
 4x Кросанская Хватка -  (STA/53) 16
 
@@ -722,7 +679,7 @@ Wilderness Reclamation -  (RNA/149) 30
 
 2x Преобразование -  (STA/50) 19
 
-4x Отрастание -  (STA/56) 24
+2x Отрастание -  (STA/56) 24
 
 4x Пережить Бурю -  (STA/58) 15
 
@@ -734,8 +691,6 @@ Valgavoth's Onslaught -  (DSK/204) 21
 
 Злобный Волк -  (ELD/181) 22
 
-Вурм Ущелья Пелакка -  (M19/192) 10
-
 Lead the Stampede -  (CNS/170) 20
 
 Gnarled Professor -  (STX/319) 10 Extended
@@ -746,11 +701,7 @@ Gnarled Professor -  (STX/319) 10 Extended
 
 Mycoloth -  (PLST/CMA-129) 100
 
-Скопление Песчаных Вурмов -  (AKH/183) 20
-
 Exponential Growth -  (STX/318) 20 Extended
-
-Fall of Gil-galad -  (LTR/165) 15
 
 Ясва Коготь Дракона -  (FRF/148) 20
 
@@ -761,8 +712,6 @@ Fall of Gil-galad -  (LTR/165) 15
 Mirkwood Channeler -  (LTR/833) 28 Extended
 
 Агрессивный Мамонт -  (M19/302) 15
-
-Темурский Шаман Войны -  (FRF/142) 18
 
 Блекс, Вредный Паразит -  (STX/148) 109
 
@@ -805,7 +754,7 @@ Dragonsguard Elite -  (STX/316) 10 Extended
 
 Мрачные Намеки -  (AER/128) 15
 
-4x Изони, Тысячеглазая -  (GRN/180) 10
+3x Изони, Тысячеглазая -  (GRN/180) 10
 
 Wayfaring Temple -  (RTR/209) 12
 
@@ -827,8 +776,6 @@ Azorius Charm -  (RTR/145) 12
 
 Театр Ужасов -  (RNA/213) 10
 
-Ярок Оскверненный -  (M20/220) 105
-
 2x Обмен Ролями -  (WAR/214) 10
 
 3x Сияние Солнца -  (WAR/216) 10
@@ -841,8 +788,6 @@ Rhys the Redeemed -  (2XM/213) 498
 
 Возвышение Джеская -  (KTK/180) 39
 
-Ваэвиктис Асмади, Грозный -  (M19/225) 53
-
 Response -  (CMR/449)русская 15
 
 Крушитель из Кварцевого Леса -  (IKO/201) 151
@@ -853,15 +798,13 @@ Response -  (CMR/449)русская 15
 
 Siegehorn Ceratops -  (RIX/171)SP 11
 
-4x Coiling Oracle -  (2X2/375)jp Borderless 10
+2x Coiling Oracle -  (2X2/375)jp Borderless 10
 
 2x Qasali Pridemage -  (2X2/386)jp Borderless 10
 
 1x Culmination of Studies -  (STX/338) 10 Extended
 
 1x Plargg, Dean of Chaos -  (STX/328) 14
-
-The Archimandrite -  (BRC/46) 10
 
 Silverquill Command -  (STX/352) 10 Extended
 
@@ -879,7 +822,7 @@ Ghired, Mirror of the Wilds -  (OTJ/205) 73
 
 4x Спираль Роста -  (STA/61) 24
 
-4x Гниение -  (STA/63) 10
+3x Гниение -  (STA/63) 10
 
 4x Электролиз -  (STA/60) 19
 
@@ -890,8 +833,6 @@ Restricted Office -  (DSK/227) 33
 Нищета -  (AKH/222) 16
 
 Лавинный Бивень -  (KTK/166) 10
-
-Сидиси, Владычица Выводка -  (KTK/199) 29
 
 Владыка Личей из Керу -  (KTK/182) 10
 
@@ -924,8 +865,6 @@ Restricted Office -  (DSK/227) 33
 Колосс Акросский -  (THS/214) 54
 
 Фолиант Договора Гильдий -  (RNA/242) 15
-
-Фонтан Обновления -  (M19/235) 10
 
 Сокровища Дракона -  (M19/232) 147
 
@@ -971,15 +910,13 @@ Mask of Memory -  (PLST/C14-249) 18
 
 4x Lotus Blossom -  (DMR/451) 50
 
-1x Wondrous Crucible -  (BRC/67) 59 Extended
-
 2x Helm of Awakening -  (DMR/448) 48
 
 Mechtitan Core -  (NEO/402) 84
 
 Dissection Tools -  (DSK/245) 36
 
-2x Codex Shredder -  (CMR/304) 10
+1x Codex Shredder -  (CMR/304) 10
 
 Пирамида Пантеона -  (AKH/235) 20
 
@@ -1200,8 +1137,6 @@ Witch's Cauldron -  (M21/129) 14 FOIL
 
 Тенекошка Небесного Анклава -  (ZNR/126) 10 FOIL
 
-Executioner's Capsule -  (2XM/92) 12 FOIL
-
 Rage-Scarred Berserker -  (THB/113) 10 FOIL
 
 Стронгхолдские Крысы -  (TSR/142) 124 FOIL
@@ -1299,8 +1234,6 @@ Aspect of Manticore -  (THB/127) 10 FOIL
 Skinbrand Goblin -  (2XM/144) 10 FOIL
 
 Минотавр Горящего Рога -  (AKH/130) 18 FOIL
-
-Rapacious Dragon -  (2XM/140) 14 FOIL
 
 Шиванский Маг Песков -  (TSR/189) 35 FOIL
 
@@ -1400,7 +1333,7 @@ Maze's Mantle -  (ONE/174) 10 FOIL
 
 Field Trip -  (STX/131) 10 FOIL
 
-2x Rampant Growth -  (2X2/371)jp Borderless 37 FOIL
+1x Rampant Growth -  (2X2/371)jp Borderless 37 FOIL
 
 Vitu-Ghazi Inspector -  (MKM/183) 10 FOIL
 
@@ -1417,8 +1350,6 @@ Ancient Stirrings -  (2XM/151) 75 FOIL
     
 Многоцветные :mc:
 Хенра-Колесничий -  (AKH/201) 35 FOIL
-
-Плетельщица Течений -  (AKH/209) 40 FOIL
 
 Jungle Barrier -  (IMA/202) 25 FOIL
 
