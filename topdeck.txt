@@ -677,8 +677,6 @@ Enraged Ceratok -  (RNA/125) 10
 
 4x Пережить Бурю -  (STA/58) 15
 
-Railway Brawler -  (OTJ/175) 551
-
 Valgavoth's Onslaught -  (DSK/204) 21
 
 Мастодонт Песчаной Степи -  (FRF/137) 14
@@ -954,8 +952,6 @@ Fumigate -  (KLD/15) 46 FOIL
 
 Триумфальный Рывок -  (THB/41) 10 FOIL
 
-Survival Cache -  (IMA/34) 18 FOIL
-
 Запрещающий Дух -  (RNA/9) 17 FOIL
 
 Офицер из Хаазды -  (RNA/10) 10 FOIL
@@ -1014,10 +1010,6 @@ Paralyzing Grasp -  (RTR/46) 15 FOIL
 Вещее Восприятие -  (RNA/45) 10 FOIL promo
 
 Зловещая Диверсия -  (GRN/54) 20 FOIL
-
-Splatter Thug -  (IMA/146) 10 FOIL
-
-Bewilder -  (IMA/43) 10 FOIL
 
 Storm Crow - (FMB1) 10 FOIL
 
@@ -1105,13 +1097,7 @@ Death's-Head Buzzard -  (A25/84) 10 FOIL
 
 2x Некротическая Рана -  (GRN/79) 10 FOIL
 
-Rotfeaster Maggot -  (IMA/105) 26 FOIL
-
-Thrill-Kill Assassin -  (IMA/111) 14 FOIL
-
 Entomber Exarch -  (MM3/68) 18 FOIL
-
-Grisly Spectacle -  (IMA/92) 26 FOIL
 
 Личинка-Падальщик -  (M21/92) 11 FOIL
 
@@ -1195,8 +1181,6 @@ Trumpet Blast -  (A25/154) 10 FOIL
 
 Азарт Возможностей -  (THB/159) 10 FOIL
 
-Hoarding Dragon -  (IMA/134) 18 FOIL
-
 Воители Огненной Крови -  (FRF/93) 10 FOIL
 
 Визгун-Громовержец -  (FRF/106) 15 FOIL
@@ -1277,25 +1261,11 @@ Root Snare -  (RNA/137) 10 FOIL
 
 Сезон Жатвы -  (AKH/170) 224 FOIL
 
-Nantuko Shaman -  (IMA/176) 10 FOIL
-
 Rampaging Baloths -  (IMA/184) 203 FOIL
 
 Норовистый Куду -  (AKH/178) 11 FOIL
 
-Durkwood Baloth -  (IMA/160) 10 FOIL
-
-Crowned Ceratok -  (IMA/158) 25 FOIL
-
-Jugan, the Rising Star -  (IMA/172) 85 FOIL
-
-Assault Formation -  (IMA/155) 82 FOIL
-
 Ветра Кэл-Сизма -  (FRF/147) 86 FOIL
-
-Ivy Elemental -  (IMA/170) 10 FOIL
-
-Jaddi Offshoot -  (IMA/171) 22 FOIL
 
 Друидка Райских Кущ -  (WAR/171) 23 FOIL promo
 
@@ -1343,8 +1313,6 @@ Ancient Stirrings -  (2XM/151) 75 FOIL
 Многоцветные :mc:
 Хенра-Колесничий -  (AKH/201) 35 FOIL
 
-Jungle Barrier -  (IMA/202) 25 FOIL
-
 Сияние Войны -  (FRF/158) 26 FOIL
 
 Balefire Liege - (FMB1) 62 FOIL
@@ -1375,8 +1343,6 @@ Arc Spitter -  (SNC/233) 10 FOIL
 
 Земли:
 Топь в Каньоне -  (AKH/239) 86 FOIL
-
-Shimmering Grotto -  (IMA/248) 12 FOIL
 
 2x Бастион Карна -  (WAR/248) 83 FOIL
 
